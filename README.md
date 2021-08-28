@@ -42,10 +42,21 @@ Toda a compilação é dividida em quatro etapas:
 
 A figura 1 descreve todo o processo de compilação em C.
 
-<img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg">
+<div align="center"><img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg"></div>
 
-##### *Figura 1: Processo de compilação de um programa*
+<h5 align="center"><i>Figura 1: Processo de compilação de um programa</i></h5>
 
+Uma **IDE**, ou **Ambiente de Desenvolvimento Integrado** (Integrated Development Environment), reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo, disponibilizando todo o processo de compilação no apertar de um botão.
+
+### Exemplo:
+Podemos detalhar o processo exemplificando a compilação em Linux de um programa em C simples como o abaixo, de nome `compilacao.c`, que escreve na tela a frase `Hello, World!`:
+```c
+#include <stdio.h>
+int main()
+{
+printf("Hello, World!");
+    return 0;}
+```
 
 
 ## linguagem C++ (CPP - CPlusPlus)
