@@ -54,7 +54,7 @@ Podemos detalhar o processo exemplificando a compilação em Linux de um program
 #include <stdio.h>
 int main()
 {
-printf("Hello, World!");
+printf("Hello World!");
     return 0;}
 ```
 
