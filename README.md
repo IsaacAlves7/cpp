@@ -119,6 +119,29 @@ char ch = 'a';
 ch = 'l';
 ```
 
+## Regras para nomear uma variável
+Um nome de variável pode ter letras ( A primeira letra de uma variável deve ser uma letra), dígitos e símbolo "_". 
+
+<blockquote><b>ATENÇÃO!</b> Não há nenhuma regra sobre o tamanho que um nome de variável (identificador) pode ter. No entanto, podemos ter problemas em alguns compiladores se o nome da variável tiver mais de 31 caracteres.</blockquote>
+
+**C** é uma linguagem fortemente tipada ou tipificada. Isso significa que o tipo da variável não pode ser alterado depois de declarado.
+
+### Exemplo:
+```c
+intnumero  = 5;                                // variável inteira
+
+numero = 5.5;                                   // erro
+
+floatnumero ;                                    // erro
+```
+
+Aqui, o tipo de variável numérica é `int`. Você não pode atribuir um valor de **ponto flutuante** (`5.5`) a essa variável. Além disso, você não pode redefinir o tipo da variável para `float`.
+
+<blockquote>A propósito, para armazenar valores com casas decimais em C, você precisa declarar seu tipo para <code>double</code> ou <code>float</code>.</blockquote>
+
+
+
+
 # 🖥️ linguagem C++ (CPP - CPlusPlus) 🖥️
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
