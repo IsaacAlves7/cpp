@@ -57,8 +57,14 @@ Podemos detalhar o processo exemplificando a compilação em Linux de um program
 int main()
 {
 printf("Hello World!");
-    return 0;}
+    return 0;
+}
 ```
+
+O comando `#include` serve para incluir uma biblioteca e o comando `<stdio.h>` serve para a entrada e saída de dados;
+A função `main ()` e `{}` dentro dela o comando `printf ("Ola mundo \n");`  
+Necessita do `;` para rodar a função!
+
 Para compilar o programa acima abre-se o prompt de comando e pressiona-se o comando abaixo:
 ```
 gcc -save-tempscompilacao.c -o compilacao
@@ -139,13 +145,29 @@ Aqui, o tipo de variável numérica é `int`. Você não pode atribuir um valor 
 
 <blockquote>A propósito, para armazenar valores com casas decimais em C, você precisa declarar seu tipo para <code>double</code> ou <code>float</code>.</blockquote>
 
+### Constantes 
+Uma constante é um valor (ou um identificador) cujo valor não pode ser alterado em um programa.
+
+<blockquote>
+1, 2.5, 'c' etc.
+
+Aqui, 1, 2.5 e 'c' são constantes literais. Não se pode atribuir valores diferentes a esses termos.
+
+constfloat PI = 3,14;
+
+Observe que adicionamos a palavra-chave const.
+
+Aqui, PI é uma constante simbólica. Na verdade, é uma variável, no entanto, seu valor não pode ser alterado.</blockquote>
 
 
+<hr>
 
 # 🖥️ linguagem C++ (CPP - CPlusPlus) 🖥️
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
 A linguagem **C++** é, praticamente, a mesma linguagem base da C, porém orientada a objetos (POO - OOP).
+
+<hr>
 
 # 💻 linguagem C# (C-Sharp) 💻
 <div align="center"><img src="https://iconape.com/wp-content/files/sh/51404/svg/c--4.svg" height="177"></div><br \>
