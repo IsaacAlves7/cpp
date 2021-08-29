@@ -73,6 +73,20 @@ A opção `-save-temps` preservará e salvará todos os arquivos temporários cr
 
 Agora, entenda o papel de cada elemento do processo de compilaÇão:
 
+### Pré-processador
+O **pré-processador** é um pequeno software que aceita o arquivo-fonte C e executa as tarefas abaixo.
+
+- Remove comentários do código-fonte.
+- Faz a expansão dos arquivos de cabeçalho incluídos.
+- Gera um arquivo temporário com a extensão `.i` após o pré-processamento. Ele insere o conteúdo dos arquivos de cabeçalho no arquivo de código-fonte. O arquivo gerado pelo pré-processador é maior do que o arquivo de origem original.
+
+### Compilador
+Na próxima fase da compilação C, o compilador entra em ação. Ele aceita o arquivo pré-processado temporário nome_do_arquivo.i gerado pelo pré-processador e executa as seguintes tarefas:
+
+- Verifica o programa C para erros de sintaxe.
+- Traduz o arquivo em código intermediário, ou seja, em linguagem assembly.
+- Otimiza,opcionalmente, o código traduzido para melhor desempenho.
+- Gera um código intermediário na linguagem assembly,após a compilação,como nome_do_arquivo.s. É a versão de montagem do código-fonte.
 
 ## linguagem C++ (CPP - CPlusPlus)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
