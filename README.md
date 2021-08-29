@@ -86,10 +86,45 @@ Na próxima fase da compilação C, o compilador entra em ação. Ele aceita o a
 - Verifica o programa C para erros de sintaxe.
 - Traduz o arquivo em código intermediário, ou seja, em linguagem assembly.
 - Otimiza,opcionalmente, o código traduzido para melhor desempenho.
-- Gera um código intermediário na linguagem assembly,após a compilação,como nome_do_arquivo.s. É a versão de montagem do código-fonte.
+- Gera um código intermediário na linguagem assembly, após a compilação, como `nome_do_arquivo.s`. É a versão de montagem do código-fonte.
+
+### Montador (Assembler)
+Passando para a próxima fase de compilação, o **assembler** aceita o código-fonte compilado (`nome_do_arquivo.s`) e o traduz em código de máquina de baixo nível. Após a montagem bem-sucedida, gera o arquivo `nome_do_arquivo.o` (no Linux) ou `nome_do_arquivo.obj` (no Windows) conhecido como **arquivo objeto**. No nosso caso, gera o arquivo **compilacao.o**.
+
+### Vinculador (Linker)
+Finalmente, o **linker** entra em ação e executa a tarefa final do processo de compilação. Aceita o arquivo intermediário `nome_do_arquivo.o` gerado pelo assembler.
+
+Ele liga todas as chamadas de função com sua definição original. O que significa que a função `printf ()` é vinculada à sua definição original. O **vinculador** gera o arquivo executável final.
+
+## Variáveis e tipos de dados
+Na programação, **uma variável** é **um contêiner** (área de armazenamento) para armazenar dados.
+
+Para indicar a área de armazenamento, cada variável deve receber um nome exclusivo (identificador). Os **nomes de variáveis** são apenas a representação simbólica de um local de memória.
+
+### Exemplo:
+
+```c
+int resultado = 95;
+```
+
+Aqui, resultado é uma variável do tipo **inteiro** (`int`). Para esta variável, é atribuído um valor inteiro, `95`.
+
+O valor de uma variável pode ser alterado, como abaixo. Daí o nome, **variável**.
+
+```c
+char ch = 'a';
+
+// algum código
+
+ch = 'l';
+```
 
 ## linguagem C++ (CPP - CPlusPlus)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
+A linguagem **C++** é, praticamente, a mesma linguagem base da C, porém orientada a objetos (POO - OOP).
+
 ## linguagem C# (C-Sharp)
 <div align="center"><img src="https://iconape.com/wp-content/files/sh/51404/svg/c--4.svg" height="177"></div><br \>
+
+Uma evolução da linguagem C++, com base em Java e Perl, se formo a linguagem **C#** (C-Sharp), uma linguagem.
