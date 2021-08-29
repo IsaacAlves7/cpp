@@ -59,7 +59,10 @@ int main()
 printf("Hello World!");
     return 0;}
 ```
-
+Para compilar o programa acima abre-se o prompt de comando e pressiona-se o comando abaixo:
+```
+gcc -save-tempscompilacao.c -o compilacao
+```
 
 ## linguagem C++ (CPP - CPlusPlus)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
