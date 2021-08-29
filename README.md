@@ -64,6 +64,10 @@ Para compilar o programa acima abre-se o prompt de comando e pressiona-se o coma
 gcc -save-tempscompilacao.c -o compilacao
 ```
 
+A opção `-save-temps` preservará e salvará todos os arquivos temporários criados durante a compilação em **C**. Ele gerará quatro arquivos no mesmo diretório:
+
+- 
+
 ## linguagem C++ (CPP - CPlusPlus)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
