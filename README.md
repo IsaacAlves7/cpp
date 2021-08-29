@@ -66,7 +66,13 @@ gcc -save-tempscompilacao.c -o compilacao
 
 A opção `-save-temps` preservará e salvará todos os arquivos temporários criados durante a compilação em **C**. Ele gerará quatro arquivos no mesmo diretório:
 
-- 
+- compilacao.i (gerado pelo pré-processador).
+- compilacao.s (gerado pelo compilador).
+- compilacao.o (gerado pelo montador).
+- compilacao (no Linux gerado pelo linker) ou (compilacao.exe no Windows)
+
+Agora, entenda o papel de cada elemento do processo de compilaÇão:
+
 
 ## linguagem C++ (CPP - CPlusPlus)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
