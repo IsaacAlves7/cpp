@@ -4,7 +4,7 @@
 
 <div align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3u1aWUCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/stfvlecgmmp4dso3v0iv.jpg"></div>
 
-# 🅲 linguagem C 🅲
+# 🅲 linguagem C 🔢
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="177"></div><br \>
 
 Uma tarefa difícil na área de computação é convencer um estudante que aprender uma nova linguagem de programação, ou usar uma linguagem que não é a preferida dele, é necessário e essencial dentro de uma disciplina. Quando se trata de uma linguagem que para alguns está ultrapassada, como a **linguagem C**, a tarefa é ainda mais difícil.
@@ -162,14 +162,14 @@ Aqui, PI é uma constante simbólica. Na verdade, é uma variável, no entanto, 
 
 <hr>
 
-# 🖥️ linguagem C++ (CPP - CPlusPlus) 🖥️
+# 🖥️ linguagem C++ (CPP - CPlusPlus) 🔢
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
 A linguagem **C++** é, praticamente, a mesma linguagem base da C, porém orientada a objetos (POO - OOP).
 
 <hr>
 
-# 💻 linguagem C# (C-Sharp) 💻
+# 💻 linguagem C# (C-Sharp) 🔢
 <div align="center"><img src="https://iconape.com/wp-content/files/sh/51404/svg/c--4.svg" height="177"></div><br \>
 
 Uma evolução da linguagem C++, com base em Java e Perl, se formo a linguagem **C#** (C-Sharp), uma linguagem.
