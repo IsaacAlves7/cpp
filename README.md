@@ -1,8 +1,8 @@
-# <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of C/ C++ programming 🅲🖥️🔢
+# <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="27"> It's a repository of C programming 🅲🔢
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
-<div align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3u1aWUCM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/stfvlecgmmp4dso3v0iv.jpg"></div>
+<div align="center"><img src="https://www.emotions.ae/wp-content/uploads/2019/05/c-programming-course.png"></div>
 
 # 🅲 linguagem C 🔢
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="177"></div><br \>
