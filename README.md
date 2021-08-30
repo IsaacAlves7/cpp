@@ -145,7 +145,7 @@ Aqui, o tipo de variável numérica é `int`. Você não pode atribuir um valor 
 
 <blockquote>A propósito, para armazenar valores com casas decimais em C, você precisa declarar seu tipo para <code>double</code> ou <code>float</code>.</blockquote>
 
-### Constantes 
+## Constantes 
 Uma constante é um valor (ou um identificador) cujo valor não pode ser alterado em um programa.
 
 <blockquote>
