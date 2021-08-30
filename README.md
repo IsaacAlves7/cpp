@@ -2,7 +2,7 @@
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
-<div align="center"><img src="https://www.emotions.ae/wp-content/uploads/2019/05/c-programming-course.png"></div>
+<div align="center"><img src="https://askatul.com/wp-content/uploads/2020/12/C-Programming-Gate-2020-Set-1-1.jpg"></div>
 
 # 🅲 linguagem C 🔢
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="177"></div><br \>
@@ -146,7 +146,7 @@ Aqui, o tipo de variável numérica é `int`. Você não pode atribuir um valor 
 <blockquote>A propósito, para armazenar valores com casas decimais em C, você precisa declarar seu tipo para <code>double</code> ou <code>float</code>.</blockquote>
 
 ## Constantes 
-Uma constante é um valor (ou um identificador) cujo valor não pode ser alterado em um programa.
+Uma **constante** é um valor (ou um identificador) cujo valor não pode ser alterado em um programa.
 
 <blockquote>
 1, 2.5, 'c' etc.
