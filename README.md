@@ -1,4 +1,4 @@
-# <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of C/ C++ programming 🅲🔢
+# <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of C/ C++ programming 🅲🖥️🔢
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
