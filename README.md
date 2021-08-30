@@ -161,15 +161,3 @@ Aqui, PI é uma constante simbólica. Na verdade, é uma variável, no entanto, 
 
 
 <hr>
-
-# 🖥️ linguagem C++ (CPP - CPlusPlus) 🔢
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
-
-A linguagem **C++** é, praticamente, a mesma linguagem base da C, porém orientada a objetos (POO - OOP).
-
-<hr>
-
-# 💻 linguagem C# (C-Sharp) 🔢
-<div align="center"><img src="https://iconape.com/wp-content/files/sh/51404/svg/c--4.svg" height="177"></div><br \>
-
-Uma evolução da linguagem C++, com base em Java e Perl, se formo a linguagem **C#** (C-Sharp), uma linguagem.
