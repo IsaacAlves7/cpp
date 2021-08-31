@@ -159,5 +159,49 @@ Observe que adicionamos a palavra-chave const.
 
 Aqui, PI é uma constante simbólica. Na verdade, é uma variável, no entanto, seu valor não pode ser alterado.</blockquote>
 
+### Tipos de constantes
 
-<hr>
+Veja os tipos de constantes que podem ser usadas em C:
+
+- Constantes inteiras.
+- Constantes de ponto flutuante.
+- Constantes de caracteres.
+
+Uma constante de caractere é criada, colocando-se um único caractere entre aspas simples.
+
+Por exemplo: 'a', 'm', 'F', '2', '}' etc.
+
+- Sequências de escape
+
+Às vezes, é necessário usar caracteres que não podem ser digitados ou que tenham significado especial na programação C. Para usar esses caracteres, a sequência de escape é usada.
+
+Por exemplo: `\n` é usado para nova linha. `\t` como tabulação horizontal. A barra invertida (`\`) faz com que se escape do modo normal, em que os caracteres são manipulados pelo compilador.
+
+- String literal
+Uma **string literal** é uma sequência de caracteres entre aspas duplas.
+
+### Exemplo:
+```c
+
+"legal"          // constante de string
+
+""               // constante de cadeia nula
+
+"      "             // constante de seis espaços em branco
+
+"A"              // constante de string com caractere único
+
+"Resultado eh\n"     // imprime string com nova linha
+```
+
+- Enumerações
+A palavra-chave `enum` é usada para definir tipos de enumeração.
+
+### Exemplos:
+```c
+enum cor {amarelo, verde, preto, branco};
+```
+
+<blockquote>Aqui, a cor é uma variável e amarelo, verde, preto e branco são as constantes de enumeração com valor 0, 1, 2 e 3, respectivamente.</blockquote>
+
+Pode-se definir constantes simbólicas usando-se também a palavra **#define**.
