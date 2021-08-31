@@ -211,7 +211,10 @@ São 5 os tipos de dados básicos em C:
 
 <table>
     <tr>
-    <td><code>char</code></td>
-     <td>Caractere</td>
+      <td><code>char</code></td>
+      <td>Caractere</td>
+    </tr>
+    <tr>
+        <td><code></code></td>
     </tr>
 </table>
