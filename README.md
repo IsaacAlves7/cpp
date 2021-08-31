@@ -205,3 +205,13 @@ enum cor {amarelo, verde, preto, branco};
 <blockquote>Aqui, a cor é uma variável e amarelo, verde, preto e branco são as constantes de enumeração com valor 0, 1, 2 e 3, respectivamente.</blockquote>
 
 Pode-se definir constantes simbólicas usando-se também a palavra **#define**.
+
+## Tipos de dados e modificadores
+São 5 os tipos de dados básicos em C:
+
+<table>
+    <tr>
+    <td><code>char</code></td>
+     <td>Caractere</td>
+    </tr>
+</table>
