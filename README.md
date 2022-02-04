@@ -45,6 +45,11 @@ Toda a compilação é dividida em quatro etapas:
 ----
 
 # Linguagem C++
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
+
+----
+
+# Sistemas Digitais
 
 ----
 
