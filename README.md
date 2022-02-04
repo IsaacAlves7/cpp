@@ -50,7 +50,7 @@ Toda a compilação é dividida em quatro etapas:
 ----
 
 # Sistemas Digitais
-<div align="center"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a0/84ba1dc886b1a592c8dc7e6b19e512/logo-sistemas-digitales.png?auto=format%2Ccompress&dpr=1" height="177"></div><br \>
+<div align="center"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a0/84ba1dc886b1a592c8dc7e6b19e512/logo-sistemas-digitales.png?auto=format%2Ccompress&dpr=1"></div><br \>
 
 ----
 
