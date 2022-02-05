@@ -55,6 +55,7 @@ Toda a compilação é dividida em quatro etapas:
 ----
 
 # Programação de Microcontroladores
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="177"></div><br \>
 
 ----
 
