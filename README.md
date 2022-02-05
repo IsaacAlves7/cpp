@@ -59,4 +59,4 @@ Toda a compilação é dividida em quatro etapas:
 ----
 
 # Arduíno
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg"></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="177"></div><br \>
