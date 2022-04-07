@@ -1,8 +1,8 @@
+<div align="center"><img src="https://askatul.com/wp-content/uploads/2020/12/C-Programming-Gate-2020-Set-1-1.jpg"></div>
+
 # <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="27"> It's a repository of all created by C language 🅲
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
-
-<div align="center"><img src="https://askatul.com/wp-content/uploads/2020/12/C-Programming-Gate-2020-Set-1-1.jpg"></div>
 
 ----
 
