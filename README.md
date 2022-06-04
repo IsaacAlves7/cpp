@@ -6,7 +6,7 @@
 
 ----
 
-# 🐒 Paradigmas de desenvolvimento de software 🧒
+# 🐒 Paradigmas de desenvolvimento de software
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
@@ -19,7 +19,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ----
 
-# 🅲 linguagem C 🅲
+# 🅲 linguagem C
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="177"></div><br \>
 
 Uma tarefa difícil na área de computação é convencer um estudante que aprender uma nova linguagem de programação, ou usar uma linguagem que não é a preferida dele, é necessário e essencial dentro de uma disciplina. Quando se trata de uma linguagem que para alguns está ultrapassada, como a **linguagem C**, a tarefa é ainda mais difícil.
@@ -45,7 +45,7 @@ Outras vantagens da linguagem C, incluem:
 
 ----
 
-# Linguagem C++
+# CPP - Linguagem C++
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
 ----
