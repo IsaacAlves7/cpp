@@ -47,7 +47,7 @@ Outras vantagens da linguagem C, incluem:
 
 ----
 
-# CPP - Linguagem C++
+# Linguagem C++
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
 
 ----
