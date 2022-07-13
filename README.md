@@ -1,6 +1,6 @@
 <div align="center"><img src=""></div>
 
-# <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of all created by C language 🅲
+# <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of all created by C/C++ language 🅲
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
