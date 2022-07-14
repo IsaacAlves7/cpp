@@ -19,8 +19,6 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
-----
-
 # 🅲 linguagem C
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="177"></div><br \>
 
@@ -45,12 +43,8 @@ Outras vantagens da linguagem C, incluem:
 - **Portável**: Um programa em C compila com modificações mínimas em outras plataformas − às vezes até funciona de imediato.
 - **Simples**: C é muito simples de aprender e praticamente não requer dependências. Basta um simples PC com o compilador e tudo está pronto para criar programas.
 
-----
-
 # Linguagem C++
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="177"></div><br \>
-
-----
 
 # Sistemas Digitais
 <div align="center"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a0/84ba1dc886b1a592c8dc7e6b19e512/logo-sistemas-digitales.png?auto=format%2Ccompress&dpr=1"></div><br \>
@@ -62,12 +56,8 @@ da computação.
 
 Circuitos digitais são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários. A importância do estudo dos circuitos lógicos como base para o estudo dos sistemas digitais é de grande relevância, uma vez que são a base dos circuitos encontrados nos computadores atuais e em uma enorme quantidade de dispositivos e instrumentos usados em todas as áreas.
 
-----
-
 # Programação de Microcontroladores
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="177"></div><br \>
-
-----
 
 # Arduíno
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="177"></div><br \>
