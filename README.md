@@ -1,9 +1,11 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/cpp-programming"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--rPvSn38T--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/h2917prj7ldo0ow5x5ih.png"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/cpp-programming"><img src="https://user-images.githubusercontent.com/61624336/181665378-52c87f52-fdc1-4ca9-b4bf-e8f9cd523d5d.png"></a></div>
 
 # <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of all created by C/C++ language 🅲
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
+- https://exercism.org/tracks/c
+- https://exercism.org/tracks/cpp
 - https://cplusplus.com/
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="277"></div>
