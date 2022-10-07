@@ -10,7 +10,7 @@
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="277"></div>
 
-# 🐒 Paradigmas de desenvolvimento de software
+# 🐒 Linguagem de programação
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
