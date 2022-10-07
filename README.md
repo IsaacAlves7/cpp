@@ -4,9 +4,11 @@
 
 <blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
 
+<!--
 - https://exercism.org/tracks/c
 - https://exercism.org/tracks/cpp
 - https://cplusplus.com/
+-->
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="277"></div>
 
