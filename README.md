@@ -2,7 +2,7 @@
 
 # <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="27"> It's a repository of all created by C/C++ language 🅲
 
-<blockquote>This repository contains Full-Stack development in C/ C++ languages!</blockquote>
+> 🅲
 
 <!--
 - https://exercism.org/tracks/c
@@ -10,7 +10,7 @@
 - https://cplusplus.com/
 -->
 
-<div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="277"></div>
+<div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="177"></div>
 
 # 🐒 Linguagem de programação
 
