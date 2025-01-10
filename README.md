@@ -278,6 +278,15 @@ Circuitos digitais são definidos como circuitos eletrônicos que empregam a uti
 # Arduíno
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="177"></div><br \>
 
-# QT 5
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/qt-1.svg" height="177"></div><br \>
+# QT
+<img src="https://cdn.worldvectorlogo.com/logos/qt-1.svg" height="77" align="right">
 
+O **QT** é um conjunto de ferramentas multiplataforma que combina uma estrutura de desenvolvimento de software e uma interface gráfica altamente eficiente, amplamente utilizado para criar aplicativos com interfaces de usuário modernas e responsivas. Originalmente desenvolvido pela empresa norueguesa Trolltech, agora mantido pela empresa The Qt Company, o QT se destaca por sua flexibilidade, desempenho e pela facilidade de desenvolvimento de aplicações que podem ser executadas em diversos sistemas operacionais, como Windows, macOS, Linux, Android e iOS, sem necessidade de reescrita do código. Em resumo, o QT é uma solução robusta e versátil para o desenvolvimento de software, capacitando desenvolvedores a criar aplicativos potentes, esteticamente agradáveis e executáveis em várias plataformas com um único código-base. Ele continua a ser uma escolha popular em indústrias que exigem alta performance, flexibilidade e consistência entre dispositivos e sistemas operacionais.
+
+Um dos principais atrativos do QT é sua abordagem orientada a objetos, que é implementada principalmente em C++. Ele fornece um conjunto abrangente de bibliotecas e APIs que simplificam o desenvolvimento de componentes gráficos, manipulação de eventos, acesso a banco de dados, redes e até mesmo processamento multithreading. Além disso, a integração de seu mecanismo de sinais e slots facilita a comunicação entre diferentes componentes do software, tornando o código mais modular e organizado.
+
+Outro aspecto notável do QT é sua compatibilidade com linguagens de script, como Python, por meio do PyQt ou PySide, o que o torna acessível a desenvolvedores que preferem uma curva de aprendizado mais suave. Sua documentação rica e comunidade ativa também são grandes vantagens para iniciantes e veteranos que precisam de suporte ou recursos adicionais para seus projetos.
+
+O QT também brilha no desenvolvimento de aplicações embarcadas, especialmente em dispositivos IoT, automação industrial e sistemas automotivos, devido ao seu desempenho leve e sua capacidade de criar interfaces gráficas de alta qualidade mesmo em hardware limitado. Suas ferramentas incluem o Qt Creator, um ambiente de desenvolvimento integrado (IDE) que simplifica o design visual de interfaces, a prototipagem e a depuração.
+
+Embora seja amplamente elogiado, o QT também apresenta desafios. O licenciamento comercial pode ser caro, especialmente para pequenas empresas ou desenvolvedores individuais, embora exista uma versão de código aberto disponível sob a licença LGPL. A complexidade inicial para quem não está acostumado com C++ ou com frameworks avançados também pode ser um obstáculo.
