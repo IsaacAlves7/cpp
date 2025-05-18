@@ -278,11 +278,11 @@ da computação.
 
 Circuitos digitais são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários. A importância do estudo dos circuitos lógicos como base para o estudo dos sistemas digitais é de grande relevância, uma vez que são a base dos circuitos encontrados nos computadores atuais e em uma enorme quantidade de dispositivos e instrumentos usados em todas as áreas.
 
-# Programação de Microcontroladores
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="177"></div><br \>
+# [C++] Programação de Microcontroladores
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
 
 # Arduíno
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="77" align="right">
 
 # QT
 <img src="https://cdn.worldvectorlogo.com/logos/qt-1.svg" height="77" align="right">
