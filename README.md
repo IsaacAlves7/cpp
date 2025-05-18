@@ -68,7 +68,7 @@ A figura 1 descreve todo o processo de compilação em C.
 
 Uma **IDE**, ou **Ambiente de Desenvolvimento Integrado** (Integrated Development Environment), reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo, disponibilizando todo o processo de compilação no apertar de um botão.
 
-### Exemplo:
+Exemplo:
 Podemos detalhar o processo exemplificando a compilação em Linux de um programa em C simples como o abaixo, de nome `compilacao.c`, que escreve na tela a frase `Hello, World!`:
 ```c
 #include <stdio.h>
@@ -125,7 +125,7 @@ Na programação, **uma variável** é **um contêiner** (área de armazenamento
 
 Para indicar a área de armazenamento, cada variável deve receber um nome exclusivo (identificador). Os **nomes de variáveis** são apenas a representação simbólica de um local de memória.
 
-### Exemplo:
+Exemplo:
 
 ```c
 int resultado = 95;
@@ -150,7 +150,7 @@ Um nome de variável pode ter letras ( A primeira letra de uma variável deve se
 
 **C** é uma linguagem fortemente tipada ou tipificada. Isso significa que o tipo da variável não pode ser alterado depois de declarado.
 
-### Exemplo:
+Exemplo:
 ```c
 intnumero  = 5;                                // variável inteira
 
@@ -198,7 +198,8 @@ Por exemplo: `\n` é usado para nova linha. `\t` como tabulação horizontal. A 
 - String literal
 Uma **string literal** é uma sequência de caracteres entre aspas duplas.
 
-### Exemplo:
+Exemplo:
+
 ```c
 
 "legal"          // constante de string
@@ -215,7 +216,7 @@ Uma **string literal** é uma sequência de caracteres entre aspas duplas.
 - Enumerações
 A palavra-chave `enum` é usada para definir tipos de enumeração.
 
-### Exemplos:
+Exemplos:
 ```c
 enum cor {amarelo, verde, preto, branco};
 ```
@@ -237,7 +238,7 @@ São 5 os tipos de dados básicos em C:
     </tr>
 </table>
 
-# Hello, World - C
+# [C] `Hello, World`
 ```c
 # include <stdio.h>
 
