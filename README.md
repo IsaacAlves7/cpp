@@ -266,6 +266,8 @@ A linguagem C++ (em português: Pronuncia-se "cê mais mais") é uma linguagem d
 
 Bjarne Stroustrup desenvolveu o C++ (originalmente com o nome C with Classes, que significa C com classes em português) em 1983 no Bell Labs como um adicional à linguagem C. Novas características foram adicionadas com o tempo, como funções virtuais, sobrecarga de operadores, herança múltipla, gabaritos e tratamento de exceções. Após a padronização ISO realizada em 1998 e a posterior revisão realizada em 2003, uma nova versão da especificação da linguagem foi lançada em dezembro de 2014, conhecida informalmente como C++14.
 
+C++ é uma linguagem de programação de propósito geral, amplamente utilizada em diversas áreas como desenvolvimento de software, jogos, sistemas embarcados e inteligência artificial. É uma linguagem compilada, de alto nível e que permite um controle mais direto sobre o hardware, tornando-a muito eficiente. 
+
 ## [C++] `Hello, World!`
 
 
