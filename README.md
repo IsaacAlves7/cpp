@@ -279,7 +279,7 @@ da computação.
 Circuitos digitais são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários. A importância do estudo dos circuitos lógicos como base para o estudo dos sistemas digitais é de grande relevância, uma vez que são a base dos circuitos encontrados nos computadores atuais e em uma enorme quantidade de dispositivos e instrumentos usados em todas as áreas.
 
 # [C++] Programação de Microcontroladores
-<a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/tinkercad-Arduino-tomato?style=flat&logo=tinkercad&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Arduino-cheatsheet-blue?style=flat&logo=Arduino&logoColor=white)</a>
+<a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/tinkercad-Arduino-tomato?style=flat&logo=tinkercad&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Arduino-cheatsheet-blue?style=flat&logo=Arduino&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/RaspberryPi-cheatsheet-red?style=flat&logo=RaspberryPi&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/IoT-cheatsheet-gold?style=flat&logo=Aws&logoColor=white)</a>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
 
