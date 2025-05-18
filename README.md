@@ -279,6 +279,8 @@ da computação.
 Circuitos digitais são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários. A importância do estudo dos circuitos lógicos como base para o estudo dos sistemas digitais é de grande relevância, uma vez que são a base dos circuitos encontrados nos computadores atuais e em uma enorme quantidade de dispositivos e instrumentos usados em todas as áreas.
 
 # [C++] Programação de Microcontroladores
+<a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/tinkercad-Arduino-gold?style=flat&logo=tinkercad&logoColor=white)</a>
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
 
 A **programação de microcontroladores** envolve escrever códigos que permitem que esses pequenos computadores internos controlem dispositivos eletrônicos, desde sistemas industriais até dispositivos de uso diário como smartphones. Essa programação é fundamental para o funcionamento de diversas aplicações e sistemas, sendo essencial para a criação de soluções em áreas como automação, eletrônica e IoT. 
