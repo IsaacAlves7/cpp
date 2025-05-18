@@ -273,12 +273,16 @@ C++ é uma linguagem de programação de propósito geral, amplamente utilizada 
 
 
 # [C++] Sistemas Digitais
-As áreas de TI e Comunicação trazem, a todo o momento, modificações, inovações, adequações, enfim, apresentam-se de forma cada vez mais interessantes para o usuário e
-desafiadoras para o profissional que as constrói. Assim, preparar equipes capazes de conceber, planejar e desenvolver soluções que funcionarão nas futuras gerações das áreas
-de Tecnologia da Informação e Comunicação (TIC) apresenta-se como demanda urgente aos Cursos da área de TI e um desafio às práticas pedagógicas do professor para o ensino
+As áreas de TI e Comunicação trazem, a todo o momento, modificações, inovações, adequações, enfim, apresentam-se de forma cada vez mais interessantes para o usuário e desafiadoras para o profissional que as constrói. Assim, preparar equipes capazes de conceber, planejar e desenvolver soluções que funcionarão nas futuras gerações das áreas de Tecnologia da Informação e Comunicação (TIC) apresenta-se como demanda urgente aos Cursos da área de TI e um desafio às práticas pedagógicas do professor para o ensino
 da computação.
 
 Circuitos digitais são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários. A importância do estudo dos circuitos lógicos como base para o estudo dos sistemas digitais é de grande relevância, uma vez que são a base dos circuitos encontrados nos computadores atuais e em uma enorme quantidade de dispositivos e instrumentos usados em todas as áreas.
+
+Os circuitos digitais ou circuitos lógicos são definidos como circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente (ou tensão) para definir a representação de valores binários.[1]
+
+Circuitos lógicos baseiam seu funcionamento na lógica binária, que consiste no fato de que toda informação deve ser expressa na forma de dois dígitos (tanto armazenada, como processada), sendo tais dígitos `0` (zero) ou `1` (um). A partir disto surge a nomeação “digital” (dois dígitos). Este fato auxilia para a representação de estados de dispositivos que funcionam em dois níveis distintos, sendo estes: ligado/desligado (on/off), alto/baixo (high/low), verdadeiro/falso (true/false) entre outros.
+
+Os computadores, telefones celulares e leitores de DVD ou blu-ray são alguns exemplos de aparelhos que baseiam parte do seu funcionamento em circuitos digitais.
 
 # [C++] Programação de Microcontroladores
 <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/tinkercad-Arduino-tomato?style=flat&logo=tinkercad&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Arduino-cheatsheet-blue?style=flat&logo=Arduino&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/RaspberryPi-cheatsheet-red?style=flat&logo=RaspberryPi&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/IoT-cheatsheet-gold?style=flat&logo=icloud&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Digital_Systems-Cpp-green?style=flat&logo=x&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Machine_Learning-Cpp-indigo?style=flat&logo=microbit&logoColor=white)</a>
