@@ -175,7 +175,7 @@ Observe que adicionamos a palavra-chave const.
 
 Aqui, PI é uma constante simbólica. Na verdade, é uma variável, no entanto, seu valor não pode ser alterado.</blockquote>
 
-### Tipos de constantes
+Tipos de constantes:
 
 Veja os tipos de constantes que podem ser usadas em C:
 
