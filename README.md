@@ -62,7 +62,7 @@ A figura 1 descreve todo o processo de compilação em C.
 
 <div align="center"><img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg"></div>
 
-<h5 align="center"><i>Figura 1: Processo de compilação de um programa</i></h5>
+<div align="center"><i>Figura 1: Processo de compilação de um programa</i></div>
 
 Uma **IDE**, ou **Ambiente de Desenvolvimento Integrado** (Integrated Development Environment), reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo, disponibilizando todo o processo de compilação no apertar de um botão.
 
