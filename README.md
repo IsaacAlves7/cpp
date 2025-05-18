@@ -270,9 +270,7 @@ C++ é uma linguagem de programação de propósito geral, amplamente utilizada 
 ## [C++] `Hello, World!`
 
 
-# Sistemas Digitais
-<div align="center"><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a0/84ba1dc886b1a592c8dc7e6b19e512/logo-sistemas-digitales.png?auto=format%2Ccompress&dpr=1"></div><br \>
-
+# [C++] Sistemas Digitais
 As áreas de TI e Comunicação trazem, a todo o momento, modificações, inovações, adequações, enfim, apresentam-se de forma cada vez mais interessantes para o usuário e
 desafiadoras para o profissional que as constrói. Assim, preparar equipes capazes de conceber, planejar e desenvolver soluções que funcionarão nas futuras gerações das áreas
 de Tecnologia da Informação e Comunicação (TIC) apresenta-se como demanda urgente aos Cursos da área de TI e um desafio às práticas pedagógicas do professor para o ensino
