@@ -4,8 +4,6 @@
 
 > 🅲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software C/C++, com a versão mais recente, instalado na sua máquina local.
 
-<div align="center"><img src="https://poster.keepcalmandposters.com/default/5911833_keep_calm_and_code_c.png" height="177"></div>
-
 - https://exercism.org/tracks/c
 - http://www.dpi.inpe.br/~carlos/Academicos/Cursos/LinguagemC/Cap_1.html
 - https://exercism.org/tracks/cpp
