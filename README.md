@@ -289,6 +289,8 @@ A **programação de microcontroladores** envolve escrever códigos que permitem
 
 Na informática, o Arduino é uma série de microcomputadores de placa única com componentes integrados. Série de plataformas programáveis de prototipagem eletrônica (para testes e projetos eletrônicos) de placa única e hardware livre (código aberto), que permite aos usuários criar objetos eletrônicos interativos e independentes, usando o microcontrolador Atmel AVR ou ARM com suporte de entrada/saída embutido, A plataforma foi criada em 2005 na Itália, com o objetivo de criar ferramentas de baixo custo, acessíveis, flexíveis, independentes e de fácil uso para principiantes, amadores e profissionais, com foco especial naqueles que não têm acesso a controladores sofisticados e ferramentas complexas.[10] Esta plataforma é atualmente fabricada pela companhia italiana Smart Projects e também pela companhia estadunidense SparkFun Electronics.
 
+O Arduino é uma placa de prototipagem eletrônica de código aberto (open-source) e hardware livre. Ele e o Raspberry Pi são duas das plataformas de prototipagem mais utilizadas. Ele é composto por um microcontrolador Atmel, circuitos de entrada e saída e programação via IDE (Integrated Development Environment, ou Ambiente de Desenvolvimento Integrado). Seu software é desenvolvido por meio de linguagem baseada em C/C++, usando um ambiente gráfico escrito em Java. Sendo assim, a programação do Arduino dispensa equipamentos extras além de um cabo USB. Por conta dessas características, ele permite infinitas modificações, conforme a necessidade de cada usuário.
+
 # [C++] QT
 <img src="https://cdn.worldvectorlogo.com/logos/qt-1.svg" height="77" align="right">
 
