@@ -281,6 +281,8 @@ Circuitos digitais são definidos como circuitos eletrônicos que empregam a uti
 # [C++] Programação de Microcontroladores
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
 
+A **programação de microcontroladores** envolve escrever códigos que permitem que esses pequenos computadores internos controlem dispositivos eletrônicos, desde sistemas industriais até dispositivos de uso diário como smartphones. Essa programação é fundamental para o funcionamento de diversas aplicações e sistemas, sendo essencial para a criação de soluções em áreas como automação, eletrônica e IoT. 
+
 # Arduíno
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="77" align="right">
 
