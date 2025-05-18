@@ -245,7 +245,8 @@ int main(void){
 }
 ```
 
-## Compilação do código em C
+Compilação do código em C:
+
 **Entrada (Input)**:
 ```c
 make main.c
