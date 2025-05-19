@@ -285,7 +285,7 @@ Circuitos lógicos baseiam seu funcionamento na lógica binária, que consiste n
 
 Os computadores, telefones celulares e leitores de DVD ou blu-ray são alguns exemplos de aparelhos que baseiam parte do seu funcionamento em circuitos digitais.
 
-# [C++] Programação de Microcontroladores
+# 🦾 [C++] Programação de Microcontroladores
 <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/tinkercad-Arduino-tomato?style=flat&logo=tinkercad&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Arduino-cheatsheet-blue?style=flat&logo=Arduino&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/RaspberryPi-cheatsheet-red?style=flat&logo=RaspberryPi&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/IoT-cheatsheet-gold?style=flat&logo=icloud&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Digital_Systems-Cpp-green?style=flat&logo=GitHub&logoColor=white)</a> <a href="https://www.tinkercad.com/dashboard">![JS](https://img.shields.io/badge/Machine_Learning-Cpp-indigo?style=flat&logo=microbit&logoColor=white)</a>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
