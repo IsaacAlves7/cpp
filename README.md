@@ -290,6 +290,10 @@ Os computadores, telefones celulares e leitores de DVD ou blu-ray são alguns ex
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/DIL16_Labelled.svg" height="77" align="right">
 
+Os **sistemas embarcados** representam uma das tecnologias mais importantes e versáteis da era moderna, permitindo que dispositivos executem tarefas específicas com inteligência e eficácia em um ambiente virtual. Graças a essa tecnologia, códigos programáveis podem ser integrados a uma vasta gama de equipamentos, desde dispositivos simples como relógios digitais até sistemas avançados em aeronaves. Os sistemas embarcados consistem em soluções computacionais desenvolvidas por meio de códigos programados em **microprocessadores** integrados a dispositivos eletrônicos. Esses sistemas são projetados para executar funções dedicadas e, frequentemente, operam como parte de um sistema maior. No núcleo dos sistemas embarcados está o microcontrolador — um chip integrado que combina processador, memória e periféricos programáveis para controlar o dispositivo em tempo real.
+
+A complexidade desses sistemas varia conforme o tamanho e a tarefa para a qual foram projetados. As instruções operacionais, conhecidas como <a href="">firmware</a>, são armazenadas em memórias ROM ou flash, garantindo desempenho consistente e confiável.
+
 Um **microcontrolador** (também chamado de MCU, do inglês Microcontroller Unit) é um chip pequeno que contém um computador inteiro embutido em um único circuito integrado.
 
 A *programação de microcontroladores* envolve escrever códigos que permitem que esses pequenos computadores internos controlem dispositivos eletrônicos, desde sistemas industriais até dispositivos de uso diário como smartphones. Essa programação é fundamental para o funcionamento de diversas aplicações e sistemas, sendo essencial para a criação de soluções em áreas como automação, eletrônica e IoT. 
