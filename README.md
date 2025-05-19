@@ -232,7 +232,8 @@ São 5 os tipos de dados básicos em C:
     </tr>
 </table>
 
-# [C] `Hello, World`
+## [C] `Hello, World`
+
 ```c
 # include <stdio.h>
 
