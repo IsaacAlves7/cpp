@@ -110,15 +110,11 @@ Na próxima fase da compilação C, o compilador entra em ação. Ele aceita o a
 - Otimiza,opcionalmente, o código traduzido para melhor desempenho.
 - Gera um código intermediário na linguagem assembly, após a compilação, como `nome_do_arquivo.s`. É a versão de montagem do código-fonte.
 
-### Montador (Assembler)
-Passando para a próxima fase de compilação, o **assembler** aceita o código-fonte compilado (`nome_do_arquivo.s`) e o traduz em código de máquina de baixo nível. Após a montagem bem-sucedida, gera o arquivo `nome_do_arquivo.o` (no Linux) ou `nome_do_arquivo.obj` (no Windows) conhecido como **arquivo objeto**. No nosso caso, gera o arquivo **compilacao.o**.
+Montador (Assembler) Passando para a próxima fase de compilação, o **assembler** aceita o código-fonte compilado (`nome_do_arquivo.s`) e o traduz em código de máquina de baixo nível. Após a montagem bem-sucedida, gera o arquivo `nome_do_arquivo.o` (no Linux) ou `nome_do_arquivo.obj` (no Windows) conhecido como **arquivo objeto**. No nosso caso, gera o arquivo **compilacao.o**.
 
-### Vinculador (Linker)
-Finalmente, o **linker** entra em ação e executa a tarefa final do processo de compilação. Aceita o arquivo intermediário `nome_do_arquivo.o` gerado pelo assembler.
+Vinculador (Linker) Finalmente, o **linker** entra em ação e executa a tarefa final do processo de compilação. Aceita o arquivo intermediário `nome_do_arquivo.o` gerado pelo assembler. Ele liga todas as chamadas de função com sua definição original. O que significa que a função `printf ()` é vinculada à sua definição original. O **vinculador** gera o arquivo executável final.
 
-Ele liga todas as chamadas de função com sua definição original. O que significa que a função `printf ()` é vinculada à sua definição original. O **vinculador** gera o arquivo executável final.
-
-## Variáveis e tipos de dados
+## [C] Variáveis e tipos de dados
 Na programação, **uma variável** é **um contêiner** (área de armazenamento) para armazenar dados.
 
 Para indicar a área de armazenamento, cada variável deve receber um nome exclusivo (identificador). Os **nomes de variáveis** são apenas a representação simbólica de um local de memória.
