@@ -20,7 +20,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
 
-# 🅲 linguagem C
+# [C] linguagem C
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" height="77" align="right">
 
 Uma tarefa difícil na área de computação é convencer um estudante que aprender uma nova linguagem de programação, ou usar uma linguagem que não é a preferida dele, é necessário e essencial dentro de uma disciplina. Quando se trata de uma linguagem que para alguns está ultrapassada, como a **linguagem C**, a tarefa é ainda mais difícil.
@@ -44,7 +44,7 @@ Outras vantagens da linguagem C, incluem:
 - **Portável**: Um programa em C compila com modificações mínimas em outras plataformas − às vezes até funciona de imediato.
 - **Simples**: C é muito simples de aprender e praticamente não requer dependências. Basta um simples PC com o compilador e tudo está pronto para criar programas.
 
-### Estrutura de um programa em C e processo de compilação
+## [C] Estrutura de um programa em C e processo de compilação
 **C** é uma linguagem considerada de nível intermediário e precisa de um compilador para criar um código executável e para que o programa possa funcionar em uma máquina.
 
 <blockquote><b>Compilação</b> é processo de tradução do código-fonte escrito para um código de máquina. É feita por um software especial conhecido como <b>compilador</b>, que verifica o código-fonte em busca de qualquer erro sintático ou estrutural e gera um código-objeto com extensão <code>.obj</code> (no Windows) ou <code>.o</code> (no Linux), se o código-fonte estiver livre de erros.
@@ -95,14 +95,14 @@ A opção `-save-temps` preservará e salvará todos os arquivos temporários cr
 
 Agora, entenda o papel de cada elemento do processo de compilaÇão:
 
-### Pré-processador
+## [C] Pré-processador
 O **pré-processador** é um pequeno software que aceita o arquivo-fonte C e executa as tarefas abaixo.
 
 - Remove comentários do código-fonte.
 - Faz a expansão dos arquivos de cabeçalho incluídos.
 - Gera um arquivo temporário com a extensão `.i` após o pré-processamento. Ele insere o conteúdo dos arquivos de cabeçalho no arquivo de código-fonte. O arquivo gerado pelo pré-processador é maior do que o arquivo de origem original.
 
-### Compilador
+## [C] Compilador
 Na próxima fase da compilação C, o compilador entra em ação. Ele aceita o arquivo pré-processado temporário nome_do_arquivo.i gerado pelo pré-processador e executa as seguintes tarefas:
 
 - Verifica o programa C para erros de sintaxe.
