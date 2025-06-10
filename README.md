@@ -315,3 +315,5 @@ Outro aspecto notável do QT é sua compatibilidade com linguagens de script, co
 O QT também brilha no desenvolvimento de aplicações embarcadas, especialmente em dispositivos IoT, automação industrial e sistemas automotivos, devido ao seu desempenho leve e sua capacidade de criar interfaces gráficas de alta qualidade mesmo em hardware limitado. Suas ferramentas incluem o Qt Creator, um ambiente de desenvolvimento integrado (IDE) que simplifica o design visual de interfaces, a prototipagem e a depuração.
 
 Embora seja amplamente elogiado, o QT também apresenta desafios. O licenciamento comercial pode ser caro, especialmente para pequenas empresas ou desenvolvedores individuais, embora exista uma versão de código aberto disponível sob a licença LGPL. A complexidade inicial para quem não está acostumado com C++ ou com frameworks avançados também pode ser um obstáculo.
+
+# 🧪 [C++] DDD, BDD e TDD
