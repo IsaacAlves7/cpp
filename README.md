@@ -259,13 +259,19 @@ Hello, World!
 # Linguagem C++
 <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="77" align="right">
 
-A linguagem C++ (em português: Pronuncia-se "cê mais mais") é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
+A **linguagem C++** (em português: Pronuncia-se "cê mais mais") é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
 
 Bjarne Stroustrup desenvolveu o C++ (originalmente com o nome C with Classes, que significa C com classes em português) em 1983 no Bell Labs como um adicional à linguagem C. Novas características foram adicionadas com o tempo, como funções virtuais, sobrecarga de operadores, herança múltipla, gabaritos e tratamento de exceções. Após a padronização ISO realizada em 1998 e a posterior revisão realizada em 2003, uma nova versão da especificação da linguagem foi lançada em dezembro de 2014, conhecida informalmente como C++14.
 
 C++ é uma linguagem de programação de propósito geral, amplamente utilizada em diversas áreas como desenvolvimento de software, jogos, sistemas embarcados e inteligência artificial. É uma linguagem compilada, de alto nível e que permite um controle mais direto sobre o hardware, tornando-a muito eficiente. 
 
+<img src="https://github.com/user-attachments/assets/23e17a5b-583c-42ce-8ec3-e760a3dbbec8" align="right" height="77">
 
+Uma curiosidade, na verdade, o C++ oficialmente não possui um mascote canônico chamado "Keith". Essa associação entre C++ e um mascote chamado "Keith" é resultado de uma piada ou meme da internet, e não algo reconhecido oficialmente pela comunidade ou pelo criador da linguagem, Bjarne Stroustrup.
+
+A ideia do "Keith" surgiu como uma brincadeira em redes sociais e fóruns como Reddit ou 4chan, onde os usuários criaram mascotes fictícios para linguagens de programação. Linguagens como Go (que tem o gopher), Rust (que tem o ferris), e JavaScript (que em memes às vezes é representado por um palhaço) inspiraram a comunidade a "dar" mascotes para linguagens que nunca tiveram um.
+
+Assim surgiu “Keith, the C++ Mascot”, geralmente retratado como um personagem humano meio deslocado, às vezes como um programador frustrado, para refletir o estigma que C++ carrega de ser uma linguagem poderosa porém complexa, verbosa e difícil de dominar.
 
 ## [C++] `Hello, World!`
 
