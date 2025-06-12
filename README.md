@@ -323,3 +323,56 @@ O QT também brilha no desenvolvimento de aplicações embarcadas, especialmente
 Embora seja amplamente elogiado, o QT também apresenta desafios. O licenciamento comercial pode ser caro, especialmente para pequenas empresas ou desenvolvedores individuais, embora exista uma versão de código aberto disponível sob a licença LGPL. A complexidade inicial para quem não está acostumado com C++ ou com frameworks avançados também pode ser um obstáculo.
 
 # 🧪 [C++] DDD, BDD e TDD
+É possível aplicar **DDD (Domain-Driven Design)**, **TDD (Test-Driven Development)** e **BDD (Behavior-Driven Development)** em **C++**, embora cada uma dessas práticas demande certo esforço extra comparado a linguagens mais dinâmicas ou com suporte mais moderno a testes e modelagem. C++ não é uma linguagem conhecida por facilitar essas abordagens, mas com organização, boas bibliotecas e disciplina, é totalmente viável. C++ não oferece suporte “out of the box” como Python, JavaScript ou C#, mas com ferramentas como **Google Test**, **Catch2**, e boas práticas de design, você pode sim aplicar TDD, BDD e DDD de forma eficaz. Vai exigir mais organização e entendimento arquitetural, mas o resultado é um sistema mais confiável, testável e bem modelado.
+
+**TDD (Test-Driven Development)** em C++ é bastante comum em projetos industriais, especialmente onde confiabilidade e segurança são cruciais (ex: sistemas embarcados, games, tempo real). O fluxo TDD é o mesmo: **escreva um teste que falha, implemente o mínimo para passar, e então refatore**. C++ tem várias bibliotecas de testes como:
+
+* [Google Test (gtest)](https://github.com/google/googletest): a mais usada, madura, com boa documentação.
+* Catch2: mais moderna e com sintaxe mais próxima de BDD.
+* Boost.Test: parte do Boost, mas mais pesada.
+
+CMake é a cola essencial para aplicar TDD, BDD e testes automatizados em geral com C++ em projetos reais. Ele permite integrar ferramentas de teste como Google Test, organizar a build, e até condicionar testes por ambiente. Sem ele, gerenciar dependências e compilar testes se tornaria um pesadelo.
+
+Exemplo simples com Google Test:
+
+```cpp
+#include <gtest/gtest.h>
+
+int soma(int a, int b) {
+    return a + b;
+}
+
+TEST(SomaTest, SomaDoisValores) {
+    EXPECT_EQ(soma(2, 3), 5);
+}
+```
+
+**BDD (Behavior-Driven Development)** em C++ é mais desafiador, mas possível. A ideia central do BDD é descrever o comportamento esperado do sistema em termos de especificações de alto nível, usando linguagem natural. Em C++, frameworks como **Catch2** permitem uma sintaxe que lembra o estilo Gherkin (Given/When/Then), embora sem parsing direto de arquivos `.feature` como em Python/JS.
+
+Exemplo com Catch2:
+
+```cpp
+SCENARIO("Somar dois números", "[soma]") {
+    GIVEN("Dois números positivos") {
+        int a = 2;
+        int b = 3;
+        WHEN("Eu somo esses dois números") {
+            int resultado = a + b;
+            THEN("O resultado deve ser 5") {
+                REQUIRE(resultado == 5);
+            }
+        }
+    }
+}
+```
+
+Se você quiser usar Gherkin de forma mais literal (com arquivos `.feature`), existem bibliotecas como [Cucumber-cpp](https://github.com/cucumber/cucumber-cpp), que permitem integrar com o Cucumber para usar arquivos `.feature`, mas exige mais configuração.
+
+**DDD (Domain-Driven Design)** em C++ é possível, mas o estilo da linguagem (mais próxima da máquina, menos focada em modelagem do domínio) requer um esforço arquitetural maior. Você pode, sim, estruturar seu projeto usando os padrões de DDD:
+
+* **Entidades**: classes com identidade persistente, como `class Cliente { ... };`
+* **Value Objects**: tipos imutáveis com semântica de valor, como `struct Dinheiro { int valor; string moeda; };`
+* **Repositórios**: interfaces para persistência (`interface ClienteRepository`), podendo usar implementação com bancos, arquivos, etc.
+* **Agregados**, **Serviços de Domínio**, **Fábricas**, etc., são todos possíveis com modelagem e encapsulamento adequados.
+
+A maior dificuldade está na ausência de construções nativas que incentivem isso. Mas com **boas práticas de encapsulamento**, **uso correto de headers e namespaces**, e **design modular**, é perfeitamente possível aplicar DDD em projetos C++ robustos.
