@@ -322,6 +322,8 @@ O QT também brilha no desenvolvimento de aplicações embarcadas, especialmente
 
 Embora seja amplamente elogiado, o QT também apresenta desafios. O licenciamento comercial pode ser caro, especialmente para pequenas empresas ou desenvolvedores individuais, embora exista uma versão de código aberto disponível sob a licença LGPL. A complexidade inicial para quem não está acostumado com C++ ou com frameworks avançados também pode ser um obstáculo.
 
+# 🔵 [C++] Tratamento de exceções
+
 # 🧪 [C++] DDD, BDD e TDD
 É possível aplicar **DDD (Domain-Driven Design)**, **TDD (Test-Driven Development)** e **BDD (Behavior-Driven Development)** em **C++**, embora cada uma dessas práticas demande certo esforço extra comparado a linguagens mais dinâmicas ou com suporte mais moderno a testes e modelagem. C++ não é uma linguagem conhecida por facilitar essas abordagens, mas com organização, boas bibliotecas e disciplina, é totalmente viável. C++ não oferece suporte “out of the box” como Python, JavaScript ou C#, mas com ferramentas como **Google Test**, **Catch2**, e boas práticas de design, você pode sim aplicar TDD, BDD e DDD de forma eficaz. Vai exigir mais organização e entendimento arquitetural, mas o resultado é um sistema mais confiável, testável e bem modelado.
 
