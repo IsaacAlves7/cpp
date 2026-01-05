@@ -275,8 +275,23 @@ Assim surgiu “Keith, the C++ Mascot”, geralmente retratado como um personage
 
 ## [C++] `Hello, World!`
 
+## [C++] Abstract class vs Interface
+Muitas vezes é confuso quando se trata de interface e classe abstrata em C++. Não há palavras-chave para definir uma interface e classes abstratas em C++, como em outras linguagens de programação como Java ou C#.
 
-# [C++] Sistemas Digitais
+No entanto, o uso de interface e classe abstrata pode ser alcançado em C++, semelhante a outras linguagens.
+
+Primeiro, vamos comparar o conceito de interface e classe abstrata
+
+1. A classe Interface não possui nenhuma implementação de método. Ele possui apenas declarações de método e a classe que implementa uma interface implementa os métodos.
+2. Interface não possui variáveis definidas. Ele existe em Java, mas então as variáveis são declaradas como finais e estáticas.
+3. A classe que implementa uma interface deve implementar todos os métodos da interface.
+4. A classe abstrata pode ter declaração de variáveis e implementação/implementação/de método. Além disso, pode-se herdar a classe abstrata sem implementar os métodos abstratos.
+5. Uma classe abstrata não pode ser instanciada, mas sim herdada por outra classe. Instanciar e abstrair a classe geram erro de compilação.
+6. Antes de analisar como definimos abstrato e interface, vamos entender o que é um método virtual e um método puramente virtual em C++.
+
+Um método virtual em C++ é um método que deve ser redefinido na classe derivada, usando a palavra-chave virtual que indica ao compilador que realize ligação dinâmica ou binding tardio no método.
+
+# 💻 [C++] Sistemas Digitais
 As áreas de TI e Comunicação trazem, a todo o momento, modificações, inovações, adequações, enfim, apresentam-se de forma cada vez mais interessantes para o usuário e desafiadoras para o profissional que as constrói. Assim, preparar equipes capazes de conceber, planejar e desenvolver soluções que funcionarão nas futuras gerações das áreas de Tecnologia da Informação e Comunicação (TIC) apresenta-se como demanda urgente aos Cursos da área de TI e um desafio às práticas pedagógicas do professor para o ensino
 da computação.
 
