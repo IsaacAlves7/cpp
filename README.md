@@ -290,7 +290,7 @@ Primeiro, vamos comparar o conceito de interface e classe abstrata
 
 Um método virtual em C++ é um método que deve ser redefinido na classe derivada, usando a palavra-chave virtual que indica ao compilador que realize ligação dinâmica ou binding tardio no método.
 
-# [C++] Hash and comparator
+## [C++] Hash and comparator
 
 # 💻 [C++] Sistemas Digitais
 As áreas de TI e Comunicação trazem, a todo o momento, modificações, inovações, adequações, enfim, apresentam-se de forma cada vez mais interessantes para o usuário e desafiadoras para o profissional que as constrói. Assim, preparar equipes capazes de conceber, planejar e desenvolver soluções que funcionarão nas futuras gerações das áreas de Tecnologia da Informação e Comunicação (TIC) apresenta-se como demanda urgente aos Cursos da área de TI e um desafio às práticas pedagógicas do professor para o ensino
