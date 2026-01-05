@@ -256,7 +256,7 @@ make main.c
 Hello, World!
 ```
 
-# Linguagem C++
+# 🔵 Linguagem C++
 <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="77" align="right">
 
 A **linguagem C++** (em português: Pronuncia-se "cê mais mais") é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
