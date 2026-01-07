@@ -293,6 +293,91 @@ Um método virtual em C++ é um método que deve ser redefinido na classe deriva
 ## [C++] Hash and comparator
 
 ## [C++] Algoritmo de Agendamento FCFS
+O **FCFS (First-Come, First-Served)** é o algoritmo de agendamento mais simples da computação. A ideia é literalmente uma fila: o primeiro processo que chega é o primeiro a ser executado, sem preempção, sem prioridade, sem interrupções. Ele é muito usado para ensino porque expõe claramente conceitos como tempo de espera, tempo de retorno (turnaround) e tempo de execução, além de deixar evidente problemas clássicos como o *convoy effect*.
+
+No FCFS, cada processo tem pelo menos dois dados relevantes: o tempo de chegada (arrival time) e o tempo de execução (burst time). Os processos são ordenados pelo tempo de chegada. O primeiro começa a executar assim que chega (ou quando a CPU está livre), e os demais esperam até que todos os anteriores terminem. O tempo de espera de um processo é o tempo que ele fica na fila antes de começar a executar, e o tempo de retorno é o tempo total desde a chegada até a finalização.
+
+Exemplo simples em C++:
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Process {
+    int id;
+    int arrivalTime;
+    int burstTime;
+    int waitingTime;
+    int turnaroundTime;
+};
+
+int main() {
+    int n;
+    cout << "Numero de processos: ";
+    cin >> n;
+
+    vector<Process> processes(n);
+
+    for (int i = 0; i < n; i++) {
+        processes[i].id = i + 1;
+        cout << "Processo " << processes[i].id << " - Tempo de chegada: ";
+        cin >> processes[i].arrivalTime;
+        cout << "Processo " << processes[i].id << " - Tempo de execucao: ";
+        cin >> processes[i].burstTime;
+    }
+
+    // Ordena os processos pelo tempo de chegada
+    sort(processes.begin(), processes.end(),
+         [](const Process& a, const Process& b) {
+             return a.arrivalTime < b.arrivalTime;
+         });
+
+    int currentTime = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (currentTime < processes[i].arrivalTime) {
+            currentTime = processes[i].arrivalTime;
+        }
+
+        processes[i].waitingTime = currentTime - processes[i].arrivalTime;
+        currentTime += processes[i].burstTime;
+        processes[i].turnaroundTime =
+            processes[i].waitingTime + processes[i].burstTime;
+    }
+
+    double totalWaitingTime = 0;
+    double totalTurnaroundTime = 0;
+
+    cout << "\nID\tChegada\tExecucao\tEspera\tRetorno\n";
+    for (const auto& p : processes) {
+        cout << p.id << "\t"
+             << p.arrivalTime << "\t"
+             << p.burstTime << "\t\t"
+             << p.waitingTime << "\t"
+             << p.turnaroundTime << "\n";
+
+        totalWaitingTime += p.waitingTime;
+        totalTurnaroundTime += p.turnaroundTime;
+    }
+
+    cout << "\nTempo medio de espera: "
+         << totalWaitingTime / n << endl;
+
+    cout << "Tempo medio de retorno: "
+         << totalTurnaroundTime / n << endl;
+
+    return 0;
+}
+```
+
+O que esse código faz, conceitualmente: Primeiro, ele lê os processos com seus tempos de chegada e execução. Em seguida, ordena os processos pelo tempo de chegada, que é a regra fundamental do FCFS. Depois, simula a passagem do tempo da CPU, calculando para cada processo quanto ele esperou antes de executar e quanto tempo levou desde a chegada até o término. Por fim, imprime uma tabela com os resultados e calcula as médias.
+
+Esse algoritmo é determinístico, justo no sentido de ordem de chegada, mas ineficiente em ambientes reais. Um processo longo que chega cedo pode atrasar todos os outros, mesmo que sejam curtos, o que ilustra bem por que sistemas modernos usam algoritmos mais sofisticados como SJF, Round Robin, Priority Scheduling ou variantes híbridas.
+
+Exemplo: **FCFS com Gantt Chart**, **simulação de CPU ociosa**, ou comparar diretamente com **SJF e Round Robin** para fins didáticos.
 
 ## [C++] Tratamento de exceções
 
