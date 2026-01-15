@@ -1,5 +1,7 @@
 <div align="center"><a href="https://github.com/IsaacAlves7/cpp-programming"><img src="https://user-images.githubusercontent.com/61624336/181665378-52c87f52-fdc1-4ca9-b4bf-e8f9cd523d5d.png"></a></div>
 
+> Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
+
 # It's a repository of C/C++ languages 🔵
 
 > 🔵 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.) e o software C/C++, com a versão mais recente, instalado na sua máquina local.
