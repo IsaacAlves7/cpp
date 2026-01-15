@@ -438,6 +438,13 @@ Embora seja amplamente elogiado, o QT também apresenta desafios. O licenciament
 
 CMake é a cola essencial para aplicar TDD, BDD e testes automatizados em geral com C++ em projetos reais. Ele permite integrar ferramentas de teste como Google Test, organizar a build, e até condicionar testes por ambiente. Sem ele, gerenciar dependências e compilar testes se tornaria um pesadelo.
 
+Compilar é tão simples quanto digitar o seguinte no diretório raiz do repositório:
+
+```sh
+cmake -B build
+cmake --build build --config release
+```
+
 Exemplo simples com Google Test:
 
 ```cpp
