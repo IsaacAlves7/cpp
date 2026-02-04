@@ -10,6 +10,7 @@
 - http://www.dpi.inpe.br/~carlos/Academicos/Cursos/LinguagemC/Cap_1.html
 - https://exercism.org/tracks/cpp
 - https://cplusplus.com/
+- https://medium.com/@yangpeng-tech/basic-design-patterns-in-c-39bd3d477a5c?source=email-afeafff77325-1699595564672-digest.reader-755611695f5a-39bd3d477a5c----0-59------------------2c4d77a2_af61_4746_ba5e_d672f0567ad9-1
 
 # 🐒 Linguagem de programação
 
