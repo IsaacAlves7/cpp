@@ -1,0 +1,2815 @@
+
+ function: Airy called by:
+        BiAiry
+        main
+
+ function: Argmt called by:
+
+ function: Bessel called by:
+
+ function: BiAiry called by:
+        main
+
+ function: BigGamma called by:
+        Pgamma
+
+ function: CADD called by:
+        bessel
+        c1f1
+        cacos
+        casin
+        catan
+        cbess
+        ccubic
+        cdigamma
+        ce
+        ceii
+        cf21
+        cfbig
+        cfsmall
+        cgamma
+        charlier
+        cp
+        cq
+        cquartic
+        ctheta
+        ctld
+        cu
+        f211
+        f21big
+        iaw
+        kbess
+        ke
+        kelvin
+        pdisp
+        solvq
+        toronto
+        zetaw
+
+ function: CASSN called by:
+        forward
+        pdisp
+
+ function: CDIV called by:
+        forward
+        iaw
+        invp
+        pdisp
+        sigma
+        toronto
+        wa
+        weir
+
+ function: CG called by:
+        main
+
+ function: CLET called by:
+        backward
+        bateman
+        bessel
+        c1f1
+        cacos
+        casin
+        cbess
+        ccubic
+        cdigamma
+        ceii
+        cf21
+        cfbig
+        cfsmall
+        cgamma
+        cp
+        cpochhammer
+        cq
+        cquartic
+        ctheta
+        ctld
+        cu
+        cunningham
+        f211
+        f21big
+        iaw
+        invp
+        pdisp
+        sigma
+        toronto
+        weir
+        zetaw
+
+ function: CMPLX called by:
+        backward
+        bateman
+        be
+        bessel
+        c1f1
+        cacos
+        casin
+        catan
+        cbess
+        ccosh
+        ccubic
+        cdigamma
+        ce
+        cei
+        ceii
+        cf21
+        cfsmall
+        cgamma
+        charlier
+        cjef
+        cp
+        cpochhammer
+        cpow
+        cq
+        csinh
+        ctan
+        ctheta
+        ctld
+        ctreal
+        cu
+        cubic
+        cunningham
+        emf
+        emft
+        erf
+        f211
+        f21big
+        i0i
+        iaw
+        ibess
+        kbess
+        ke
+        kelvin
+        main
+        pdisp
+        quartic
+        sigma
+        weir
+        zetaw
+
+ function: CMULT called by:
+        forward
+        fresnel
+        iaw
+        ibess
+        kbess
+        ke
+        kelvin
+        main
+        pdisp
+        sigma
+        solvq
+        toronto
+        weir
+
+ function: CNORM called by:
+        clog
+        csqrt
+
+ function: CONJG called by:
+        ccubic
+        pdisp
+
+ function: CPHI called by:
+        ke
+
+ function: CSET called by:
+        bessel
+        c1f1
+        ccubic
+        cf21
+        cgamma
+        cjef
+        cp
+        cpochhammer
+        cquartic
+        ctheta
+        ctld
+        ibess
+        pdisp
+        weir
+        zetaw
+
+ function: CSUB called by:
+        forward
+        pdisp
+        solvq
+        weir
+
+ function: CTHET called by:
+        ke
+
+ function: CTI called by:
+        Jbessel
+        c1f1
+        cq
+        cunningham
+
+ function: CTREAL called by:
+        forward
+        fresnel
+        iaw
+        ibess
+        invp
+        kbess
+        ke
+        kelvin
+        main
+        pdisp
+        sigma
+        solvq
+        toronto
+        weir
+        zetaw
+
+ function: Cgegenbauer called by:
+        main
+
+ function: Chi called by:
+        main
+
+ function: Ci called by:
+        main
+
+ function: ClebshGordon called by:
+        main
+
+ function: Cpow called by:
+        cu
+
+ function: D called by:
+        ks
+
+ function: DELTA called by:
+        main
+
+ function: DOFOR called by:
+        P
+        incgam
+
+ function: Dlog called by:
+        main
+
+ function: E1 called by:
+        main
+
+ function: Ei called by:
+        E1
+
+ function: Eict called by:
+        ei
+
+ function: Eis called by:
+        ei
+
+ function: Euclidd called by:
+        main
+
+ function: F01 called by:
+
+ function: Fresnel called by:
+        main
+
+ function: Hermite called by:
+        main
+
+ function: Hot called by:
+        main
+
+ function: IAi called by:
+        main
+
+ function: IBi called by:
+        main
+
+ function: INDEX called by:
+        main
+        matheign
+        mfcval
+
+ function: Ibessel called by:
+        main
+
+ function: Jbessel called by:
+        main
+
+ function: Jrn called by:
+        main
+
+ function: Kbessel called by:
+        main
+
+ function: L called by:
+        main
+
+ function: Laguerre called by:
+        main
+
+ function: Lob called by:
+        Lob
+        main
+
+ function: Mehler called by:
+        main
+
+ function: Mehler0 called by:
+        main
+
+ function: ModStruveI called by:
+        main
+
+ function: Mwhit called by:
+
+ function: Nu called by:
+
+ function: P called by:
+        incgam
+        lcgam
+        main
+        ucgam
+
+ function: Pgamma called by:
+
+ function: Pjacobi called by:
+        main
+
+ function: Plegendre called by:
+        main
+
+ function: Ptoroidal called by:
+        main
+
+ function: Q called by:
+        main
+
+ function: Shi called by:
+        main
+
+ function: Si called by:
+        main
+
+ function: Smallgamma called by:
+
+ function: StruveH called by:
+        main
+
+ function: StruveI called by:
+        main
+
+ function: StruveIot called by:
+        main
+
+ function: StruveL called by:
+        main
+
+ function: Tcheby called by:
+        main
+
+ function: Ucheby called by:
+        main
+
+ function: V called by:
+        CG
+
+ function: Wigner6j called by:
+        main
+
+ function: Wigner9j called by:
+        main
+
+ function: Wwhit called by:
+        main
+
+ function: X called by:
+        be
+        main
+
+ function: Y called by:
+        be
+
+ function: a called by:
+        chu
+        main
+        upcf
+        vpcf
+
+ function: ab called by:
+        main
+
+ function: abs called by:
+        af1s
+        afa
+        ai
+        angular
+        arc_hyper_tan
+        arc_sine
+        arc_tan
+        aw
+        ba
+        bernoulli
+        bessel
+        bi
+        bigf
+        bigg
+        bigphi
+        binomial_coef
+        boehmer
+        bounds
+        brent
+        c1f1
+        cbess
+        cdigamma
+        ce
+        cef
+        cf21
+        cgamma
+        chu
+        clausen
+        coef
+        conical
+        conicala
+        conicalt
+        coulombf
+        cp
+        cq
+        cquartic
+        cu
+        cube_rt
+        cubic
+        cwfa
+        dai
+        dbi
+        debye
+        digam
+        digamma
+        e1s
+        e3
+        e3mln
+        e3nlm
+        eias
+        eicf
+        en
+        erf
+        euler
+        expon
+        f12
+        f21
+        f211
+        f21big
+        gam
+        gammaqd
+        gamtab
+        h0
+        h0a
+        h1
+        h1a
+        ibes
+        ibess
+        ierf
+        ii0m1t
+        ij0t
+        ik0t
+        imt
+        in
+        incbeta
+        incgam
+        invnr
+        it
+        iy0t
+        jass
+        jbes
+        jef
+        jmt
+        jn
+        jt
+        kbes
+        kbess
+        kelvin
+        kn
+        l0
+        l0a
+        l1
+        l1a
+        leg2
+        legend1
+        legendrea
+        ln
+        loggam
+        m
+        main
+        mfcval
+        mfitr8
+        mq
+        ncc
+        ncf
+        nct
+        nothint
+        pdisp
+        pg1
+        pg2
+        plm
+        pmunu
+        pnu
+        polylog
+        ql0
+        qleg
+        qli
+        qlm
+        qmunu
+        racah
+        radswf
+        rho
+        root
+        setd
+        sievert
+        simp
+        sinb
+        sine
+        smallf
+        smallg
+        solvem
+        square_rt
+        ste
+        struve
+        sum
+        tangnt
+        teff
+        tmofa
+        toroidal
+        triangle
+        u
+        upcf
+        vpcf
+        wa
+        wairy
+        weir
+        wigner
+        wpcf
+        ybes
+        yn
+        zerobes
+        zeta
+        zeta2
+        zetaw
+
+ function: acos called by:
+        conicala
+        invp
+        wairy
+
+ function: acosh called by:
+        wairy
+
+ function: adsimp called by:
+        bickley
+        coulombg
+        mu
+
+ function: af called by:
+        main
+
+ function: af1 called by:
+        af
+
+ function: af1s called by:
+        af1
+
+ function: af2 called by:
+        af
+
+ function: af2s called by:
+        af2
+
+ function: af3 called by:
+        af
+
+ function: af3s called by:
+        af3
+
+ function: afa called by:
+        af1
+        af2
+        af3
+
+ function: ai called by:
+        main
+        wairy
+
+ function: alpha called by:
+        main
+
+ function: am called by:
+        tef
+        teff
+
+ function: amc called by:
+
+ function: angular called by:
+        radial
+
+ function: aold called by:
+        coulombf
+
+ function: arc_cosine called by:
+        main
+
+ function: arc_hyper_cos called by:
+        main
+
+ function: arc_hyper_sin called by:
+        main
+
+ function: arc_hyper_tan called by:
+        main
+
+ function: arc_sine called by:
+        arc_cosine
+        main
+
+ function: arc_tan called by:
+        arc_tan
+        arc_tangent
+        main
+
+ function: arc_tangent called by:
+        main
+
+ function: arccosh called by:
+        conicala
+
+ function: argmt called by:
+        ibess
+        kbess
+
+ function: arr called by:
+        wilcoxon
+
+ function: asin called by:
+        tef
+        teff
+
+ function: asph called by:
+        setd
+
+ function: atan called by:
+        g2
+        gl
+        qleg
+        qli
+        teff
+
+ function: atan2 called by:
+        argmt
+
+ function: aux called by:
+        tmofa
+
+ function: aw called by:
+        main
+
+ function: b called by:
+        chu
+        main
+        zerobes
+
+ function: ba called by:
+        main
+
+ function: backp called by:
+        Pjacobi
+        Plegendre
+        Tcheby
+        Ucheby
+        laguerre
+
+ function: backward called by:
+        bessel
+
+ function: bateman called by:
+
+ function: be called by:
+        ke
+
+ function: bernoulli called by:
+        zeta
+
+ function: bernpoly called by:
+        eulerpoly
+        main
+        zeta2
+
+ function: bessel called by:
+        Bessel
+        bessinit
+        besspq
+        ibess
+        jint
+        kbess
+        kelvin
+        main
+        ybes
+
+ function: bessinit called by:
+        math
+
+ function: besspq called by:
+        zerobes
+
+ function: beta called by:
+        main
+
+ function: betacat called by:
+        main
+
+ function: betsph called by:
+        setd
+
+ function: bi called by:
+        main
+        wairy
+
+ function: bickley called by:
+        main
+
+ function: big called by:
+
+ function: bigf called by:
+        IAi
+        IBi
+
+ function: bigg called by:
+        IAi
+        IBi
+
+ function: bigphi called by:
+        zeta1
+
+ function: bii called by:
+
+ function: binom called by:
+        main
+
+ function: binomial called by:
+
+ function: binomial_coef called by:
+        hypergeometric_dist
+
+ function: binomial_dist called by:
+
+ function: boehmer called by:
+        main
+
+ function: bounds called by:
+        mfcval
+
+ function: brec called by:
+        chu
+
+ function: brent called by:
+        solvem
+
+ function: bsph called by:
+        setd
+
+ function: c called by:
+        zerobes
+
+ function: c01 called by:
+
+ function: c1f1 called by:
+        Jbessel
+        Laguerre
+        Mwhit
+        c1f1
+        charlier
+        cu
+        main
+        toronto
+
+ function: c2 called by:
+
+ function: ca called by:
+        main
+
+ function: cabs called by:
+        backward
+        bessel
+        c1f1
+        cbess
+        ccubic
+        cei
+        ceii
+        cf21
+        cfbig
+        cfsmall
+        cgamma
+        cp
+        cpow
+        cq
+        cquartic
+        ctan
+        ctheta
+        ctld
+        ctreal
+        cu
+        f211
+        f21big
+        iaw
+        invp
+        main
+        pdisp
+        weir
+        wpcf
+
+ function: cacos called by:
+        invp
+
+ function: casin called by:
+
+ function: catan called by:
+
+ function: cauchy called by:
+
+ function: cbess called by:
+        bessel
+
+ function: cc called by:
+        solve
+
+ function: ccos called by:
+
+ function: ccosh called by:
+        main
+
+ function: ccot called by:
+        cdigamma
+        weir
+
+ function: ccubic called by:
+        cubic
+        main
+
+ function: cdigam called by:
+        cu
+        f211
+        f21big
+        main
+
+ function: cdigamma called by:
+        main
+
+ function: ce called by:
+        main
+
+ function: cef called by:
+        invp
+        main
+
+ function: cei called by:
+        cexpint
+        main
+
+ function: ceii called by:
+        cei
+
+ function: cerfc called by:
+        main
+
+ function: cerror called by:
+        main
+
+ function: cexp called by:
+        cbess
+        cei
+        ceii
+        cerfc
+        cfbig
+        cfsmall
+        cgamma
+        cpow
+        cq
+        ctheta
+        ctld
+        ctreal
+        cunningham
+        emft
+        fresnel
+        iaw
+        ibess
+        invp
+        kbess
+        ke
+        main
+        pdisp
+        sigma
+        toronto
+
+ function: cexpint called by:
+        main
+
+ function: cf21 called by:
+        main
+
+ function: cfbig called by:
+        pdisp
+
+ function: cfsmall called by:
+        pdisp
+
+ function: cgamma called by:
+        Jbessel
+        Laguerre
+        bateman
+        c1f1
+        cf21
+        cp
+        cq
+        cu
+        cunningham
+        cwfa
+        f211
+        f21big
+        main
+        toronto
+        wa
+        wpcf
+
+ function: charlier called by:
+        main
+
+ function: chiinv called by:
+        main
+
+ function: chisq called by:
+        main
+        ncc
+
+ function: chu called by:
+        chu
+        uabx
+
+ function: ci called by:
+        boehmer
+
+ function: cjef called by:
+        amc
+        ce
+        weir
+
+ function: clausen called by:
+        main
+
+ function: clog called by:
+        cbess
+        cdigamma
+        ceii
+        cgamma
+        cpow
+        ctheta
+        ctreal
+        cu
+        f211
+        f21big
+        iaw
+        invp
+        main
+
+ function: coef called by:
+        math
+        ncc
+        ncf
+        nct
+
+ function: conical called by:
+        main
+
+ function: conicala called by:
+
+ function: conicalt called by:
+        main
+
+ function: cos called by:
+        si
+        sievert
+        sj1
+        sy0
+        sy1
+        tef
+        teff
+        u
+        wa
+        ybes
+        zerobes
+
+ function: cosh called by:
+        main
+        si1
+        sim1
+        sim2
+        simb
+
+ function: cosine called by:
+        tangent
+
+ function: coulombf called by:
+        main
+
+ function: coulombg called by:
+        main
+
+ function: count called by:
+        l1
+
+ function: cp called by:
+        main
+
+ function: cpochhammer called by:
+        charlier
+        f21big
+
+ function: cpow called by:
+        Jbessel
+        Kbessel
+        Mwhit
+        Wwhit
+        c1f1
+        cf21
+        charlier
+        cp
+        cq
+        cu
+        f211
+        f21big
+        toronto
+
+ function: cq called by:
+        main
+
+ function: cquartic called by:
+        quartic
+
+ function: csin called by:
+        cu
+        weir
+
+ function: csinh called by:
+        main
+
+ function: csph called by:
+        setd
+
+ function: csqrt called by:
+        cbess
+        ccubic
+        cquartic
+        solvq
+
+ function: csquare called by:
+        gamsph
+        setd
+
+ function: ct2 called by:
+        cfsmall
+
+ function: ctan called by:
+
+ function: ctheta called by:
+        main
+        sigma
+
+ function: ctld called by:
+        zetaw
+
+ function: ctreal called by:
+        ccubic
+        iaw
+        main
+
+ function: ctrig called by:
+        cbess
+        ccosh
+        ccot
+        cq
+        csinh
+        ctan
+        ctheta
+        ctld
+        main
+
+ function: cu called by:
+        Kbessel
+        Wwhit
+        bateman
+        cu
+        cunningham
+        main
+
+ function: cube_rt called by:
+        main
+
+ function: cubic called by:
+        invp
+        main
+
+ function: cump called by:
+        main
+
+ function: cunningham called by:
+
+ function: cwfa called by:
+        coulombf
+        main
+
+ function: czeta called by:
+
+ function: d1 called by:
+        e3nlm
+
+ function: d2 called by:
+        e3mln
+
+ function: dai called by:
+        main
+
+ function: dawson called by:
+        ritchie
+
+ function: dbi called by:
+        main
+
+ function: dc called by:
+
+ function: ddc called by:
+
+ function: dds called by:
+
+ function: debye called by:
+        dilog
+        main
+
+ function: delta called by:
+        racah
+
+ function: dia called by:
+        solve
+
+ function: digam called by:
+        main
+
+ function: digamma called by:
+        c1f1
+        ceii
+        cf21
+        cu
+        f211
+        f21big
+        iaw
+        ij0t
+        ik0t
+        iy0t
+        main
+
+ function: dilog called by:
+        main
+
+ function: dj called by:
+        dds
+
+ function: dpc called by:
+
+ function: dps called by:
+
+ function: ds called by:
+
+ function: dssph called by:
+
+ function: dy called by:
+        dds
+
+ function: e called by:
+        weir
+
+ function: e1 called by:
+        e
+        ei
+        main
+
+ function: e1s called by:
+        E1
+        main
+
+ function: e3 called by:
+        main
+
+ function: e3mln called by:
+        e3
+
+ function: e3nlm called by:
+        e3
+
+ function: e4 called by:
+        q
+
+ function: ee called by:
+        teff
+
+ function: ei called by:
+        li
+        main
+        ritchie
+
+ function: eias called by:
+        Ei
+        ei
+
+ function: eicf called by:
+        Ei
+
+ function: ek called by:
+        teff
+
+ function: elseCLET called by:
+        cquartic
+        ctheta
+
+ function: elseCMPLX called by:
+        weir
+
+ function: emf called by:
+        main
+
+ function: emft called by:
+
+ function: en called by:
+        e
+        main
+        sievert
+
+ function: entersym called by:
+        main
+
+ function: entier called by:
+        chu
+
+ function: eps called by:
+        ste
+
+ function: erf called by:
+        main
+        prob
+
+ function: erlang called by:
+
+ function: erlang_dist called by:
+        main
+
+ function: es called by:
+
+ function: eta called by:
+        angular
+        coulombf
+        main
+
+ function: euler called by:
+        main
+
+ function: eulerpoly called by:
+        main
+
+ function: ex called by:
+        main
+        na
+
+ function: exp called by:
+        afa
+        ai
+        beta
+        bi
+        bii
+        cexp
+        chu
+        conicala
+        coulombf
+        coulombg
+        ctrig
+        dai
+        dbi
+        debye
+        e
+        e1
+        e3mln
+        e3nlm
+        eias
+        eicf
+        en
+        erf
+        erlang
+        erlang_dist
+        ex
+        finv
+        gamma
+        gammaqd
+        gl
+        i0
+        i1
+        ibes
+        ierfc
+        ierfcf
+        ifermi
+        ii0tas
+        ik0tas
+        incbeta
+        incc
+        incf
+        incgam
+        jef
+        k0
+        k1
+        kbes
+        ki
+        ks
+        lognormal
+        m
+        main
+        math
+        mwhit
+        ncc
+        ncf
+        nct
+        poisson
+        poisson_dist
+        q
+        ritchie
+        sigma
+        sk0
+        sk1
+        u
+        upcf
+        vpcf
+        wa
+        wairy
+        wwhit
+        zetaw
+        zn
+
+ function: expon called by:
+        expon
+        hyper_cos
+        hyper_sin
+        hyper_tan
+        main
+        power
+
+ function: extreme called by:
+        main
+
+ function: f called by:
+        si
+
+ function: f01 called by:
+        c01
+        s01
+
+ function: f12 called by:
+
+ function: f2 called by:
+        c2
+
+ function: f21 called by:
+        qlm
+        qmunu
+        qnu
+
+ function: f211 called by:
+        cf21
+
+ function: f21big called by:
+        cf21
+
+ function: fac called by:
+        u
+
+ function: factor called by:
+        gammaqd
+
+ function: fcf called by:
+        Eict
+
+ function: fdist called by:
+        main
+        ncf
+
+ function: fgetc called by:
+        main
+
+ function: fi called by:
+        zerobes
+
+ function: fib called by:
+        main
+
+ function: figi called by:
+        solve
+
+ function: findfirst called by:
+        main
+
+ function: findnext called by:
+        main
+
+ function: finv called by:
+        main
+
+ function: fj called by:
+        ds
+
+ function: fk called by:
+        iy0t
+
+ function: fl called by:
+        coulombf
+
+ function: flp called by:
+        coulombf
+
+ function: fm called by:
+        incbeta
+
+ function: forward called by:
+        bessel
+
+ function: fresnel called by:
+        main
+
+ function: fs called by:
+
+ function: func called by:
+        sum
+
+ function: fy called by:
+        ds
+
+ function: g called by:
+        si
+
+ function: g01 called by:
+        c01
+        s01
+
+ function: g2 called by:
+        s2
+
+ function: gam called by:
+        wigner
+
+ function: gaminit called by:
+        gamtab
+
+ function: gamma called by:
+        stirl1
+        struve
+        u
+        ucgam
+        upcf
+        vpcf
+        zeta
+
+ function: gammaqd called by:
+        main
+
+ function: gammn called by:
+        racah
+
+ function: gamsph called by:
+        setd
+
+ function: gamtab called by:
+        iaw
+
+ function: garb called by:
+        besspq
+
+ function: geometric called by:
+
+ function: getcmplx called by:
+        main
+
+ function: getm called by:
+        weir
+
+ function: gl called by:
+
+ function: gs called by:
+
+ function: h called by:
+        tek
+
+ function: h0 called by:
+        ji
+        y0i
+
+ function: h0a called by:
+        h0
+
+ function: h1 called by:
+        ji
+        y0i
+
+ function: h1a called by:
+        h1
+
+ function: help called by:
+        main
+
+ function: heuman called by:
+        main
+
+ function: hyper_cos called by:
+        main
+
+ function: hyper_sin called by:
+        main
+
+ function: hyper_tan called by:
+        main
+
+ function: hypergeometric called by:
+
+ function: hypergeometric_dist called by:
+        main
+
+ function: i called by:
+        coulombf
+        coulombg
+        ctheta
+
+ function: i0 called by:
+        in
+        k0
+        l0a
+
+ function: i0i called by:
+        main
+
+ function: i1 called by:
+        in
+        k1
+        l1a
+
+ function: iabs called by:
+        Mehler
+
+ function: iaw called by:
+        main
+
+ function: ibes called by:
+        main
+
+ function: ibess called by:
+        main
+
+ function: icump called by:
+        main
+        tinv
+
+ function: ierf called by:
+        main
+
+ function: ierfc called by:
+        main
+
+ function: ierfcf called by:
+        main
+
+ function: ierfctable called by:
+        main
+
+ function: ifermi called by:
+        main
+
+ function: ii0m1t called by:
+        main
+
+ function: ii0tas called by:
+        main
+
+ function: ij0t called by:
+        main
+
+ function: ik0t called by:
+        main
+
+ function: ik0tas called by:
+        main
+
+ function: imt called by:
+        ai
+        bi
+
+ function: in called by:
+        struve
+
+ function: incbeta called by:
+        main
+        nct
+        studt
+
+ function: incc called by:
+        main
+
+ function: incf called by:
+        main
+
+ function: incgam called by:
+        alpha
+        chisq
+        main
+
+ function: inct called by:
+        main
+
+ function: invnr called by:
+        finv
+        incc
+        incf
+        inct
+        tinv
+
+ function: invp called by:
+        main
+
+ function: isd called by:
+
+ function: iswhite called by:
+        main
+
+ function: it called by:
+        ai
+        bi
+
+ function: iy0t called by:
+        main
+
+ function: j called by:
+        solve
+
+ function: j0 called by:
+        main
+        y0
+
+ function: j1 called by:
+        main
+        y1
+
+ function: j2 called by:
+        main
+
+ function: jas called by:
+        main
+
+ function: jass called by:
+        besspq
+
+ function: jbes called by:
+        main
+        ybes
+
+ function: jef called by:
+        am
+        ce
+        cjef
+        jef
+        main
+        theta
+
+ function: ji called by:
+        main
+
+ function: jii called by:
+
+ function: jin called by:
+        main
+
+ function: jint called by:
+        main
+
+ function: jiotn called by:
+
+ function: jmt called by:
+        ai
+        bi
+
+ function: jn called by:
+        main
+
+ function: jt called by:
+        main
+
+ function: jzeta called by:
+        main
+
+ function: k called by:
+        clausen
+        cwfa
+
+ function: k0 called by:
+        kn
+
+ function: k1 called by:
+        kn
+
+ function: kbes called by:
+        chu
+        main
+
+ function: kbess called by:
+        main
+
+ function: ke called by:
+        be
+
+ function: kelvin called by:
+        main
+
+ function: ki called by:
+        main
+
+ function: kii called by:
+        sievert
+
+ function: kn called by:
+
+ function: ks called by:
+        main
+
+ function: l called by:
+        cwfa
+
+ function: l0 called by:
+        ki
+
+ function: l0a called by:
+        l0
+
+ function: l1 called by:
+        ki
+
+ function: l1a called by:
+        l1
+
+ function: laguerre called by:
+        main
+
+ function: lambda called by:
+        main
+
+ function: lcgam called by:
+
+ function: leg1 called by:
+        main
+
+ function: leg2 called by:
+        leg3
+        main
+
+ function: leg3 called by:
+        main
+
+ function: legend1 called by:
+        legend2
+        main
+
+ function: legend2 called by:
+        main
+
+ function: legendrea called by:
+        setd
+
+ function: legptable called by:
+        angular
+        main
+
+ function: li called by:
+
+ function: ln called by:
+        ln
+        main
+        power
+
+ function: log called by:
+        af2s
+        af3s
+        arccosh
+        beta
+        binomial
+        boehmer
+        cgamma
+        chisq
+        chu
+        ci
+        clausen
+        clog
+        coef
+        conical
+        coulombf
+        cwfa
+        digam
+        digamma
+        dilog
+        e1
+        e1s
+        e3
+        expon
+        extreme
+        f01
+        f2
+        g01
+        g2
+        geometric
+        ierf
+        ij0t
+        ik0t
+        incbeta
+        incgam
+        iy0t
+        jef
+        k0
+        k1
+        ke
+        leg2
+        li
+        loggam
+        logistic
+        main
+        neg_binomial
+        normal
+        q
+        ql0
+        qleg
+        qlm
+        tef
+        teff
+        tek
+        wa
+        weibull
+        y0
+        y1
+
+ function: loggam called by:
+        gamma
+        incbeta
+        incgam
+        loggam
+        main
+
+ function: logistic called by:
+
+ function: lognormal called by:
+        main
+
+ function: m called by:
+        eulerpoly
+        main
+        mwhit
+        ratmm
+        ratmp
+        u
+        upcf
+        weir
+
+ function: m1e called by:
+        main
+        wigner
+        wigner3j
+
+ function: main called by:
+
+ function: mannw called by:
+        main
+
+ function: math called by:
+        main
+        mathieu
+
+ function: matheign called by:
+        main
+
+ function: mathieu called by:
+        main
+
+ function: max called by:
+        simp
+        sinb
+        sjn
+        tmofa
+        wigner
+
+ function: mfcval called by:
+        main
+        matheign
+
+ function: mfitr8 called by:
+        mfcval
+
+ function: min called by:
+        sjn
+        tmofa
+        wigner
+
+ function: mq called by:
+        main
+
+ function: mr called by:
+        chu
+
+ function: mu called by:
+        nu
+
+ function: mult called by:
+        am
+
+ function: mwhit called by:
+
+ function: n called by:
+        leg2
+
+ function: na called by:
+        main
+
+ function: ncc called by:
+        main
+        ncc3
+
+ function: ncc3 called by:
+
+ function: ncf called by:
+        main
+        ncf3
+
+ function: ncf3 called by:
+        incf
+
+ function: nct called by:
+        main
+        nct3
+
+ function: nct3 called by:
+
+ function: neg_binomial called by:
+
+ function: neg_binomial_dist called by:
+        main
+
+ function: neville called by:
+        main
+
+ function: ni called by:
+        wilcoxs
+
+ function: nmn called by:
+        main
+
+ function: norm called by:
+        chisq
+        lognormal
+
+ function: normal called by:
+        main
+        norm
+
+ function: nothint called by:
+        racah
+
+ function: notint called by:
+        racah
+
+ function: nu called by:
+
+ function: nui called by:
+        mu
+
+ function: old called by:
+        sjn
+        syn
+
+ function: p called by:
+        fi
+        main
+
+ function: pareto called by:
+        main
+
+ function: pc called by:
+
+ function: pdisp called by:
+        cerror
+        dawson
+        erf
+        fresnel
+
+ function: pg1 called by:
+        main
+        pg1
+
+ function: pg2 called by:
+        main
+        pg2
+
+ function: pi called by:
+        heuman
+        jas
+        jass
+        ji
+        u
+        zerobes
+
+ function: pk called by:
+        teff
+
+ function: pl called by:
+        coulombf
+
+ function: pl0 called by:
+        plm
+
+ function: pli called by:
+        qli
+
+ function: plm called by:
+        plm
+        pmunu
+
+ function: pmunu called by:
+        pnu
+
+ function: pnu called by:
+
+ function: pochhammer called by:
+        main
+
+ function: poisson called by:
+        main
+
+ function: poisson_dist called by:
+
+ function: polarxy called by:
+        csqrt
+
+ function: polygam called by:
+
+ function: polylog called by:
+        main
+
+ function: pow called by:
+        afa
+        ai
+        alpha
+        ba
+        bernoulli
+        betacat
+        bi
+        bigf
+        bigg
+        bigphi
+        bii
+        binomial_dist
+        boehmer
+        chu
+        clausen
+        conical
+        coulombf
+        coulombg
+        dai
+        dbi
+        debye
+        e3mln
+        eta
+        euler
+        eulerpoly
+        fi
+        fib
+        gammaqd
+        getm
+        gl
+        ibes
+        ierf
+        imt
+        it
+        jas
+        jbes
+        jef
+        jmt
+        jt
+        ks
+        lambda
+        leg1
+        leg2
+        legend1
+        m
+        main
+        mu
+        mwhit
+        neg_binomial_dist
+        nui
+        pareto
+        pli
+        pmunu
+        pnu
+        polylog
+        qli
+        qlm
+        qmunu
+        qnu
+        radswf
+        rho
+        setd
+        sign_crit
+        smallg
+        sphjoin
+        stirl2
+        struve
+        toroidal
+        u
+        upcf
+        vpcf
+        wairy
+        weibull
+        weir
+        wwhit
+        zerobes
+        zeta
+        zeta2
+        zetaw
+
+ function: power called by:
+        root
+
+ function: pp called by:
+        fi
+
+ function: printc called by:
+        main
+
+ function: prob called by:
+        main
+
+ function: ps called by:
+
+ function: pwr2 called by:
+        brent
+
+ function: q called by:
+        main
+
+ function: qbigger called by:
+        angular
+
+ function: qinv called by:
+        tmofa
+
+ function: ql0 called by:
+        qlm
+
+ function: qleg called by:
+        angular
+        main
+
+ function: qli called by:
+        angular
+        main
+
+ function: qlm called by:
+        ql0
+        qlm
+        qmunu
+        radswf
+
+ function: qmath called by:
+        mfcval
+
+ function: qmunu called by:
+        main
+
+ function: qnu called by:
+        main
+
+ function: quartic called by:
+        main
+
+ function: r called by:
+        leg1
+        legend1
+        radswf
+        sphjoin
+        tef
+        toroidal
+
+ function: racah called by:
+        main
+        wigner6j
+
+ function: rad called by:
+        main
+
+ function: radial called by:
+        main
+
+ function: radswf called by:
+
+ function: randi called by:
+
+ function: randm called by:
+        main
+        na
+        randi
+
+ function: random called by:
+
+ function: ratio called by:
+        binomial_dist
+        neg_binomial_dist
+
+ function: ratmm called by:
+
+ function: ratmp called by:
+
+ function: ratv called by:
+        solvem
+
+ function: rho called by:
+        main
+
+ function: ris called by:
+        e3nlm
+
+ function: ritchie called by:
+        main
+
+ function: root called by:
+        main
+
+ function: rti called by:
+        icump
+
+ function: s called by:
+        dssph
+        fs
+        gs
+        na
+
+ function: s01 called by:
+
+ function: s2 called by:
+
+ function: saold called by:
+        coulombf
+
+ function: saolder called by:
+        coulombf
+
+ function: setd called by:
+        angular
+        main
+        radial
+        radswf
+
+ function: sgn called by:
+        e3
+
+ function: si called by:
+        boehmer
+
+ function: si0 called by:
+        sinb
+
+ function: si1 called by:
+        sinb
+
+ function: sievert called by:
+        main
+
+ function: sigma called by:
+        main
+
+ function: sign called by:
+        ste
+
+ function: sign_crit called by:
+        main
+
+ function: signem called by:
+        teff
+
+ function: sim1 called by:
+        sinb
+
+ function: sim2 called by:
+        sinb
+
+ function: simb called by:
+        main
+
+ function: simp called by:
+        adsimp
+        simp
+
+ function: sin called by:
+        loggam
+        main
+        pg1
+        pg2
+        polarxy
+        ps
+        qnu
+        s01
+        si
+        sj0
+        sj1
+        sy1
+        tef
+        teff
+        u
+        vpcf
+        wa
+        y0
+        y1
+        ybes
+        zerobes
+        zeta
+
+ function: sinb called by:
+        main
+        radswf
+
+ function: sine called by:
+        cosine
+        tangent
+
+ function: sinh called by:
+        main
+        si0
+        si1
+        sim2
+        simb
+
+ function: sj0 called by:
+        sjn
+
+ function: sj1 called by:
+        sjn
+
+ function: sjn called by:
+        main
+        radswf
+        syn
+
+ function: sk0 called by:
+        skn
+
+ function: sk1 called by:
+        skn
+
+ function: skn called by:
+        main
+
+ function: smallf called by:
+        main
+
+ function: smallg called by:
+        main
+
+ function: solve called by:
+        main
+
+ function: solvem called by:
+        getm
+
+ function: solvq called by:
+        cquartic
+
+ function: sphjoin called by:
+        radial
+
+ function: sq called by:
+        af2s
+        af3s
+        h0a
+        h1a
+        l0a
+        l1a
+
+ function: sqrt called by:
+        af2s
+        af3s
+        afa
+        ai
+        arccosh
+        be
+        besspq
+        bi
+        bigf
+        bigg
+        ccubic
+        cef
+        cerror
+        charlier
+        chiinv
+        chu
+        clog
+        conical
+        conicala
+        coulombf
+        coulombg
+        cp
+        cq
+        csqrt
+        dai
+        dbi
+        delta
+        e3
+        e3mln
+        e3nlm
+        es
+        f2
+        figi
+        finv
+        g2
+        gaminit
+        gammaqd
+        gs
+        i0
+        i1
+        ibes
+        ierf
+        ierfc
+        ierfcf
+        ii0tas
+        ik0tas
+        imt
+        in
+        incc
+        incf
+        invnr
+        invp
+        it
+        j0
+        j1
+        jas
+        jass
+        jbes
+        jef
+        jmt
+        jn
+        jt
+        k0
+        k1
+        kbes
+        ke
+        ki
+        ks
+        leg1
+        leg2
+        leg3
+        legend1
+        legendrea
+        legptable
+        main
+        math
+        mfcval
+        na
+        normal
+        plm
+        pnu
+        q
+        qleg
+        qlm
+        qnu
+        radswf
+        rho
+        ritchie
+        si0
+        si1
+        sim1
+        sim2
+        simb
+        sinb
+        sjn
+        sk0
+        sk1
+        skn
+        smallg
+        sphjoin
+        ste
+        struve
+        syn
+        tef
+        teff
+        tek
+        theta
+        tmofa
+        toroidal
+        upcf
+        vpcf
+        wa
+        wairy
+        weir
+        wigner
+        wigner3j
+        wpcf
+        y0
+        y1
+        zerobes
+        zn
+
+ function: square_rt called by:
+        arc_sine
+        main
+
+ function: ste called by:
+        solve
+
+ function: stirl1 called by:
+        stirl1
+        stirlingf
+
+ function: stirl2 called by:
+        stirl2
+
+ function: stirlingf called by:
+        main
+
+ function: strcmp called by:
+        entersym
+
+ function: strncpy called by:
+        main
+
+ function: struve called by:
+        StruveH
+        StruveL
+
+ function: studt called by:
+        main
+        tinv
+
+ function: subd called by:
+        solve
+
+ function: sum called by:
+        math
+
+ function: sy0 called by:
+        syn
+
+ function: sy1 called by:
+        syn
+
+ function: syn called by:
+        main
+        radswf
+        sjn
+
+ function: t called by:
+        qleg
+        tinv
+        tmofa
+
+ function: tan called by:
+        tef
+        teff
+
+ function: tangent called by:
+        main
+
+ function: tangnt called by:
+        main
+
+ function: tanh called by:
+        jef
+
+ function: tef called by:
+        tef
+
+ function: teff called by:
+        tef
+
+ function: tek called by:
+        tek
+        theta
+        weir
+        zetaw
+
+ function: term called by:
+        qli
+        wigner
+
+ function: term2 called by:
+        jass
+
+ function: theta called by:
+        neville
+
+ function: tinv called by:
+        main
+
+ function: tmofa called by:
+        coef
+        mfcval
+        mfitr8
+
+ function: tmp called by:
+        loggam
+
+ function: toroidal called by:
+        main
+
+ function: toronto called by:
+
+ function: triangle called by:
+        wigner3j
+
+ function: tridi called by:
+        setd
+
+ function: trm called by:
+        Ptoroidal
+
+ function: u called by:
+        zerobes
+
+ function: u1 called by:
+        dds
+
+ function: u16 called by:
+        main
+
+ function: u32 called by:
+        main
+
+ function: uabx called by:
+        main
+
+ function: ucgam called by:
+
+ function: ungetc called by:
+        main
+
+ function: uniform called by:
+
+ function: upcf called by:
+        main
+        vpcf
+
+ function: urand called by:
+        main
+        neg_binomial
+        normal
+        pareto
+        poisson
+        uniform
+        weibull
+
+ function: v called by:
+        ceii
+        e3nlm
+        zerobes
+
+ function: value called by:
+        invnr
+
+ function: vpcf called by:
+        main
+
+ function: vr called by:
+        chu
+
+ function: w called by:
+        teff
+        zerobes
+
+ function: wa called by:
+        wpcf
+
+ function: wairy called by:
+        wpcf
+
+ function: weibull called by:
+        main
+
+ function: weir called by:
+        main
+        weir
+        zetaw
+
+ function: wigner called by:
+        main
+        wigner3j
+
+ function: wigner3j called by:
+        main
+
+ function: wigner6j called by:
+
+ function: wilcoxon called by:
+        wilcoxon
+
+ function: wilcoxs called by:
+        main
+        wilcoxs
+
+ function: wpcf called by:
+        main
+
+ function: wwhit called by:
+
+ function: x called by:
+        af2s
+        af3s
+        ai
+        aw
+        chu
+        f12
+        f21
+        g01
+        i0i
+        ji
+        kbes
+        ke
+        ki
+        m
+        pc
+        plm
+        ps
+        qlm
+        si
+        y0i
+        zerobes
+
+ function: x2 called by:
+        chu
+
+ function: xi called by:
+        gammaqd
+
+ function: xi1 called by:
+        cfsmall
+
+ function: xn called by:
+        ba
+
+ function: xq called by:
+        e3nlm
+
+ function: y called by:
+        CTI
+        inct
+        jas
+        jass
+        pg1
+        tinv
+        zerobes
+
+ function: y0 called by:
+        yn
+
+ function: y0i called by:
+        main
+
+ function: y1 called by:
+        main
+        y0i
+        yn
+
+ function: ybes called by:
+        main
+
+ function: yn called by:
+        struve
+
+ function: z called by:
+        si
+        sine
+        struve
+
+ function: zerobes called by:
+        main
+
+ function: zeta called by:
+        zeta
+        zeta2
+
+ function: zeta1 called by:
+
+ function: zeta2 called by:
+        polygam
+
+ function: zetaw called by:
+        main
+        zetaw
+
+ function: zn called by:
+        main
+
+ function: zz called by:
+        pli
+        qli

@@ -1,0 +1,3486 @@
+
+ function: Airy calls:
+        CMPLX
+        CMULT
+        CTREAL
+        cexp
+        cpow
+        cu
+        pow
+        sqrt
+
+ function: Argmt calls:
+        atan
+
+ function: Bessel calls:
+        bessel
+
+ function: BiAiry calls:
+        Airy
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        cexp
+
+ function: BigGamma calls:
+        DOFOR
+        abs
+        exp
+        gamma
+        log
+
+ function: CADD calls:
+
+ function: CASSN calls:
+
+ function: CDIV calls:
+
+ function: CG calls:
+        V
+        sqrt
+
+ function: CLET calls:
+
+ function: CMPLX calls:
+
+ function: CMULT calls:
+
+ function: CNORM calls:
+
+ function: CONJG calls:
+
+ function: CPHI calls:
+
+ function: CSET calls:
+
+ function: CSUB calls:
+
+ function: CTHET calls:
+
+ function: CTI calls:
+        y
+
+ function: CTREAL calls:
+
+ function: Cgegenbauer calls:
+        backp
+        gamma
+        pochhammer
+
+ function: Chi calls:
+        boehmer
+
+ function: Ci calls:
+        boehmer
+
+ function: ClebshGordon calls:
+        wigner
+
+ function: Cpow calls:
+        CMULT
+        cexp
+        clog
+
+ function: D calls:
+
+ function: DELTA calls:
+
+ function: DOFOR calls:
+
+ function: Dlog calls:
+        log
+
+ function: E1 calls:
+        Ei
+        e1s
+        en
+
+ function: Ei calls:
+        abs
+        eias
+        eicf
+        log
+
+ function: Eict calls:
+        exp
+        fcf
+
+ function: Eis calls:
+        log
+
+ function: Euclidd calls:
+        abs
+        sqrt
+
+ function: F01 calls:
+        abs
+
+ function: Fresnel calls:
+        boehmer
+        sqrt
+
+ function: Hermite calls:
+        backp
+        gamma
+        pow
+
+ function: Hot calls:
+        incbeta
+
+ function: IAi calls:
+        bigf
+        bigg
+        cos
+        exp
+        sin
+        sqrt
+
+ function: IBi calls:
+        bigf
+        bigg
+        cos
+        exp
+        sin
+        sqrt
+
+ function: INDEX calls:
+
+ function: Ibessel calls:
+        CDIV
+        CLET
+        CMULT
+        CTREAL
+        c1f1
+        cexp
+        cgamma
+        cpow
+
+ function: Jbessel calls:
+        CDIV
+        CLET
+        CMULT
+        CTI
+        CTREAL
+        c1f1
+        cexp
+        cgamma
+        cpow
+
+ function: Jrn calls:
+        abs
+        gamma
+        jbes
+        jn
+        pow
+
+ function: Kbessel calls:
+        CDIV
+        CLET
+        CMULT
+        CTREAL
+        cexp
+        cpow
+        cu
+        sqrt
+
+ function: L calls:
+        Q
+        abs
+        zn
+
+ function: Laguerre calls:
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        c1f1
+        cgamma
+        cpochhammer
+
+ function: Lob calls:
+        Lob
+        log
+
+ function: Mehler calls:
+        abs
+        gamma
+        iabs
+        pow
+
+ function: Mehler0 calls:
+        abs
+        cosh
+        factor
+        gamma
+        k
+        log
+        pi
+        pow
+
+ function: ModStruveI calls:
+        abs
+        factor
+        z
+
+ function: Mwhit calls:
+        CADD
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        c1f1
+        cexp
+        cpow
+
+ function: Nu calls:
+        mu
+
+ function: P calls:
+        DOFOR
+        abs
+        exp
+        log
+        loggam
+
+ function: Pgamma calls:
+        BigGamma
+        gamma
+
+ function: Pjacobi calls:
+        backp
+        gamma
+
+ function: Plegendre calls:
+        backp
+        gamma
+        pow
+
+ function: Ptoroidal calls:
+        abs
+        alpha
+        arccosh
+        digam
+        exp
+        gamma
+        trm
+
+ function: Q calls:
+        P
+
+ function: Shi calls:
+        boehmer
+
+ function: Si calls:
+        boehmer
+
+ function: Smallgamma calls:
+        P
+        gamma
+
+ function: StruveH calls:
+        struve
+
+ function: StruveI calls:
+        abs
+        factor
+        z
+
+ function: StruveIot calls:
+        abs
+        factor
+        z
+
+ function: StruveL calls:
+        struve
+
+ function: Tcheby calls:
+        backp
+        gamma
+
+ function: Ucheby calls:
+        backp
+        gamma
+
+ function: V calls:
+        abs
+        gam
+        notint
+        sqrt
+
+ function: Wigner6j calls:
+        racah
+
+ function: Wigner9j calls:
+        Wigner6j
+        abs
+
+ function: Wwhit calls:
+        CADD
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cexp
+        cpow
+        cu
+
+ function: X calls:
+        abs
+        racah
+        triangle
+
+ function: Y calls:
+
+ function: a calls:
+
+ function: ab calls:
+
+ function: abs calls:
+
+ function: acos calls:
+
+ function: acosh calls:
+
+ function: adsimp calls:
+        simp
+
+ function: af calls:
+        af1
+        af2
+        af3
+
+ function: af1 calls:
+        af1s
+        afa
+
+ function: af1s calls:
+        abs
+        log
+        sqrt
+
+ function: af2 calls:
+        af2s
+        afa
+
+ function: af2s calls:
+        log
+        sq
+        sqrt
+        x
+
+ function: af3 calls:
+        af3s
+        afa
+
+ function: af3s calls:
+        log
+        sq
+        sqrt
+        x
+
+ function: afa calls:
+        abs
+        exp
+        pow
+        sqrt
+
+ function: ai calls:
+        abs
+        cos
+        exp
+        imt
+        it
+        jmt
+        jt
+        pow
+        sin
+        sqrt
+        x
+
+ function: alpha calls:
+        gamma
+        incgam
+        pow
+
+ function: am calls:
+        asin
+        jef
+        mult
+        tek
+
+ function: amc calls:
+        CADD
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cexp
+        cjef
+        clog
+
+ function: angular calls:
+        abs
+        eta
+        gamma
+        leg2
+        legendrea
+        legptable
+        qbigger
+        qleg
+        qli
+        qlm
+        setd
+
+ function: aold calls:
+
+ function: arc_cosine calls:
+        arc_sine
+
+ function: arc_hyper_cos calls:
+        ln
+        square_rt
+
+ function: arc_hyper_sin calls:
+        ln
+        square_rt
+
+ function: arc_hyper_tan calls:
+        abs
+        ln
+
+ function: arc_sine calls:
+        abs
+        arc_tan
+        square_rt
+        z
+
+ function: arc_tan calls:
+        abs
+        arc_tan
+
+ function: arc_tangent calls:
+        arc_tan
+
+ function: arccosh calls:
+        log
+        sqrt
+
+ function: argmt calls:
+        atan
+        atan2
+
+ function: arr calls:
+
+ function: asin calls:
+
+ function: asph calls:
+        g
+
+ function: atan calls:
+
+ function: atan2 calls:
+
+ function: aux calls:
+
+ function: aw calls:
+        abs
+        cos
+        gamma
+        jbes
+        sin
+        x
+
+ function: b calls:
+
+ function: ba calls:
+        abs
+        cos
+        cosh
+        pow
+        sin
+        sinh
+        xn
+
+ function: backp calls:
+        m
+
+ function: backward calls:
+        CDIV
+        CLET
+        CMPLX
+        CSUB
+        CTREAL
+        cabs
+
+ function: bateman calls:
+        CDIV
+        CLET
+        CMPLX
+        CTREAL
+        cexp
+        cgamma
+        cu
+
+ function: be calls:
+        CADD
+        CMPLX
+        CMULT
+        CPHI
+        CTHET
+        CTREAL
+        X
+        Y
+        cexp
+        ke
+        sqrt
+
+ function: bernoulli calls:
+        abs
+        gamma
+        pow
+
+ function: bernpoly calls:
+        bernoulli
+
+ function: bessel calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        backward
+        cabs
+        cbess
+        forward
+
+ function: bessinit calls:
+        bessel
+
+ function: besspq calls:
+        bessel
+        cos
+        garb
+        jass
+        jbes
+        pi
+        sin
+        sqrt
+        ybes
+
+ function: beta calls:
+        exp
+        log
+        loggam
+
+ function: betacat calls:
+        bigphi
+        pow
+
+ function: betsph calls:
+        r
+
+ function: bi calls:
+        abs
+        cos
+        exp
+        imt
+        it
+        jmt
+        jt
+        pow
+        sin
+        sqrt
+        zz
+
+ function: bickley calls:
+        adsimp
+        max
+
+ function: big calls:
+
+ function: bigf calls:
+        abs
+        pow
+        sqrt
+        zz
+
+ function: bigg calls:
+        abs
+        pow
+        sqrt
+        zz
+
+ function: bigphi calls:
+        abs
+        pow
+
+ function: bii calls:
+        exp
+        pow
+
+ function: binom calls:
+        binom
+        gamma
+
+ function: binomial calls:
+        log
+        urand
+
+ function: binomial_coef calls:
+        abs
+        gamma
+
+ function: binomial_dist calls:
+        pow
+        ratio
+
+ function: boehmer calls:
+        abs
+        ba
+        boehmer
+        ci
+        cos
+        gamma
+        log
+        pow
+        si
+        sin
+
+ function: bounds calls:
+        INDEX
+        abs
+        max
+        tmofa
+
+ function: brec calls:
+
+ function: brent calls:
+        abs
+        pwr2
+        q
+        s
+
+ function: bsph calls:
+        csquare
+        f
+
+ function: c calls:
+
+ function: c01 calls:
+        cos
+        f01
+        g01
+        sin
+        z
+
+ function: c1f1 calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTI
+        CTREAL
+        abs
+        c1f1
+        cabs
+        cexp
+        cgamma
+        cpochhammer
+        cpow
+        digamma
+        gamma
+
+ function: c2 calls:
+        f
+        f2
+        g
+
+ function: ca calls:
+        randm
+        s
+        t
+
+ function: cabs calls:
+
+ function: cacos calls:
+        CADD
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cexp
+        clog
+
+ function: casin calls:
+        CADD
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cexp
+        clog
+
+ function: catan calls:
+        CADD
+        CDIV
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        clog
+
+ function: cauchy calls:
+        randm
+        tan
+
+ function: cbess calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cexp
+        clog
+        csqrt
+        ctrig
+
+ function: cc calls:
+
+ function: ccos calls:
+        cos
+        cosh
+        sin
+        sinh
+
+ function: ccosh calls:
+        CMPLX
+        CMULT
+        ctrig
+
+ function: ccot calls:
+        CDIV
+        ctrig
+
+ function: ccubic calls:
+        CADD
+        CLET
+        CMPLX
+        CMULT
+        CONJG
+        CSET
+        CSUB
+        CTREAL
+        cabs
+        csqrt
+        ctreal
+        sqrt
+
+ function: cdigam calls:
+
+ function: cdigamma calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        abs
+        ccot
+        clog
+
+ function: ce calls:
+        CADD
+        CMPLX
+        CMULT
+        CTREAL
+        abs
+        asin
+        cjef
+        jef
+        tef
+
+ function: cef calls:
+        abs
+        asin
+        atan
+        cos
+        sin
+        sinh
+        sqrt
+        tan
+        tef
+
+ function: cei calls:
+        CDIV
+        CMPLX
+        cabs
+        ceii
+        cexp
+
+ function: ceii calls:
+        CADD
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cabs
+        cexp
+        clog
+        digamma
+        gamma
+        v
+
+ function: cerfc calls:
+        CMULT
+        CTREAL
+        cerror
+        cexp
+
+ function: cerror calls:
+        CTREAL
+        pdisp
+        sqrt
+
+ function: cexp calls:
+        cos
+        exp
+        sin
+
+ function: cexpint calls:
+        cei
+
+ function: cf21 calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cf21
+        cgamma
+        cpochhammer
+        cpow
+        digamma
+        f211
+        f21big
+        gamma
+        printc
+
+ function: cfbig calls:
+        CADD
+        CDIV
+        CLET
+        CMULT
+        CSUB
+        CTREAL
+        cabs
+        cexp
+
+ function: cfsmall calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        cabs
+        cexp
+        ct2
+        xi1
+
+ function: cgamma calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cexp
+        clog
+        csin
+        log
+
+ function: charlier calls:
+        CADD
+        CMPLX
+        CMULT
+        CTREAL
+        c1f1
+        cpochhammer
+        cpow
+        gamma
+        sqrt
+
+ function: chiinv calls:
+        chisq
+        icump
+        invnr
+        sqrt
+
+ function: chisq calls:
+        incgam
+        log
+        norm
+        urand
+
+ function: chu calls:
+        a
+        abs
+        b
+        brec
+        chu
+        entier
+        exp
+        gamma
+        kbes
+        log
+        mr
+        pow
+        sin
+        sqrt
+        vr
+        x
+        x2
+
+ function: ci calls:
+        cos
+        f
+        g
+        log
+        sin
+        z
+
+ function: cjef calls:
+        CMPLX
+        CSET
+        jef
+        w
+
+ function: clausen calls:
+        abs
+        bernoulli
+        k
+        log
+        pow
+
+ function: clog calls:
+        CNORM
+        argmt
+        log
+        sqrt
+
+ function: coef calls:
+        abs
+        log
+        qinv
+        tmofa
+
+ function: conical calls:
+        abs
+        cos
+        log
+        pow
+        r
+        sqrt
+
+ function: conicala calls:
+        abs
+        acos
+        arccosh
+        cos
+        exp
+        sin
+        sinh
+        sqrt
+
+ function: conicalt calls:
+        abs
+        sin
+
+ function: cos calls:
+
+ function: cosh calls:
+
+ function: cosine calls:
+        sine
+
+ function: coulombf calls:
+        abs
+        aold
+        cwfa
+        eta
+        exp
+        fl
+        flp
+        i
+        log
+        pl
+        pow
+        saold
+        saolder
+        sjn
+        sqrt
+        term
+
+ function: coulombg calls:
+        adsimp
+        exp
+        gamma
+        i
+        min
+        pow
+        sqrt
+
+ function: count calls:
+
+ function: cp calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cf21
+        cgamma
+        cpow
+        elseCMPLX
+        gamma
+        sqrt
+
+ function: cpochhammer calls:
+        CLET
+        CMPLX
+        CMULT
+        CSET
+
+ function: cpow calls:
+        CMPLX
+        CMULT
+        cabs
+        cexp
+        clog
+
+ function: cq calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTI
+        CTREAL
+        abs
+        cabs
+        cexp
+        cf21
+        cgamma
+        cpow
+        ctrig
+        gamma
+        sqrt
+
+ function: cquartic calls:
+        CADD
+        CDIV
+        CLET
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        ccubic
+        csqrt
+        elseCLET
+        solvq
+
+ function: csin calls:
+        cos
+        cosh
+        sin
+        sinh
+
+ function: csinh calls:
+        CMPLX
+        CMULT
+        CTREAL
+        ctrig
+
+ function: csph calls:
+        csquare
+
+ function: csqrt calls:
+        CNORM
+        argmt
+        polarxy
+        sqrt
+
+ function: csquare calls:
+
+ function: ct2 calls:
+
+ function: ctan calls:
+        CDIV
+        CMPLX
+        cabs
+        ctrig
+
+ function: ctheta calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        cabs
+        cexp
+        clog
+        ctrig
+        elseCLET
+        i
+
+ function: ctld calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        cabs
+        cexp
+        ctrig
+
+ function: ctreal calls:
+        CMPLX
+        CTREAL
+        cabs
+        cexp
+        clog
+
+ function: ctrig calls:
+        cos
+        exp
+        sin
+
+ function: cu calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        Cpow
+        abs
+        c1f1
+        cabs
+        cdigam
+        cgamma
+        clog
+        cpow
+        csin
+        cu
+        digamma
+        gamma
+
+ function: cube_rt calls:
+        abs
+
+ function: cubic calls:
+        CMPLX
+        abs
+        ccubic
+
+ function: cump calls:
+        erf
+
+ function: cunningham calls:
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTI
+        CTREAL
+        cexp
+        cgamma
+        cu
+
+ function: cwfa calls:
+        abs
+        argmt
+        cgamma
+        cos
+        k
+        l
+        log
+        sin
+
+ function: czeta calls:
+        CDIV
+        CMULT
+        CSUB
+        am
+        cef
+        tanh
+
+ function: d1 calls:
+
+ function: d2 calls:
+
+ function: dai calls:
+        abs
+        cos
+        exp
+        ibes
+        jbes
+        pow
+        sin
+        sqrt
+
+ function: dawson calls:
+        pdisp
+
+ function: dbi calls:
+        abs
+        cos
+        exp
+        ibes
+        jbes
+        pow
+        sin
+        sqrt
+
+ function: dc calls:
+        fj
+        fy
+
+ function: ddc calls:
+        dj
+        dy
+        fj
+        fy
+        u1
+
+ function: dds calls:
+        dj
+        dy
+        fj
+        fy
+        u1
+
+ function: debye calls:
+        abs
+        bernoulli
+        exp
+        gamma
+        pow
+        zeta
+
+ function: delta calls:
+        ab
+        gam
+        sqrt
+
+ function: dia calls:
+
+ function: digam calls:
+        abs
+        digam
+        log
+        tan
+        z
+
+ function: digamma calls:
+        abs
+        log
+        tan
+        z
+
+ function: dilog calls:
+        debye
+        log
+
+ function: dj calls:
+
+ function: dpc calls:
+        sin
+
+ function: dps calls:
+        cos
+
+ function: ds calls:
+        fj
+        fy
+
+ function: dssph calls:
+        c
+        s
+
+ function: dy calls:
+
+ function: e calls:
+        e1
+        en
+        exp
+
+ function: e1 calls:
+        exp
+        log
+
+ function: e1s calls:
+        abs
+        log
+
+ function: e3 calls:
+        abs
+        atan
+        cos
+        e3mln
+        e3nlm
+        log
+        sgn
+        sin
+        sqrt
+        tan
+        tef
+
+ function: e3mln calls:
+        abs
+        asin
+        atan
+        cosh
+        d2
+        exp
+        pow
+        ris
+        sin
+        sinh
+        sqrt
+        tan
+        tanh
+        tef
+        tek
+
+ function: e3nlm calls:
+        abs
+        asin
+        cos
+        d1
+        exp
+        ris
+        sin
+        sqrt
+        tan
+        tef
+        tek
+        v
+        xq
+
+ function: e4 calls:
+
+ function: ee calls:
+
+ function: ei calls:
+        Eict
+        Eis
+        e1
+        eias
+
+ function: eias calls:
+        abs
+        exp
+
+ function: eicf calls:
+        abs
+        exp
+
+ function: ek calls:
+
+ function: elseCLET calls:
+
+ function: elseCMPLX calls:
+
+ function: emf calls:
+        CDIV
+        CMPLX
+        CMULT
+        ctheta
+
+ function: emft calls:
+        CMPLX
+        CMULT
+        cexp
+        emf
+
+ function: en calls:
+        abs
+        exp
+
+ function: entersym calls:
+        strcmp
+
+ function: entier calls:
+
+ function: eps calls:
+
+ function: erf calls:
+        CMPLX
+        CMULT
+        abs
+        exp
+        pdisp
+
+ function: erlang calls:
+        exp
+        expon
+
+ function: erlang_dist calls:
+        exp
+
+ function: es calls:
+        c
+        sqrt
+
+ function: eta calls:
+        pow
+        zeta
+
+ function: euler calls:
+        abs
+        gamma
+        pow
+
+ function: eulerpoly calls:
+        bernpoly
+        m
+        pow
+
+ function: ex calls:
+        exp
+        randm
+
+ function: exp calls:
+
+ function: expon calls:
+        abs
+        expon
+        log
+        urand
+
+ function: extreme calls:
+        log
+        urand
+
+ function: f calls:
+
+ function: f01 calls:
+        log
+        z
+
+ function: f12 calls:
+        abs
+        x
+
+ function: f2 calls:
+        atan
+        f
+        g
+        log
+        sqrt
+
+ function: f21 calls:
+        abs
+        x
+
+ function: f211 calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cdigam
+        cf21
+        cgamma
+        clog
+        cpow
+        digamma
+        gamma
+
+ function: f21big calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cdigam
+        cf21
+        cgamma
+        clog
+        cpochhammer
+        cpow
+        digamma
+        gamma
+        printc
+
+ function: fac calls:
+        gamma
+
+ function: factor calls:
+
+ function: fcf calls:
+
+ function: fdist calls:
+        incbeta
+
+ function: fgetc calls:
+
+ function: fi calls:
+        atan
+        p
+        pow
+        pp
+        r
+
+ function: fib calls:
+        pow
+
+ function: figi calls:
+        sqrt
+
+ function: findfirst calls:
+
+ function: findnext calls:
+
+ function: finv calls:
+        exp
+        fdist
+        icump
+        invnr
+        sqrt
+
+ function: fj calls:
+
+ function: fk calls:
+
+ function: fl calls:
+
+ function: flp calls:
+
+ function: fm calls:
+
+ function: forward calls:
+        CASSN
+        CDIV
+        CMULT
+        CSUB
+        CTREAL
+
+ function: fresnel calls:
+        CMULT
+        CTREAL
+        cexp
+        pdisp
+
+ function: fs calls:
+        c
+        s
+
+ function: func calls:
+
+ function: fy calls:
+
+ function: g calls:
+
+ function: g01 calls:
+        log
+        x
+        z
+
+ function: g2 calls:
+        atan
+        f
+        g
+        log
+        sqrt
+
+ function: gam calls:
+        abs
+        gamma
+
+ function: gaminit calls:
+        sqrt
+
+ function: gamma calls:
+        exp
+        loggam
+
+ function: gammaqd calls:
+        abs
+        exp
+        factor
+        gamma
+        pow
+        sin
+        sqrt
+        xi
+
+ function: gammn calls:
+        gamma
+
+ function: gamsph calls:
+        csquare
+        f
+
+ function: gamtab calls:
+        abs
+        gaminit
+        gamma
+
+ function: garb calls:
+
+ function: geometric calls:
+        log
+        urand
+
+ function: getcmplx calls:
+        r
+
+ function: getm calls:
+        pow
+        solvem
+
+ function: gl calls:
+        atan
+        cos
+        exp
+        pow
+        sin
+        tan
+        tanh
+
+ function: gs calls:
+        s
+        sqrt
+
+ function: h calls:
+
+ function: h0 calls:
+        abs
+        h0a
+
+ function: h0a calls:
+        abs
+        sq
+        y0
+
+ function: h1 calls:
+        abs
+        count
+        h1a
+
+ function: h1a calls:
+        abs
+        sq
+        y1
+
+ function: help calls:
+
+ function: heuman calls:
+        pi
+        tef
+        tek
+
+ function: hyper_cos calls:
+        expon
+
+ function: hyper_sin calls:
+        expon
+
+ function: hyper_tan calls:
+        expon
+
+ function: hypergeometric calls:
+        urand
+
+ function: hypergeometric_dist calls:
+        binomial_coef
+
+ function: i calls:
+
+ function: i0 calls:
+        exp
+        sqrt
+
+ function: i0i calls:
+        CMPLX
+        StruveL
+        ibess
+        x
+
+ function: i1 calls:
+        exp
+        sqrt
+
+ function: iabs calls:
+
+ function: iaw calls:
+        CADD
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CTREAL
+        cabs
+        cexp
+        clog
+        ctreal
+        digamma
+        gamma
+        gamtab
+
+ function: ibes calls:
+        abs
+        exp
+        gamma
+        pow
+        sqrt
+        term
+
+ function: ibess calls:
+        CMPLX
+        CMULT
+        CSET
+        CTREAL
+        abs
+        argmt
+        bessel
+        cexp
+
+ function: icump calls:
+        ierf
+        rti
+
+ function: ierf calls:
+        abs
+        ierf
+        log
+        pow
+        sqrt
+
+ function: ierfc calls:
+        erf
+        exp
+        ierfcf
+        sqrt
+
+ function: ierfcf calls:
+        erf
+        exp
+        sqrt
+
+ function: ierfctable calls:
+        ierfc
+
+ function: ifermi calls:
+        bigphi
+        exp
+        gamma
+
+ function: ii0m1t calls:
+        abs
+        ii0tas
+
+ function: ii0tas calls:
+        exp
+        sqrt
+
+ function: ij0t calls:
+        abs
+        digamma
+        log
+
+ function: ik0t calls:
+        abs
+        digam
+        digamma
+        fk
+        ik0tas
+        log
+
+ function: ik0tas calls:
+        exp
+        sqrt
+
+ function: imt calls:
+        abs
+        pow
+        sqrt
+
+ function: in calls:
+        abs
+        i0
+        i1
+        sqrt
+
+ function: incbeta calls:
+        abs
+        exp
+        fm
+        log
+        loggam
+
+ function: incc calls:
+        exp
+        icump
+        invnr
+        nct
+        sqrt
+
+ function: incf calls:
+        exp
+        icump
+        invnr
+        ncf
+        ncf3
+        sqrt
+
+ function: incgam calls:
+        DOFOR
+        P
+        abs
+        exp
+        log
+        loggam
+
+ function: inct calls:
+        icump
+        invnr
+        nct
+        t
+        y
+
+ function: invnr calls:
+        abs
+        max
+        min
+        sqrt
+        value
+
+ function: invp calls:
+        CDIV
+        CLET
+        CTREAL
+        acos
+        asin
+        cabs
+        cacos
+        cef
+        cexp
+        clog
+        cubic
+        sqrt
+
+ function: isd calls:
+
+ function: iswhite calls:
+
+ function: it calls:
+        abs
+        pow
+        sqrt
+
+ function: iy0t calls:
+        abs
+        digamma
+        fk
+        log
+
+ function: j calls:
+
+ function: j0 calls:
+        cos
+        sqrt
+
+ function: j1 calls:
+        cos
+        sqrt
+
+ function: j2 calls:
+
+ function: jas calls:
+        cos
+        gamma
+        pi
+        pow
+        sin
+        sqrt
+        term
+        term2
+        y
+
+ function: jass calls:
+        abs
+        cos
+        pi
+        sin
+        sqrt
+        term
+        term2
+        y
+
+ function: jbes calls:
+        abs
+        gamma
+        jas
+        jbes
+        pow
+        sqrt
+
+ function: jef calls:
+        abs
+        asin
+        cos
+        exp
+        jef
+        log
+        pow
+        sin
+        sinh
+        sqrt
+        tanh
+        tek
+
+ function: ji calls:
+        h0
+        h1
+        j0
+        j1
+        pi
+        x
+
+ function: jii calls:
+        ji
+
+ function: jin calls:
+        j0
+        ji
+        jn
+
+ function: jint calls:
+        bessel
+
+ function: jiotn calls:
+        j1
+        ji
+        jn
+
+ function: jmt calls:
+        abs
+        pow
+        sqrt
+
+ function: jn calls:
+        abs
+        j0
+        j1
+        sqrt
+
+ function: jt calls:
+        abs
+        pow
+        sqrt
+
+ function: jzeta calls:
+        tef
+        tek
+
+ function: k calls:
+
+ function: k0 calls:
+        exp
+        i0
+        log
+        sqrt
+
+ function: k1 calls:
+        exp
+        i1
+        log
+        sqrt
+
+ function: kbes calls:
+        abs
+        exp
+        ibes
+        kbess
+        sin
+        sqrt
+        x
+
+ function: kbess calls:
+        CADD
+        CMPLX
+        CMULT
+        CTREAL
+        abs
+        argmt
+        bessel
+        cexp
+
+ function: ke calls:
+        CADD
+        CMPLX
+        CMULT
+        CPHI
+        CTHET
+        CTREAL
+        be
+        cexp
+        log
+        sqrt
+        x
+
+ function: kelvin calls:
+        CADD
+        CMPLX
+        CMULT
+        CTREAL
+        abs
+        bessel
+
+ function: ki calls:
+        exp
+        k0
+        k1
+        l0
+        l1
+        sqrt
+        x
+
+ function: kii calls:
+        ki
+
+ function: kn calls:
+        abs
+        k0
+        k1
+
+ function: ks calls:
+        D
+        exp
+        min
+        pow
+        sqrt
+
+ function: l calls:
+
+ function: l0 calls:
+        abs
+        l0a
+
+ function: l0a calls:
+        abs
+        i0
+        sq
+
+ function: l1 calls:
+        abs
+        count
+        l1a
+
+ function: l1a calls:
+        abs
+        i1
+        sq
+
+ function: laguerre calls:
+        backp
+        gamma
+
+ function: lambda calls:
+        pow
+        zeta
+
+ function: lcgam calls:
+        P
+        gamma
+
+ function: leg1 calls:
+        pow
+        r
+        sqrt
+
+ function: leg2 calls:
+        abs
+        log
+        n
+        pow
+        sqrt
+
+ function: leg3 calls:
+        leg2
+        sqrt
+
+ function: legend1 calls:
+        abs
+        pow
+        r
+        sqrt
+
+ function: legend2 calls:
+        legend1
+
+ function: legendrea calls:
+        abs
+        sqrt
+
+ function: legptable calls:
+        sqrt
+
+ function: li calls:
+        ei
+        log
+
+ function: ln calls:
+        abs
+        ln
+
+ function: log calls:
+
+ function: loggam calls:
+        abs
+        log
+        loggam
+        sin
+        tmp
+
+ function: logistic calls:
+        log
+        randm
+
+ function: lognormal calls:
+        exp
+        norm
+
+ function: m calls:
+        abs
+        exp
+        gamma
+        pow
+        x
+
+ function: m1e calls:
+
+ function: main calls:
+        Airy
+        BiAiry
+        CG
+        CMPLX
+        CMULT
+        CTREAL
+        Cgegenbauer
+        Chi
+        Ci
+        ClebshGordon
+        DELTA
+        Dlog
+        E1
+        Euclidd
+        Fresnel
+        Hermite
+        Hot
+        IAi
+        IBi
+        INDEX
+        Ibessel
+        Jbessel
+        Jrn
+        Kbessel
+        L
+        Laguerre
+        Lob
+        Mehler
+        Mehler0
+        ModStruveI
+        P
+        Pjacobi
+        Plegendre
+        Ptoroidal
+        Q
+        Shi
+        Si
+        StruveH
+        StruveI
+        StruveIot
+        StruveL
+        Tcheby
+        Ucheby
+        Wigner6j
+        Wigner9j
+        Wwhit
+        X
+        a
+        ab
+        abs
+        af
+        ai
+        alpha
+        angular
+        arc_cosine
+        arc_hyper_cos
+        arc_hyper_sin
+        arc_hyper_tan
+        arc_sine
+        arc_tan
+        arc_tangent
+        aw
+        b
+        ba
+        bernoulli
+        bernpoly
+        bessel
+        beta
+        betacat
+        bi
+        bickley
+        binom
+        boehmer
+        c
+        c1f1
+        ca
+        cabs
+        ccosh
+        ccubic
+        cdigam
+        cdigamma
+        ce
+        cef
+        cei
+        cerfc
+        cerror
+        cexp
+        cexpint
+        cf21
+        cgamma
+        charlier
+        chiinv
+        chisq
+        clausen
+        clog
+        conical
+        conicalt
+        cos
+        cosh
+        coulombf
+        coulombg
+        cp
+        cq
+        cquartic
+        csinh
+        ctheta
+        ctreal
+        ctrig
+        cu
+        cube_rt
+        cubic
+        cump
+        cwfa
+        dai
+        dawson
+        dbi
+        debye
+        digam
+        digamma
+        dilog
+        e1
+        e1s
+        e3
+        ei
+        emf
+        en
+        entersym
+        erf
+        erlang_dist
+        eta
+        euler
+        eulerpoly
+        ex
+        exp
+        expon
+        extreme
+        f
+        f21
+        fdist
+        fgetc
+        fib
+        findfirst
+        findnext
+        finv
+        fresnel
+        g
+        gamma
+        gammaqd
+        getcmplx
+        help
+        heuman
+        hyper_cos
+        hyper_sin
+        hyper_tan
+        hypergeometric_dist
+        i0i
+        iaw
+        ibes
+        ibess
+        icump
+        ierf
+        ierfc
+        ierfcf
+        ierfctable
+        ifermi
+        ii0m1t
+        ii0tas
+        ij0t
+        ik0t
+        ik0tas
+        incbeta
+        incc
+        incf
+        incgam
+        inct
+        invp
+        iswhite
+        iy0t
+        j0
+        j1
+        j2
+        jas
+        jbes
+        jef
+        ji
+        jin
+        jint
+        jn
+        jt
+        jzeta
+        kbes
+        kbess
+        kelvin
+        ki
+        ks
+        laguerre
+        lambda
+        leg1
+        leg2
+        leg3
+        legend1
+        legend2
+        legendrea
+        legptable
+        ln
+        log
+        loggam
+        lognormal
+        m
+        m1e
+        mannw
+        math
+        matheign
+        mathieu
+        mfcval
+        mq
+        mu
+        na
+        ncc
+        ncf
+        nct
+        neg_binomial_dist
+        neville
+        nmn
+        normal
+        p
+        pareto
+        pg1
+        pg2
+        pli
+        plm
+        pmunu
+        pochhammer
+        poisson
+        polylog
+        pow
+        power
+        printc
+        prob
+        q
+        qleg
+        qli
+        qlm
+        qmunu
+        qnu
+        quartic
+        racah
+        rad
+        radial
+        randm
+        rho
+        ritchie
+        root
+        setd
+        sievert
+        sigma
+        sign_crit
+        simb
+        sin
+        sinb
+        sinh
+        sjn
+        skn
+        smallf
+        smallg
+        solve
+        sphjoin
+        sqrt
+        square_rt
+        stirl1
+        stirl2
+        stirlingf
+        strncpy
+        studt
+        syn
+        tangent
+        tangnt
+        tef
+        tek
+        tinv
+        toroidal
+        u16
+        u32
+        uabx
+        ungetc
+        upcf
+        urand
+        vpcf
+        weibull
+        weir
+        wigner
+        wigner3j
+        wilcoxs
+        wpcf
+        y0i
+        y1
+        ybes
+        zerobes
+        zeta
+        zeta2
+        zetaw
+        zn
+
+ function: mannw calls:
+        arr
+        wilcoxon
+
+ function: math calls:
+        bessinit
+        coef
+        exp
+        sqrt
+        sum
+
+ function: matheign calls:
+        INDEX
+        mfcval
+
+ function: mathieu calls:
+        math
+
+ function: max calls:
+
+ function: mfcval calls:
+        INDEX
+        abs
+        bounds
+        max
+        mfitr8
+        min
+        qmath
+        sqrt
+        tmofa
+
+ function: mfitr8 calls:
+        abs
+        tmofa
+
+ function: min calls:
+
+ function: mq calls:
+        abs
+        min
+
+ function: mr calls:
+
+ function: mu calls:
+        adsimp
+        gamma
+        max
+        nui
+        pow
+
+ function: mult calls:
+
+ function: mwhit calls:
+        exp
+        m
+        pow
+
+ function: n calls:
+
+ function: na calls:
+        ex
+        randm
+        s
+        sqrt
+        t
+
+ function: ncc calls:
+        abs
+        chisq
+        coef
+        exp
+        max
+
+ function: ncc3 calls:
+        ncc
+
+ function: ncf calls:
+        abs
+        coef
+        exp
+        fdist
+        max
+
+ function: ncf3 calls:
+        ncf
+
+ function: nct calls:
+        abs
+        coef
+        exp
+        incbeta
+        max
+
+ function: nct3 calls:
+        nct
+
+ function: neg_binomial calls:
+        log
+        urand
+
+ function: neg_binomial_dist calls:
+        gamma
+        pow
+        ratio
+
+ function: neville calls:
+        tek
+        theta
+
+ function: ni calls:
+
+ function: nmn calls:
+        gamma
+
+ function: norm calls:
+        normal
+
+ function: normal calls:
+        log
+        sqrt
+        urand
+
+ function: nothint calls:
+        abs
+
+ function: notint calls:
+
+ function: nu calls:
+        mu
+
+ function: nui calls:
+        gamma
+        pow
+
+ function: old calls:
+
+ function: p calls:
+
+ function: pareto calls:
+        pow
+        urand
+
+ function: pc calls:
+        cos
+        x
+
+ function: pdisp calls:
+        CADD
+        CASSN
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CONJG
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        cexp
+        cfbig
+        cfsmall
+
+ function: pg1 calls:
+        abs
+        pg1
+        sin
+        y
+        z
+
+ function: pg2 calls:
+        abs
+        cos
+        pg2
+        sin
+        z
+
+ function: pi calls:
+
+ function: pk calls:
+
+ function: pl calls:
+
+ function: pl0 calls:
+
+ function: pli calls:
+        gamma
+        pow
+        zz
+
+ function: plm calls:
+        abs
+        pl0
+        plm
+        sqrt
+        x
+
+ function: pmunu calls:
+        abs
+        f21
+        gamma
+        plm
+        pow
+
+ function: pnu calls:
+        abs
+        f21
+        gamma
+        pmunu
+        pow
+        sqrt
+
+ function: pochhammer calls:
+        gamma
+
+ function: poisson calls:
+        exp
+        urand
+
+ function: poisson_dist calls:
+        exp
+
+ function: polarxy calls:
+        cos
+        sin
+
+ function: polygam calls:
+        gamma
+        zeta2
+
+ function: polylog calls:
+        abs
+        pow
+
+ function: pow calls:
+
+ function: power calls:
+        expon
+        ln
+
+ function: pp calls:
+
+ function: printc calls:
+
+ function: prob calls:
+        erf
+
+ function: ps calls:
+        sin
+        x
+
+ function: pwr2 calls:
+
+ function: q calls:
+        asin
+        cos
+        e4
+        eps
+        exp
+        log
+        sqrt
+
+ function: qbigger calls:
+
+ function: qinv calls:
+
+ function: ql0 calls:
+        abs
+        log
+        qlm
+
+ function: qleg calls:
+        abs
+        atan
+        log
+        sqrt
+        t
+
+ function: qli calls:
+        abs
+        atan
+        gamma
+        pli
+        pow
+        term
+        zz
+
+ function: qlm calls:
+        abs
+        f21
+        gamma
+        log
+        pow
+        ql0
+        qlm
+        sqrt
+        x
+
+ function: qmath calls:
+
+ function: qmunu calls:
+        abs
+        f21
+        gamma
+        pow
+        qlm
+
+ function: qnu calls:
+        cos
+        f21
+        gamma
+        pow
+        sin
+        sqrt
+
+ function: quartic calls:
+        CMPLX
+        cquartic
+
+ function: r calls:
+
+ function: racah calls:
+        abs
+        delta
+        gam
+        gammn
+        min
+        nothint
+        notint
+        triangle
+
+ function: rad calls:
+
+ function: radial calls:
+        angular
+        setd
+        sphjoin
+
+ function: radswf calls:
+        abs
+        gamma
+        pow
+        qlm
+        r
+        setd
+        sinb
+        sjn
+        sqrt
+        syn
+
+ function: randi calls:
+        randm
+
+ function: randm calls:
+
+ function: random calls:
+
+ function: ratio calls:
+
+ function: ratmm calls:
+        m
+
+ function: ratmp calls:
+        m
+
+ function: ratv calls:
+
+ function: rho calls:
+        abs
+        gamma
+        pow
+        sqrt
+
+ function: ris calls:
+
+ function: ritchie calls:
+        dawson
+        ei
+        exp
+        sqrt
+
+ function: root calls:
+        abs
+        power
+
+ function: rti calls:
+
+ function: s calls:
+
+ function: s01 calls:
+        cos
+        f01
+        g01
+        sin
+        z
+
+ function: s2 calls:
+        f
+        g
+        g2
+
+ function: saold calls:
+
+ function: saolder calls:
+
+ function: setd calls:
+        abs
+        asph
+        betsph
+        bsph
+        csph
+        csquare
+        gamma
+        gamsph
+        legendrea
+        pow
+        tridi
+
+ function: sgn calls:
+
+ function: si calls:
+        cos
+        f
+        g
+        sin
+        x
+        z
+
+ function: si0 calls:
+        sinh
+        sqrt
+
+ function: si1 calls:
+        cosh
+        sinh
+        sqrt
+
+ function: sievert calls:
+        abs
+        cos
+        en
+        kii
+
+ function: sigma calls:
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CTREAL
+        cexp
+        ctheta
+        exp
+        tek
+
+ function: sign calls:
+
+ function: sign_crit calls:
+        pow
+
+ function: signem calls:
+
+ function: sim1 calls:
+        cosh
+        sqrt
+
+ function: sim2 calls:
+        cosh
+        sinh
+        sqrt
+
+ function: simb calls:
+        cosh
+        sinh
+        sqrt
+
+ function: simp calls:
+        abs
+        max
+        simp
+
+ function: sin calls:
+
+ function: sinb calls:
+        abs
+        max
+        min
+        si0
+        si1
+        sim1
+        sim2
+        sqrt
+
+ function: sine calls:
+        abs
+        z
+
+ function: sinh calls:
+
+ function: sj0 calls:
+        sin
+
+ function: sj1 calls:
+        cos
+        sin
+
+ function: sjn calls:
+        max
+        min
+        old
+        sj0
+        sj1
+        sqrt
+        syn
+
+ function: sk0 calls:
+        exp
+        sqrt
+
+ function: sk1 calls:
+        exp
+        sqrt
+
+ function: skn calls:
+        sk0
+        sk1
+        sqrt
+
+ function: smallf calls:
+        abs
+
+ function: smallg calls:
+        abs
+        pow
+        sqrt
+
+ function: solve calls:
+        cc
+        dia
+        figi
+        j
+        ste
+        subd
+
+ function: solvem calls:
+        abs
+        brent
+        ratv
+
+ function: solvq calls:
+        CADD
+        CMULT
+        CSUB
+        CTREAL
+        csqrt
+
+ function: sphjoin calls:
+        gamma
+        pow
+        r
+        sqrt
+
+ function: sq calls:
+
+ function: sqrt calls:
+
+ function: square_rt calls:
+        abs
+
+ function: ste calls:
+        abs
+        eps
+        sign
+        sqrt
+
+ function: stirl1 calls:
+        gamma
+        stirl1
+
+ function: stirl2 calls:
+        pow
+        stirl2
+
+ function: stirlingf calls:
+        stirl1
+
+ function: strcmp calls:
+
+ function: strncpy calls:
+
+ function: struve calls:
+        abs
+        gamma
+        in
+        pow
+        sqrt
+        yn
+        z
+
+ function: studt calls:
+        incbeta
+
+ function: subd calls:
+
+ function: sum calls:
+        abs
+        func
+
+ function: sy0 calls:
+        cos
+
+ function: sy1 calls:
+        cos
+        sin
+
+ function: syn calls:
+        old
+        sjn
+        sqrt
+        sy0
+        sy1
+
+ function: t calls:
+
+ function: tan calls:
+
+ function: tangent calls:
+        cosine
+        sine
+
+ function: tangnt calls:
+        abs
+
+ function: tanh calls:
+
+ function: tef calls:
+        am
+        asin
+        cos
+        log
+        r
+        sin
+        sqrt
+        tan
+        tef
+        teff
+        tek
+
+ function: teff calls:
+        abs
+        am
+        asin
+        atan
+        cos
+        ee
+        ek
+        log
+        pk
+        signem
+        sin
+        sqrt
+        tan
+        tek
+        w
+
+ function: tek calls:
+        h
+        log
+        sqrt
+        tek
+
+ function: term calls:
+
+ function: term2 calls:
+
+ function: theta calls:
+        jef
+        sqrt
+        tek
+
+ function: tinv calls:
+        icump
+        invnr
+        studt
+        t
+        y
+
+ function: tmofa calls:
+        abs
+        aux
+        max
+        min
+        qinv
+        sqrt
+        t
+
+ function: tmp calls:
+
+ function: toroidal calls:
+        abs
+        pow
+        r
+        sqrt
+
+ function: toronto calls:
+        CADD
+        CDIV
+        CLET
+        CMULT
+        CTREAL
+        c1f1
+        cexp
+        cgamma
+        cpow
+
+ function: triangle calls:
+        abs
+
+ function: tridi calls:
+
+ function: trm calls:
+
+ function: u calls:
+        abs
+        cos
+        exp
+        fac
+        gamma
+        m
+        pi
+        pow
+        sin
+
+ function: u1 calls:
+
+ function: u16 calls:
+
+ function: u32 calls:
+
+ function: uabx calls:
+        chu
+
+ function: ucgam calls:
+        P
+        gamma
+
+ function: ungetc calls:
+
+ function: uniform calls:
+        urand
+
+ function: upcf calls:
+        a
+        abs
+        exp
+        gamma
+        m
+        pow
+        sqrt
+        u
+
+ function: urand calls:
+
+ function: v calls:
+
+ function: value calls:
+
+ function: vpcf calls:
+        a
+        abs
+        exp
+        gamma
+        pow
+        sin
+        sqrt
+        upcf
+
+ function: vr calls:
+
+ function: w calls:
+
+ function: wa calls:
+        CDIV
+        abs
+        cgamma
+        cos
+        exp
+        log
+        sin
+        sqrt
+
+ function: wairy calls:
+        abs
+        acos
+        acosh
+        ai
+        bi
+        exp
+        pow
+        sqrt
+
+ function: weibull calls:
+        log
+        pow
+        urand
+
+ function: weir calls:
+        CDIV
+        CLET
+        CMPLX
+        CMULT
+        CSET
+        CSUB
+        CTREAL
+        abs
+        cabs
+        ccot
+        cjef
+        csin
+        e
+        elseCMPLX
+        getm
+        m
+        pow
+        sqrt
+        tek
+        weir
+
+ function: wigner calls:
+        abs
+        gam
+        m1e
+        max
+        min
+        sqrt
+        term
+
+ function: wigner3j calls:
+        m1e
+        sqrt
+        triangle
+        wigner
+
+ function: wigner6j calls:
+        racah
+
+ function: wilcoxon calls:
+        arr
+        wilcoxon
+
+ function: wilcoxs calls:
+        ni
+        wilcoxs
+
+ function: wpcf calls:
+        abs
+        cabs
+        cgamma
+        sqrt
+        wa
+        wairy
+
+ function: wwhit calls:
+        exp
+        pow
+        u
+
+ function: x calls:
+
+ function: x2 calls:
+
+ function: xi calls:
+
+ function: xi1 calls:
+
+ function: xn calls:
+
+ function: xq calls:
+
+ function: y calls:
+
+ function: y0 calls:
+        j0
+        log
+        sin
+        sqrt
+
+ function: y0i calls:
+        h0
+        h1
+        x
+        y0
+        y1
+
+ function: y1 calls:
+        j1
+        log
+        sin
+        sqrt
+
+ function: ybes calls:
+        abs
+        bessel
+        cos
+        jbes
+        sin
+
+ function: yn calls:
+        abs
+        y0
+        y1
+
+ function: z calls:
+
+ function: zerobes calls:
+        abs
+        b
+        besspq
+        c
+        cos
+        fi
+        pi
+        pow
+        sin
+        sqrt
+        u
+        v
+        w
+        x
+        y
+
+ function: zeta calls:
+        abs
+        bernoulli
+        gamma
+        pow
+        sin
+        zeta
+
+ function: zeta1 calls:
+        bigphi
+
+ function: zeta2 calls:
+        abs
+        bernpoly
+        pow
+        zeta
+
+ function: zetaw calls:
+        CADD
+        CLET
+        CMPLX
+        CSET
+        CTREAL
+        abs
+        ctld
+        exp
+        pow
+        tek
+        weir
+        zetaw
+
+ function: zn calls:
+        exp
+        sqrt
+
+ function: zz calls:

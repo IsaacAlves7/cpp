@@ -1,0 +1,92 @@
+Dagonet Software Catalog
+
+FORMATS AVAILABLE:
+IBM PC 5-1/4" (360k; by 1.2M special request)
+KAYPRO 392K and other CP/M favorites (if known to UNIFORM)
+MACINTOSH 3-1/2" 
+AMIGA 3-1/2"
+IBM 3-1/2"  
+
+SOFTWARE AVAILABLE:
+
+C Tools for Scientists and Engineers: (see the McGraw-Hill Book)
+Software for linear systems, eigenvalues, singular value decomposition 
+(SVD) and least squares fitting, ordinary differential equations ( 
+Runge-Kutta-Fehlberg for non-stiff and a stiff system solver), Newton 
+Raphson nonlinear system solver, Muller's method for solving nonlinear 
+equations and Jenkins-Traub root solver for polynomials (with complex 
+arithmetic packages in C), B-Splines , Adaptive quadrature, Fast Fourier 
+and Hartley Transforms, and a simple plotting package. $9.95
+
+----------------------------------------------------------------------
+
+Arificial Intelligence with Ada (also McGraw-Hill) Ada programs for 
+forward- and backward-chaining expert system shells, 
+frames database, and Augmented Transition Network parser.  Includes 
+Ada packages for string manipulation, hash table managment, parsing 
+and evaluating arithmetic expressions. $29.95
+
+----------------------------------------------------------------------
+
+Code from More C Tools for Scientists and Engineers: (see the McGraw-Hill Book)
+Statistical function calculator ( student's t, Chi-Square, F distributions 
+and their inverses, p to z scores and back, Kolmogorov-Smirnov statistic, 
+etc.), conjugate gradient method, Gaussian quadrature, block matrix 
+methods, Multigrid method (1-D and 2-D examples) for partial differential 
+equations, random number generation and use, ANOVA (Analysis of Variance), 
+Error, Fresnel, Plasma Dispersion, Complex Error Dawson's integral 
+and repeated integrals of the error function, Bresenham line-draw, 
+contour plotting, roman numerals, typewriter program.  $14.95
+
+----------------------------------------------------------------------
+
+C Mathematical Function Handbook:  
+
+This diskette! Write for information on other formats.
+
+----------------------------------------------------------------------
+
+Arbitrary Precision Arithmetic & Number Theory ($9.95)
+
+Contents: 1) a package of arbitrary precision routines for
+add,subtract, multiply, divide for integers, rationals, and
+reals.  Conversion from rational to real, between type long and
+integers, and between real and type double (uses sscanf, only
+precision of type float achieved). Arbitrary precision integer
+arithmetic for: greatest common divisor (gcd) of m,n (also finds
+m',n' such that m'm+n'n=gcd), a^b mod c (or a^b when c=0) and
+a*b mod c, generating and testing large primes, generating RSA
+cryptosystem keys, encrypting & decrypting in RSA system, and
+converting between number systems of different bases.  2) a
+package to do basic number theory, using the above, including:
+Jacobi and Moebius symbols, Jordan J, Mangoldt Lambda, Liouville
+nu (count of prime divisors), prime factors, divisors, sigma
+(sum of kth powers of divisors, k>=0), and calculate the
+partition numbers p(n) and q(n) either by recurrence or
+asymptotically.  There are caveats (specfied below) on using the
+second package for factoring large numbers (greater than two
+hundred million) or determining the number of partitions for
+large numbers.  The factoring is done "brute force." A more
+efficient method may be implemented in the future.  A table of
+primes up to 16,384 is provided, which makes factoring
+realtively efficient up to numbers below 268 million, beyond
+which primes have to be generated and then used as candidate
+factors.  Due to imprecisions in floating-point arithmetic, the
+asymptotic results for p and q may not be exact, although the
+formulae are in principle capable of exactly determining the
+(integer) p and q.
+
+----------------------------------------------------------------------
+
+Sparse Matrix Package. Includes linear system solvers using
+Generalized Minimum Residual Method (GMRES), minmum residual
+method (MRES) for general systems, and conjugate gradient method
+for symmetric positive-defininte systems. Chokesky (LDL*)
+decompostion for symmetric positive-definite matrices. 
+Various preconditioning methods under development. In C.
+
+DAGONET SOFTWARE
+2904 La Veta Dr. NE
+Albuquerque NM 87110
+(505) 768-7649
+

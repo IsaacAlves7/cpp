@@ -1,0 +1,865 @@
+DISK CONTENT EXTRACTION LOG
+Performed by Applesauce v1.74a2
+www.applesaucefdc.com
+
+Timestamp: Sep 30, 2022, 09:23
+
+    Media: 3.5" Floppy Disk
+   Format: FAT12
+
+== STATUS ======================================================================
+
+119 files were detected on the disk.
+No issues were encountered with the extraction process.
+
+== CATALOG =====================================================================
+
+DAGONET
+
+CMLIB          <DIR>         9-28-1991  10:55a CMLIB
+CPPLIB         <DIR>         9-28-1991  10:55a CPPLIB
+README   !!!         1,660   9-19-1991   6:47p README.!!!
+CATALOG              4,377   9-19-1991   6:47p CATALOG
+
+
+\DAGONET\CMLIB
+
+COMPLEX  H           1,843   9-19-1991   6:47p COMPLEX.H
+CMLIB    H             413   9-19-1991   6:47p CMLIB.H
+INVW     C           1,977   9-19-1991   6:47p INVW.C
+F123     C           2,925   9-19-1991   6:47p F123.C
+STIRL    C             700   9-19-1991   6:47p STIRL.C
+KEYWD    DAT           407   9-19-1991   6:47p KEYWD.DAT
+CBESS    C          12,122   9-19-1991   6:47p CBESS.C
+CHFS     C           4,999   9-19-1991   6:47p CHFS.C
+CHF      C           9,070   9-19-1991   6:47p CHF.C
+POLYRT   C           6,529   9-19-1991   6:47p POLYRT.C
+G        C           8,742   9-19-1991   6:47p G.C
+EBZNEW   C           7,742   9-19-1991   6:47p EBZNEW.C
+U        C           7,681   9-19-1991   6:47p U.C
+TDB      C           9,323   9-19-1991   6:47p TDB.C
+EXPI     C          16,319   9-19-1991   6:47p EXPI.C
+IAW      C           3,290   9-19-1991   6:47p IAW.C
+F21D     C           1,421   9-19-1991   6:47p F21D.C
+PDFS     C           7,129   9-19-1991   6:47p PDFS.C
+SIMP     C           2,029   9-19-1991   6:47p SIMP.C
+TD7      C           4,284   9-19-1991   6:47p TD7.C
+IERFC    C           1,930   9-19-1991   6:47p IERFC.C
+GAUT     C           8,970   9-19-1991   6:47p GAUT.C
+TDPCF    C             788   9-19-1991   6:47p TDPCF.C
+ELEM     C           6,101   9-19-1991   6:47p ELEM.C
+PR       C           2,171   9-19-1991   6:47p PR.C
+LEG      C           9,685   9-19-1991   6:47p LEG.C
+BOEHMER  C           4,396   9-19-1991   6:47p BOEHMER.C
+HYPERG   C           1,399   9-19-1991   6:47p HYPERG.C
+BESST    C           3,463   9-19-1991   6:47p BESST.C
+TE       C           9,415   9-19-1991   6:47p TE.C
+TD56     C           2,098   9-19-1991   6:47p TD56.C
+TORP     C             981   9-19-1991   6:47p TORP.C
+BICKLEY  C           2,219   9-19-1991   6:47p BICKLEY.C
+STRUVL   C           3,021   9-19-1991   6:47p STRUVL.C
+BESSZ    C           5,637   9-19-1991   6:47p BESSZ.C
+PROTOM   H          23,241   9-19-2067   6:47p PROTOM.H
+F211     C           7,296   9-19-1991   6:47p F211.C
+LEGP     C             755   9-19-1991   6:47p LEGP.C
+XREF     EXE        20,172   9-19-1991   6:47p XREF.EXE
+F213     C           5,876   9-19-1991   6:47p F213.C
+CERFC    C             450   9-19-1991   6:47p CERFC.C
+CHFD     C           3,745   9-19-1991   6:47p CHFD.C
+COMPLEX  C           6,342   9-19-1991   6:47p COMPLEX.C
+PCF      C           6,485   9-19-1991   6:47p PCF.C
+FIB      C             340   9-19-1991   6:47p FIB.C
+SPHERR   C          15,933   9-19-1991   6:47p SPHERR.C
+DRIVERS  LIS           670   9-19-1991   6:47p DRIVERS.LIS
+MEHLER   C           2,496   9-19-1991   6:47p MEHLER.C
+NU       C           1,512   9-19-1991   6:47p NU.C
+POLYLOG  C             898   9-19-1991   6:47p POLYLOG.C
+F212     C           8,876   9-19-1991   6:47p F212.C
+CALLERS             41,689   9-19-1991   6:47p CALLERS
+ORTHOP   C           2,869   9-19-1991   6:47p ORTHOP.C
+CHFW     C           1,088   9-19-1991   6:47p CHFW.C
+STRUVI   C           1,624   9-19-1991   6:47p STRUVI.C
+BESSI    C           4,697   9-19-1991   6:47p BESSI.C
+CWF      C           4,224   9-19-1991   6:47p CWF.C
+TDZB     C             855   9-19-1991   6:47p TDZB.C
+TDU      C             849   9-19-1991   6:47p TDU.C
+TDRICH   C             485   9-19-1991   6:47p TDRICH.C
+TDMATH   C           1,821   9-19-1991   6:47p TDMATH.C
+MATHIEU  C          14,462   9-19-1991   6:47p MATHIEU.C
+TDSPH    C           2,739   9-19-1991   6:47p TDSPH.C
+TDRAND   C           9,631   9-19-1991   6:47p TDRAND.C
+DIGAM    C           3,599   9-19-1991   6:47p DIGAM.C
+CT5      C           5,420   9-19-1991   6:47p CT5.C
+BRENT    C           1,601   9-19-1991   6:47p BRENT.C
+CJE      C          10,435   9-19-1991   6:47p CJE.C
+E3       C           5,179   9-19-1991   6:47p E3.C
+TDORTH   C           1,337   9-19-1991   6:47p TDORTH.C
+TD34     C           4,376   9-19-1991   6:47p TD34.C
+CALLEES             47,815   9-19-1991   6:47p CALLEES
+BESSR    C           7,799   9-19-1991   6:47p BESSR.C
+STRUV    C           1,796   9-19-1991   6:47p STRUV.C
+MISC     C             705   9-19-1991   6:47p MISC.C
+SPBN     C           4,882   9-19-1991   6:47p SPBN.C
+ABB      C          14,868   9-19-1991   6:47p ABB.C
+CEF      C           1,923   9-19-1991   6:47p CEF.C
+DIST     C           6,798   9-19-1991   6:47p DIST.C
+RANDOM   C           4,868   9-19-1991   6:47p RANDOM.C
+TD8      C           5,110   9-19-1991   6:47p TD8.C
+CE       C           1,787   9-19-1991   6:47p CE.C
+TDZETA   C           1,018   9-19-1991   6:47p TDZETA.C
+TDJE     C           4,423   9-19-1991   6:47p TDJE.C
+XREF     C          10,963   9-19-1991   6:47p XREF.C
+STATH    C          27,207   9-19-1991   6:47p STATH.C
+TDCWF    C             822   9-19-1991   6:47p TDCWF.C
+CQ       C           4,115   9-19-1991   6:47p CQ.C
+CP       C           2,709   9-19-1991   6:47p CP.C
+LOB      C           2,272   9-19-1991   6:47p LOB.C
+DILOG    C           1,271   9-19-1991   6:47p DILOG.C
+TDSFB    C             961   9-19-1991   6:47p TDSFB.C
+BINOM    C             524   9-19-1991   6:47p BINOM.C
+ST       C             810   9-19-1991   6:47p ST.C
+TDW      C           4,239   9-19-1991   6:47p TDW.C
+WIGNER   C           7,730   9-19-1991   6:47p WIGNER.C
+TDMISC   C           2,994   9-19-1991   6:47p TDMISC.C
+
+
+\DAGONET\CPPLIB
+
+CMATRIX  HPP           735   9-19-1991   6:47p CMATRIX.HPP
+LERCH    CPP         1,544   9-19-1991   6:47p LERCH.CPP
+CMPLX    CPP         4,730   9-19-1991   6:47p CMPLX.CPP
+HURWITZ  CPP         2,466   9-19-1991   6:47p HURWITZ.CPP
+AGM      CPP         9,564   9-19-1991   6:47p AGM.CPP
+CMATRIX  CPP         4,855   9-19-1991   6:47p CMATRIX.CPP
+COMPLEX  HPP         3,472   9-19-1991   6:47p COMPLEX.HPP
+FILELST              2,254   9-19-1991   6:47p FILELST
+CVECTOR  HPP           911   9-19-1991   6:47p CVECTOR.HPP
+FOCK     CPP         9,650   9-19-1991   6:47p FOCK.CPP
+E        CPP           776   9-19-1991   6:47p E.CPP
+MEIJER2  CPP         7,799   9-19-1991   6:47p MEIJER2.CPP
+HPADE5   CPP         2,625   9-19-1991   6:47p HPADE5.CPP
+AGMD     CPP         3,823   9-19-1991   6:47p AGMD.CPP
+AGM      HPP         1,147   9-19-1991   6:47p AGM.HPP
+MEIJER3  CPP         8,235   9-19-1991   6:47p MEIJER3.CPP
+AGMS     CPP         6,195   9-19-1991   6:47p AGMS.CPP
+F123     CPP         3,602   9-19-1991   6:47p F123.CPP
+CALLEES              8,412   9-19-1991   6:47p CALLEES
+CALLERS              7,659   9-19-1991   6:47p CALLERS
+
+
+== FILE DETAILS ================================================================
+
+README.!!!
+Short Name: 'README  '   Type: '!!!'       MD5: ac1f4e35de3b68383e947913aff563f8
+1st Clust: $02BD      Sectors: 4        File Size: 1660          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CATALOG
+Short Name: 'CATALOG '   Type: '   '       MD5: 1a756ad3c1e6bb0a6ef0b5ab297d81d2
+1st Clust: $02BF      Sectors: 10       File Size: 4377          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMPLEX.H
+Short Name: 'COMPLEX '   Type: 'H  '       MD5: 68c303645d14570b9a0c360084931872
+1st Clust: $0004      Sectors: 4        File Size: 1843          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CMLIB.H
+Short Name: 'CMLIB   '   Type: 'H  '       MD5: 705161ad68953a7dcd90759c0f3c19d8
+1st Clust: $0006      Sectors: 2        File Size: 413           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+INVW.C
+Short Name: 'INVW    '   Type: 'C  '       MD5: c054f637ca9c028c7a494c421b121abb
+1st Clust: $0007      Sectors: 4        File Size: 1977          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F123.C
+Short Name: 'F123    '   Type: 'C  '       MD5: ce6d90325d194e930d6b96f212af94e8
+1st Clust: $0009      Sectors: 6        File Size: 2925          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STIRL.C
+Short Name: 'STIRL   '   Type: 'C  '       MD5: 3fed15a27e83a38949c2e912a2f59e89
+1st Clust: $000C      Sectors: 2        File Size: 700           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+KEYWD.DAT
+Short Name: 'KEYWD   '   Type: 'DAT'       MD5: 9d8f306c85ff4e3821ef70f72c462c03
+1st Clust: $000D      Sectors: 2        File Size: 407           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CBESS.C
+Short Name: 'CBESS   '   Type: 'C  '       MD5: 027ba8f83d47a7ae3c7102bfae3c5b8a
+1st Clust: $000E      Sectors: 24       File Size: 12122         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHFS.C
+Short Name: 'CHFS    '   Type: 'C  '       MD5: a1a2494d86e8b7301016984cfbb9f8f4
+1st Clust: $001A      Sectors: 10       File Size: 4999          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHF.C
+Short Name: 'CHF     '   Type: 'C  '       MD5: b9a4cc40ca5c40d432cbe3ad01853970
+1st Clust: $001F      Sectors: 18       File Size: 9070          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+POLYRT.C
+Short Name: 'POLYRT  '   Type: 'C  '       MD5: 55dd09979dbebaf376e3164c12a447d8
+1st Clust: $0028      Sectors: 14       File Size: 6529          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+G.C
+Short Name: 'G       '   Type: 'C  '       MD5: dd54e54c09b241c41df24bb48cee58e5
+1st Clust: $002F      Sectors: 18       File Size: 8742          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EBZNEW.C
+Short Name: 'EBZNEW  '   Type: 'C  '       MD5: 5b4746be730e1a339c29f68c37e15174
+1st Clust: $0038      Sectors: 16       File Size: 7742          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+U.C
+Short Name: 'U       '   Type: 'C  '       MD5: c3b5f3417275aabf3ae20ccf7fa6bb34
+1st Clust: $0040      Sectors: 16       File Size: 7681          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDB.C
+Short Name: 'TDB     '   Type: 'C  '       MD5: 169ded9acfedd4277c709d94522b47ed
+1st Clust: $0048      Sectors: 20       File Size: 9323          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EXPI.C
+Short Name: 'EXPI    '   Type: 'C  '       MD5: 0befdb3ef3954c24bc42f2d89a9b39f6
+1st Clust: $0052      Sectors: 32       File Size: 16319         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IAW.C
+Short Name: 'IAW     '   Type: 'C  '       MD5: 57d0963d9a2a8d793b2dce481a9629eb
+1st Clust: $0062      Sectors: 8        File Size: 3290          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F21D.C
+Short Name: 'F21D    '   Type: 'C  '       MD5: ea4971fc1649146b2fb0d27558c118b8
+1st Clust: $0066      Sectors: 4        File Size: 1421          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PDFS.C
+Short Name: 'PDFS    '   Type: 'C  '       MD5: eea6db7fa10cfdd29cecea7c4b879da7
+1st Clust: $0068      Sectors: 14       File Size: 7129          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SIMP.C
+Short Name: 'SIMP    '   Type: 'C  '       MD5: 07d0a873afb5a074d5028e0d01c7251d
+1st Clust: $006F      Sectors: 4        File Size: 2029          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TD7.C
+Short Name: 'TD7     '   Type: 'C  '       MD5: 6e97370d697476665bdcca9c5bfe3722
+1st Clust: $0071      Sectors: 10       File Size: 4284          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IERFC.C
+Short Name: 'IERFC   '   Type: 'C  '       MD5: 9a68dbcc896ac1bde7c463b959715f57
+1st Clust: $0076      Sectors: 4        File Size: 1930          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+GAUT.C
+Short Name: 'GAUT    '   Type: 'C  '       MD5: 635772f760e274ed4e4dd2a8b04744ba
+1st Clust: $0078      Sectors: 18       File Size: 8970          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDPCF.C
+Short Name: 'TDPCF   '   Type: 'C  '       MD5: ca30812ca8afd4a52ed0c1d547a148c0
+1st Clust: $0081      Sectors: 2        File Size: 788           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ELEM.C
+Short Name: 'ELEM    '   Type: 'C  '       MD5: 4f20305fde44db1fd344076305c76aca
+1st Clust: $0082      Sectors: 12       File Size: 6101          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PR.C
+Short Name: 'PR      '   Type: 'C  '       MD5: c7aad0d2bc5e91f28d2c85fa5455a53c
+1st Clust: $0088      Sectors: 6        File Size: 2171          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LEG.C
+Short Name: 'LEG     '   Type: 'C  '       MD5: 5794df6ef4d77f42abe4dcd8c028a791
+1st Clust: $008B      Sectors: 20       File Size: 9685          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BOEHMER.C
+Short Name: 'BOEHMER '   Type: 'C  '       MD5: 615892177279ec6e7638edf41a585a57
+1st Clust: $0095      Sectors: 10       File Size: 4396          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HYPERG.C
+Short Name: 'HYPERG  '   Type: 'C  '       MD5: 4bada35252e51cdc177b5f185985e0ca
+1st Clust: $009A      Sectors: 4        File Size: 1399          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BESST.C
+Short Name: 'BESST   '   Type: 'C  '       MD5: 0c1e8994161398524cce052030af4ba8
+1st Clust: $009C      Sectors: 8        File Size: 3463          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TE.C
+Short Name: 'TE      '   Type: 'C  '       MD5: 76146950ca441b42a8de615f6b89a178
+1st Clust: $00A0      Sectors: 20       File Size: 9415          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TD56.C
+Short Name: 'TD56    '   Type: 'C  '       MD5: b8856eb2124669462f33eb938ffe2c80
+1st Clust: $00AB      Sectors: 6        File Size: 2098          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TORP.C
+Short Name: 'TORP    '   Type: 'C  '       MD5: 90f0d879e5098f97be74470b3b6ae917
+1st Clust: $00AE      Sectors: 2        File Size: 981           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BICKLEY.C
+Short Name: 'BICKLEY '   Type: 'C  '       MD5: bc01060fc7a9f7636de65cc379494204
+1st Clust: $00AF      Sectors: 6        File Size: 2219          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STRUVL.C
+Short Name: 'STRUVL  '   Type: 'C  '       MD5: 3faefc35e4d057cff3ecd09385a0b7e8
+1st Clust: $00B2      Sectors: 6        File Size: 3021          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BESSZ.C
+Short Name: 'BESSZ   '   Type: 'C  '       MD5: 3bfefa14e993dac6dd6c27fd64ca920a
+1st Clust: $00B5      Sectors: 12       File Size: 5637          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PROTOM.H
+Short Name: 'PROTOM  '   Type: 'H  '       MD5: 546858dc9240d7bef39671fa501ef4ae
+1st Clust: $00BB      Sectors: 46       File Size: 23241         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F211.C
+Short Name: 'F211    '   Type: 'C  '       MD5: 87978298efe8d5d5f9c29bc1d2fbb0bf
+1st Clust: $00D2      Sectors: 16       File Size: 7296          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LEGP.C
+Short Name: 'LEGP    '   Type: 'C  '       MD5: b6e9f0af3658ca5a18092178e271dc44
+1st Clust: $00DA      Sectors: 2        File Size: 755           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+XREF.EXE
+Short Name: 'XREF    '   Type: 'EXE'       MD5: 1989b20dd0ae0acb7df66f31372b9135
+1st Clust: $00DB      Sectors: 40       File Size: 20172         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F213.C
+Short Name: 'F213    '   Type: 'C  '       MD5: 0c8fe3397f68b2293c96ece02085f4ca
+1st Clust: $00EF      Sectors: 12       File Size: 5876          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CERFC.C
+Short Name: 'CERFC   '   Type: 'C  '       MD5: 8de34bc97dda99418cbd44ab72b12025
+1st Clust: $00F5      Sectors: 2        File Size: 450           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHFD.C
+Short Name: 'CHFD    '   Type: 'C  '       MD5: d57ad64389f7cb0421aa5b3661e886de
+1st Clust: $00F6      Sectors: 8        File Size: 3745          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMPLEX.C
+Short Name: 'COMPLEX '   Type: 'C  '       MD5: 911e1bd1f35c19211b433a9b0a3c3ea8
+1st Clust: $00FA      Sectors: 14       File Size: 6342          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PCF.C
+Short Name: 'PCF     '   Type: 'C  '       MD5: d19baf613499b05d13dbead1d9403b93
+1st Clust: $0101      Sectors: 14       File Size: 6485          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FIB.C
+Short Name: 'FIB     '   Type: 'C  '       MD5: 4b21e152fc4659b2c1658170255133b3
+1st Clust: $0108      Sectors: 2        File Size: 340           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SPHERR.C
+Short Name: 'SPHERR  '   Type: 'C  '       MD5: 0b12b50c64b606688e711d4263aea864
+1st Clust: $0109      Sectors: 32       File Size: 15933         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DRIVERS.LIS
+Short Name: 'DRIVERS '   Type: 'LIS'       MD5: 6da02547aa52a90b3b3fb067aa2152a8
+1st Clust: $0119      Sectors: 2        File Size: 670           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEHLER.C
+Short Name: 'MEHLER  '   Type: 'C  '       MD5: 70ca785479545880b3f6b0b0f29cc66d
+1st Clust: $011A      Sectors: 6        File Size: 2496          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NU.C
+Short Name: 'NU      '   Type: 'C  '       MD5: 95be1a37d134879839a9af73dfd14382
+1st Clust: $011D      Sectors: 4        File Size: 1512          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+POLYLOG.C
+Short Name: 'POLYLOG '   Type: 'C  '       MD5: 97f9ddf0aaee0ee264e2835ea8316074
+1st Clust: $011F      Sectors: 2        File Size: 898           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F212.C
+Short Name: 'F212    '   Type: 'C  '       MD5: 5998b2a41ec2c7e42b8953a572d282e1
+1st Clust: $0120      Sectors: 18       File Size: 8876          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CALLERS
+Short Name: 'CALLERS '   Type: '   '       MD5: f6b11a6f48a385eb7bc7936296033e3c
+1st Clust: $0129      Sectors: 82       File Size: 41689         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ORTHOP.C
+Short Name: 'ORTHOP  '   Type: 'C  '       MD5: 16e0c592c2bffe3fcaf0069b2956fd67
+1st Clust: $0169      Sectors: 6        File Size: 2869          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHFW.C
+Short Name: 'CHFW    '   Type: 'C  '       MD5: ddca6c32115724f0c590be37abc633d9
+1st Clust: $016C      Sectors: 4        File Size: 1088          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STRUVI.C
+Short Name: 'STRUVI  '   Type: 'C  '       MD5: 8b49b463a93c8a9ff9d433178a3665c1
+1st Clust: $016E      Sectors: 4        File Size: 1624          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BESSI.C
+Short Name: 'BESSI   '   Type: 'C  '       MD5: 4eaa76b6c7be49ae99b30c7077ed7634
+1st Clust: $0170      Sectors: 10       File Size: 4697          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CWF.C
+Short Name: 'CWF     '   Type: 'C  '       MD5: ad6664fcf4aff28ca2bb7ab3cf372acd
+1st Clust: $0175      Sectors: 10       File Size: 4224          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDZB.C
+Short Name: 'TDZB    '   Type: 'C  '       MD5: 8feafbbc6fbefd6cd592b76409a80486
+1st Clust: $017A      Sectors: 2        File Size: 855           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDU.C
+Short Name: 'TDU     '   Type: 'C  '       MD5: d683d1e5f7fd90f8b0cb95d785458b13
+1st Clust: $017B      Sectors: 2        File Size: 849           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDRICH.C
+Short Name: 'TDRICH  '   Type: 'C  '       MD5: 05420dbff26cab1500a3e853f6c4cc49
+1st Clust: $017C      Sectors: 2        File Size: 485           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDMATH.C
+Short Name: 'TDMATH  '   Type: 'C  '       MD5: fd640993ec6c6d1fe51b927fc02f4975
+1st Clust: $017D      Sectors: 4        File Size: 1821          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATHIEU.C
+Short Name: 'MATHIEU '   Type: 'C  '       MD5: e1694670bec0a628e2924cc4eb93b2eb
+1st Clust: $0180      Sectors: 30       File Size: 14462         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDSPH.C
+Short Name: 'TDSPH   '   Type: 'C  '       MD5: 51b641c3d9337321d9d1814bc0476b9e
+1st Clust: $018F      Sectors: 6        File Size: 2739          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDRAND.C
+Short Name: 'TDRAND  '   Type: 'C  '       MD5: 6ba19fdc75e23397208ba3edb11f5129
+1st Clust: $0192      Sectors: 20       File Size: 9631          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIGAM.C
+Short Name: 'DIGAM   '   Type: 'C  '       MD5: 8f9e4bdfc3db232eda16675a0540fe88
+1st Clust: $019C      Sectors: 8        File Size: 3599          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CT5.C
+Short Name: 'CT5     '   Type: 'C  '       MD5: d38418e8fdd1c4b8da3fb65b3738b474
+1st Clust: $01A0      Sectors: 12       File Size: 5420          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BRENT.C
+Short Name: 'BRENT   '   Type: 'C  '       MD5: 25ea7cca5cdedad9b5d06327c8e4b84c
+1st Clust: $01A6      Sectors: 4        File Size: 1601          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CJE.C
+Short Name: 'CJE     '   Type: 'C  '       MD5: dc89337f81a0e67e6352e5e786e5bc47
+1st Clust: $01A8      Sectors: 22       File Size: 10435         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+E3.C
+Short Name: 'E3      '   Type: 'C  '       MD5: 459f5b5953d9d138896bf65de214a47d
+1st Clust: $01B3      Sectors: 12       File Size: 5179          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDORTH.C
+Short Name: 'TDORTH  '   Type: 'C  '       MD5: 1d409affd5f9fec94897e7f7d494b9e8
+1st Clust: $01B9      Sectors: 4        File Size: 1337          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TD34.C
+Short Name: 'TD34    '   Type: 'C  '       MD5: ebd5940559a5f027366f40be03a94157
+1st Clust: $01BB      Sectors: 10       File Size: 4376          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CALLEES
+Short Name: 'CALLEES '   Type: '   '       MD5: fdc7d7719224b6e4666de147d070941a
+1st Clust: $01C0      Sectors: 94       File Size: 47815         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BESSR.C
+Short Name: 'BESSR   '   Type: 'C  '       MD5: 7d4fd6a95e55cb28af090b3b34f387a6
+1st Clust: $01EF      Sectors: 16       File Size: 7799          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STRUV.C
+Short Name: 'STRUV   '   Type: 'C  '       MD5: 436cfb065785f7dac9ab7b2aa2ebcc5b
+1st Clust: $01F7      Sectors: 4        File Size: 1796          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MISC.C
+Short Name: 'MISC    '   Type: 'C  '       MD5: e88a93a6fb233c7a1fa534979ac1ffcb
+1st Clust: $01F9      Sectors: 2        File Size: 705           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SPBN.C
+Short Name: 'SPBN    '   Type: 'C  '       MD5: 004ad91c4d1504dc58ae7cf57b505b32
+1st Clust: $01FA      Sectors: 10       File Size: 4882          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ABB.C
+Short Name: 'ABB     '   Type: 'C  '       MD5: 47a0f6761e3cee219d80adf2ee6334c4
+1st Clust: $01FF      Sectors: 30       File Size: 14868         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CEF.C
+Short Name: 'CEF     '   Type: 'C  '       MD5: 7277962c070c10b2f062ddc92174dfbe
+1st Clust: $020E      Sectors: 4        File Size: 1923          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIST.C
+Short Name: 'DIST    '   Type: 'C  '       MD5: af99a8594aab9eba85ff7e0e7619febc
+1st Clust: $0210      Sectors: 14       File Size: 6798          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RANDOM.C
+Short Name: 'RANDOM  '   Type: 'C  '       MD5: ecdcc1422ad1f44d556b4e217fa03493
+1st Clust: $0217      Sectors: 10       File Size: 4868          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TD8.C
+Short Name: 'TD8     '   Type: 'C  '       MD5: 4b6724fbfc039bdb68baeccd64ca4f1b
+1st Clust: $021C      Sectors: 10       File Size: 5110          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CE.C
+Short Name: 'CE      '   Type: 'C  '       MD5: 204f50141afe4de11cd05d180460cb77
+1st Clust: $0221      Sectors: 4        File Size: 1787          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDZETA.C
+Short Name: 'TDZETA  '   Type: 'C  '       MD5: 466a1585c90bc9ec67af3fc3e5eb52c5
+1st Clust: $0223      Sectors: 2        File Size: 1018          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDJE.C
+Short Name: 'TDJE    '   Type: 'C  '       MD5: 920714fa8a1cf50a2ecb2f99a7012167
+1st Clust: $0224      Sectors: 10       File Size: 4423          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+XREF.C
+Short Name: 'XREF    '   Type: 'C  '       MD5: db64111f82f4323d16efa32c170876bc
+1st Clust: $0229      Sectors: 22       File Size: 10963         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STATH.C
+Short Name: 'STATH   '   Type: 'C  '       MD5: d6b4dff5e1a2180c8cabf8a7c7cac123
+1st Clust: $0234      Sectors: 54       File Size: 27207         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDCWF.C
+Short Name: 'TDCWF   '   Type: 'C  '       MD5: 6282f9fce9920aae9001827b7f866b2c
+1st Clust: $024F      Sectors: 2        File Size: 822           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CQ.C
+Short Name: 'CQ      '   Type: 'C  '       MD5: c60ba424ce52759b26edbe10725f6ace
+1st Clust: $0250      Sectors: 10       File Size: 4115          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CP.C
+Short Name: 'CP      '   Type: 'C  '       MD5: 59abfa86da6895d506185f7dfd59623e
+1st Clust: $0255      Sectors: 6        File Size: 2709          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOB.C
+Short Name: 'LOB     '   Type: 'C  '       MD5: 8440f7c67bd82f43506f2ae0ea0abb20
+1st Clust: $0258      Sectors: 6        File Size: 2272          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DILOG.C
+Short Name: 'DILOG   '   Type: 'C  '       MD5: 1c98b39cec26d8fe585cffb7fbc589aa
+1st Clust: $025B      Sectors: 4        File Size: 1271          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDSFB.C
+Short Name: 'TDSFB   '   Type: 'C  '       MD5: 7f8d99fdee768ae6cc568d2bdbbd11bb
+1st Clust: $025D      Sectors: 2        File Size: 961           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BINOM.C
+Short Name: 'BINOM   '   Type: 'C  '       MD5: 4e42070aa2bbe7024630db6cdc0c05e2
+1st Clust: $025E      Sectors: 2        File Size: 524           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ST.C
+Short Name: 'ST      '   Type: 'C  '       MD5: d175a765bd4a2217e65d8b78979464c1
+1st Clust: $0260      Sectors: 2        File Size: 810           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDW.C
+Short Name: 'TDW     '   Type: 'C  '       MD5: 66e55daaa95911738a85b5500d216184
+1st Clust: $0261      Sectors: 10       File Size: 4239          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+WIGNER.C
+Short Name: 'WIGNER  '   Type: 'C  '       MD5: 672763a8ec40d89cbe91e27d84596f64
+1st Clust: $0266      Sectors: 16       File Size: 7730          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TDMISC.C
+Short Name: 'TDMISC  '   Type: 'C  '       MD5: 35f7040eae4a74cc36fca6336fadb0a2
+1st Clust: $026E      Sectors: 6        File Size: 2994          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CMATRIX.HPP
+Short Name: 'CMATRIX '   Type: 'HPP'       MD5: 50171b02333658b92bdf9576213b393e
+1st Clust: $0152      Sectors: 2        File Size: 735           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LERCH.CPP
+Short Name: 'LERCH   '   Type: 'CPP'       MD5: fb808c68a00510fb535a0cfa9732c2ab
+1st Clust: $0153      Sectors: 4        File Size: 1544          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CMPLX.CPP
+Short Name: 'CMPLX   '   Type: 'CPP'       MD5: 6e1aff601ca069205ec23b72a7fc40d6
+1st Clust: $0155      Sectors: 10       File Size: 4730          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HURWITZ.CPP
+Short Name: 'HURWITZ '   Type: 'CPP'       MD5: 693b5c9120b98418e0d5886e6624f0bd
+1st Clust: $015A      Sectors: 6        File Size: 2466          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AGM.CPP
+Short Name: 'AGM     '   Type: 'CPP'       MD5: 62f3bd460a23ca29af6f6c8073a82b8c
+1st Clust: $015D      Sectors: 20       File Size: 9564          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CMATRIX.CPP
+Short Name: 'CMATRIX '   Type: 'CPP'       MD5: dd26db62f88e08e53055a8ba08a21a6a
+1st Clust: $0167      Sectors: 10       File Size: 4855          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMPLEX.HPP
+Short Name: 'COMPLEX '   Type: 'HPP'       MD5: 34a1b4cdc5acdfab7ff7ae5cea024cf4
+1st Clust: $0274      Sectors: 8        File Size: 3472          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FILELST
+Short Name: 'FILELST '   Type: '   '       MD5: 6537ac81d3f76946498a323efdcd5b8c
+1st Clust: $0278      Sectors: 6        File Size: 2254          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CVECTOR.HPP
+Short Name: 'CVECTOR '   Type: 'HPP'       MD5: 0426ab6a8f062e3043c15a0625c13b15
+1st Clust: $027B      Sectors: 2        File Size: 911           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FOCK.CPP
+Short Name: 'FOCK    '   Type: 'CPP'       MD5: 01fba69a25aa30138cff5380ca0c6caa
+1st Clust: $027C      Sectors: 20       File Size: 9650          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+E.CPP
+Short Name: 'E       '   Type: 'CPP'       MD5: 51ac85366138e3b009f92adf5c9f4b8a
+1st Clust: $0286      Sectors: 2        File Size: 776           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEIJER2.CPP
+Short Name: 'MEIJER2 '   Type: 'CPP'       MD5: 9eab27d0bc4246b36b594fb9b00a097a
+1st Clust: $0287      Sectors: 16       File Size: 7799          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HPADE5.CPP
+Short Name: 'HPADE5  '   Type: 'CPP'       MD5: b74e2160629b89528e4c97923ec87c30
+1st Clust: $028F      Sectors: 6        File Size: 2625          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AGMD.CPP
+Short Name: 'AGMD    '   Type: 'CPP'       MD5: e5f4585e0205e4a598d7f51187af3bfd
+1st Clust: $0292      Sectors: 8        File Size: 3823          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AGM.HPP
+Short Name: 'AGM     '   Type: 'HPP'       MD5: 7907febc25528cb212cfeccd1570e3d0
+1st Clust: $0296      Sectors: 4        File Size: 1147          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEIJER3.CPP
+Short Name: 'MEIJER3 '   Type: 'CPP'       MD5: cec6c7c1614c68bc7061fc9b29d83c1e
+1st Clust: $0298      Sectors: 18       File Size: 8235          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AGMS.CPP
+Short Name: 'AGMS    '   Type: 'CPP'       MD5: ce5acaf059c122c1317a6d822aaca46c
+1st Clust: $02A1      Sectors: 14       File Size: 6195          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+F123.CPP
+Short Name: 'F123    '   Type: 'CPP'       MD5: 4033ec6a3854ec6557bda74f6b300790
+1st Clust: $02A8      Sectors: 8        File Size: 3602          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CALLEES
+Short Name: 'CALLEES '   Type: '   '       MD5: 9fe646299c0aba98a7d1a431dd086c4c
+1st Clust: $02AC      Sectors: 18       File Size: 8412          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CALLERS
+Short Name: 'CALLERS '   Type: '   '       MD5: 1e16a2a6e74e9de1d3686d4409939fdd
+1st Clust: $02B5      Sectors: 16       File Size: 7659          Attr: $20      
+
+--------------------------------------------------------------------------------
+

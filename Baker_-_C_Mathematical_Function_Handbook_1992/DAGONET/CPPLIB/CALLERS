@@ -1,0 +1,509 @@
+
+ function: A called by:
+        main
+
+ function: ABS called by:
+        loggam
+
+ function: B called by:
+        main
+
+ function: Cmatrix called by:
+
+ function: Cvector called by:
+
+ function: D called by:
+        main
+
+ function: E called by:
+        agm
+        heuman
+        main
+
+ function: ElExp called by:
+        main
+
+ function: ElLog called by:
+        main
+
+ function: Emacrobert called by:
+
+ function: F called by:
+        F
+        InvWeier
+        Z
+        heuman
+        main
+
+ function: Gmeijer called by:
+        Emacrobert
+        Gmeijer
+        main
+
+ function: InvWeier called by:
+        main
+
+ function: K called by:
+        E
+        F
+        argm
+        heuman
+        main
+        neville
+        scdns
+        theta
+
+ function: Lerch called by:
+        main
+
+ function: Riemann_zeta called by:
+        xi
+
+ function: Rzeta2 called by:
+        hurwitz
+
+ function: Weierstrass called by:
+        main
+
+ function: Z called by:
+        main
+
+ function: a called by:
+        xi
+
+ function: aa called by:
+        Gmeijer
+
+ function: abs called by:
+        Lerch
+        Weierstrass
+        af1
+        af1s
+        af2
+        af2s
+        af3
+        af3s
+        afa
+        agm
+        argm
+        cgamma
+        clog
+        ghgF
+        hurwitz
+        main
+        scdns
+
+ function: acos called by:
+        ElLog
+        InvWeier
+
+ function: af called by:
+        main
+
+ function: af1 called by:
+        af
+
+ function: af1s called by:
+        af1
+
+ function: af2 called by:
+        af
+
+ function: af2s called by:
+        af2
+
+ function: af3 called by:
+        af
+
+ function: af3s called by:
+        af3
+
+ function: afa called by:
+        af1
+        af2
+        af3
+
+ function: agm called by:
+        K
+
+ function: arctan called by:
+        F
+
+ function: argm called by:
+        scdns
+
+ function: asin called by:
+        scdns
+
+ function: atan2 called by:
+        clog
+
+ function: b called by:
+        main
+
+ function: bernoulli called by:
+        hurwitz
+
+ function: beta called by:
+        Weierstrass
+
+ function: c called by:
+        main
+
+ function: cc called by:
+        Gmeijer
+
+ function: ccos called by:
+        tangent
+
+ function: ccubic called by:
+        croots
+
+ function: cexp called by:
+        clog
+        fockc
+        main
+        scdns
+
+ function: cgamma called by:
+        cgamma
+        main
+        xi
+
+ function: check called by:
+        element
+        setelement
+
+ function: clog called by:
+        clog
+        main
+        scdns
+
+ function: complex called by:
+        Lerch
+        Riemann_zeta
+        Weierstrass
+        argm
+        ccos
+        cexp
+        clog
+        croots
+        csin
+        fockc
+        hurwitz
+        main
+        neville
+        qroots
+        scdn
+        scdns
+        theta
+        xi
+
+ function: cos called by:
+        cexp
+        csin
+
+ function: croots called by:
+        Weierstrass
+
+ function: csin called by:
+        tangent
+
+ function: d called by:
+        E
+
+ function: denom called by:
+        ghgF
+
+ function: dnom called by:
+        scdn
+
+ function: element called by:
+        main
+
+ function: error called by:
+        check
+        init
+        operator
+
+ function: ev called by:
+        hurwitz
+
+ function: exit called by:
+        error
+
+ function: exp called by:
+        cexp
+        csin
+        gamma
+
+ function: factor called by:
+        cgamma
+        hurwitz
+
+ function: fockc called by:
+        main
+
+ function: fockfg called by:
+        main
+
+ function: fockpq called by:
+        main
+
+ function: fockscat called by:
+        main
+
+ function: for called by:
+        loggam
+        main
+        operator
+        scdns
+        setelement
+
+ function: fprintf called by:
+        F
+        Gmeijer
+        InvWeier
+        Weierstrass
+        scdns
+
+ function: gamma called by:
+        bernoulli
+
+ function: ghgF called by:
+        Gmeijer
+
+ function: heuman called by:
+        main
+
+ function: hurwitz called by:
+        Riemann_zeta
+        main
+
+ function: i called by:
+        tanh
+
+ function: if called by:
+        Lerch
+        Rzeta2
+        Weierstrass
+        af
+        af1
+        af1s
+        af2
+        af2s
+        af3
+        af3s
+        afa
+        agm
+        argm
+        bernoulli
+        ccos
+        cexp
+        cgamma
+        check
+        clog
+        csin
+        fockc
+        gamma
+        ghgF
+        hurwitz
+        init
+        loggam
+        main
+        neville
+        operator
+        prep
+        print
+        scdn
+        scdns
+        setelement
+        theta
+
+ function: imaginary called by:
+        F
+        InvWeier
+        Weierstrass
+        argm
+        croots
+        hurwitz
+        qroots
+        scdn
+        scdns
+
+ function: init called by:
+        Cmatrix
+        setelement
+
+ function: integral called by:
+
+ function: jef called by:
+        scdns
+
+ function: log called by:
+        clog
+        loggam
+
+ function: loggam called by:
+        loggam
+
+ function: m called by:
+        main
+
+ function: m2 called by:
+        F
+
+ function: main called by:
+
+ function: max called by:
+        hurwitz
+
+ function: mult called by:
+        F
+
+ function: n called by:
+        main
+
+ function: neville called by:
+        main
+
+ function: numer called by:
+        ghgF
+
+ function: o called by:
+        main
+
+ function: one called by:
+        init
+
+ function: operator called by:
+
+ function: phi called by:
+        Weierstrass
+
+ function: pi called by:
+        heuman
+
+ function: pow called by:
+        bernoulli
+        scdns
+
+ function: power called by:
+        ghgF
+
+ function: prep called by:
+        hurwitz
+
+ function: print called by:
+        main
+        scdns
+
+ function: printf called by:
+        main
+        print
+        scdns
+
+ function: prod called by:
+        operator
+
+ function: qroots called by:
+        ElLog
+
+ function: rabs called by:
+        F
+        InvWeier
+        Weierstrass
+        argm
+        scdn
+
+ function: real called by:
+        cgamma
+        croots
+        neville
+        prep
+        qroots
+        scdn
+        scdns
+        theta
+
+ function: return called by:
+        loggam
+
+ function: scanf called by:
+        main
+
+ function: scdn called by:
+        main
+
+ function: scdns called by:
+        scdn
+        theta
+
+ function: setelement called by:
+        main
+
+ function: sin called by:
+        cexp
+        csin
+        loggam
+
+ function: sinh called by:
+        scdns
+
+ function: sizeof called by:
+        main
+
+ function: sn called by:
+        argm
+
+ function: solvq called by:
+        qroots
+
+ function: sq called by:
+        af2s
+        af3s
+
+ function: sqrt called by:
+        abs
+        af1s
+        af2s
+        af3s
+        afa
+        cgamma
+        fockc
+        scdns
+
+ function: sum called by:
+        operator
+
+ function: tangent called by:
+        tanh
+
+ function: tanh called by:
+        scdns
+
+ function: tek called by:
+        scdns
+
+ function: term called by:
+        scdns
+
+ function: theta called by:
+        neville
+
+ function: tmp called by:
+        loggam
+
+ function: x called by:
+        af2s
+        af3s
+
+ function: xi called by:
+        cgamma
+
+ function: y called by:
+        fockc
+
+ function: zero called by:
+        Gmeijer
+

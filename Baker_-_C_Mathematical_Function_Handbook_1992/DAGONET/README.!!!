@@ -1,0 +1,33 @@
+C MATHEMATICAL FUNCTION  LIBRARY Source Disk 
+	Disk contents
+Copyright 1991 Louis Baker
+
+Limits of Liability and Disclaimer of Warranty
+
+     The author and publisher have exercised care in preparing this 
+book and the programs contained in it. They make no representation, 
+however, that the programs are error-free or suitable for every application 
+to which a reader may attempt to apply them. The author and publisher 
+make no warranty of any kind, expressed or implied, including the 
+warranties of merchantability or fitness for a particular purpose, 
+with regard to these programs or the documentation or theory contained 
+in this book, all of whcih are provided "as is."  The author and publisher 
+shall not be liable for damages in an amount greater than the purchase 
+price of this book, or in any event for incidental or consequential  damages 
+in connection with, or arising out of, the furnishing, performance, 
+or use of these programs or the associated descriptions or discussions.  
+     Readers should test any program on their own systems and compare 
+results with those presented in this book.  They should then construct 
+their own test programs to verify that they fully understand the requisite 
+calling conventions and data formats for each of the programs.  Then 
+they should test the specific application thoroughly.     
+
+
+This contains the C math function library as in the book from McGraw-Hill.
+
+Use XREF.C to generate cross references of subprograms used/used by others.
+Its results are the files CALLERS and CALLEES.
+
+The file PROTOM.H lists which files contain which routines for all .C files.
+
+

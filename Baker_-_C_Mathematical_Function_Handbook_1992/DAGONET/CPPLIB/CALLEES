@@ -1,0 +1,615 @@
+
+ function: A calls:
+
+ function: ABS calls:
+
+ function: B calls:
+
+ function: Cmatrix calls:
+        for
+        init
+
+ function: Cvector calls:
+        for
+
+ function: D calls:
+
+ function: E calls:
+        E
+        F
+        K
+        d
+        print
+
+ function: ElExp calls:
+        abs
+        acos
+        complex
+        croots
+        fprintf
+        if
+        phi
+        qroots
+        scdn
+
+ function: ElLog calls:
+        F
+        abs
+        acos
+        complex
+        croots
+        fprintf
+        if
+        qroots
+        return
+
+ function: Emacrobert calls:
+        B
+        Gmeijer
+        complex
+        element
+        for
+        setelement
+
+ function: F calls:
+        F
+        K
+        abs
+        arctan
+        complex
+        csin
+        fprintf
+        if
+        imaginary
+        m2
+        mult
+        print
+        rabs
+        real
+        tangent
+
+ function: Gmeijer calls:
+        Gmeijer
+        aa
+        abs
+        cc
+        cgamma
+        complex
+        element
+        for
+        fprintf
+        ghgF
+        if
+        max
+        print
+        printf
+        setelement
+        zero
+
+ function: InvWeier calls:
+        F
+        abs
+        acos
+        beta
+        complex
+        croots
+        fprintf
+        if
+        imaginary
+        print
+        rabs
+        real
+        return
+
+ function: K calls:
+        abs
+        agm
+        if
+
+ function: Lerch calls:
+        abs
+        complex
+        if
+
+ function: Riemann_zeta calls:
+        complex
+        hurwitz
+
+ function: Rzeta2 calls:
+        if
+        pow
+
+ function: Weierstrass calls:
+        abs
+        beta
+        complex
+        croots
+        fprintf
+        if
+        imaginary
+        phi
+        print
+        printf
+        rabs
+        real
+        return
+        scdn
+
+ function: Z calls:
+        F
+
+ function: a calls:
+
+ function: aa calls:
+
+ function: abs calls:
+        sqrt
+
+ function: acos calls:
+        clog
+        i
+
+ function: af calls:
+        af1
+        af2
+        af3
+        for
+        if
+
+ function: af1 calls:
+        abs
+        af1s
+        afa
+        if
+
+ function: af1s calls:
+        abs
+        clog
+        for
+        if
+        sqrt
+
+ function: af2 calls:
+        abs
+        af2s
+        afa
+        if
+
+ function: af2s calls:
+        abs
+        clog
+        if
+        sq
+        sqrt
+        x
+
+ function: af3 calls:
+        abs
+        af3s
+        afa
+        if
+
+ function: af3s calls:
+        abs
+        clog
+        if
+        sq
+        sqrt
+        x
+
+ function: afa calls:
+        abs
+        cexp
+        for
+        if
+        sqrt
+
+ function: agm calls:
+        E
+        abs
+        if
+        print
+
+ function: arctan calls:
+        clog
+        i
+
+ function: argm calls:
+        K
+        abs
+        cexp
+        complex
+        if
+        imaginary
+        rabs
+        real
+        sn
+
+ function: asin calls:
+        clog
+        i
+
+ function: atan2 calls:
+
+ function: b calls:
+
+ function: bernoulli calls:
+        ABS
+        for
+        gamma
+        if
+        pow
+
+ function: beta calls:
+
+ function: c calls:
+
+ function: cc calls:
+
+ function: ccos calls:
+        complex
+        cos
+        exp
+        if
+        sin
+
+ function: ccubic calls:
+
+ function: cexp calls:
+        complex
+        cos
+        exp
+        if
+        sin
+
+ function: cgamma calls:
+        abs
+        cexp
+        cgamma
+        clog
+        csin
+        factor
+        if
+        print
+        real
+        sqrt
+        xi
+
+ function: check calls:
+        error
+        if
+
+ function: clog calls:
+        abs
+        atan2
+        cexp
+        clog
+        complex
+        if
+        log
+
+ function: complex calls:
+
+ function: cos calls:
+
+ function: croots calls:
+        ccubic
+        complex
+        imaginary
+        real
+
+ function: csin calls:
+        complex
+        cos
+        exp
+        if
+        printf
+        sin
+
+ function: d calls:
+
+ function: denom calls:
+
+ function: dnom calls:
+
+ function: element calls:
+        check
+
+ function: error calls:
+        exit
+        printf
+
+ function: ev calls:
+
+ function: exit calls:
+
+ function: exp calls:
+
+ function: factor calls:
+
+ function: fockc calls:
+        cexp
+        complex
+        for
+        if
+        print
+        sqrt
+        y
+
+ function: fockfg calls:
+
+ function: fockpq calls:
+
+ function: fockscat calls:
+
+ function: for calls:
+
+ function: fprintf calls:
+
+ function: gamma calls:
+        exp
+        if
+        loggam
+        return
+
+ function: ghgF calls:
+        abs
+        denom
+        element
+        for
+        if
+        max
+        numer
+        power
+        print
+        printf
+        setelement
+        sum
+
+ function: heuman calls:
+        E
+        F
+        K
+        pi
+
+ function: hurwitz calls:
+        Rzeta2
+        abs
+        bernoulli
+        complex
+        ev
+        factor
+        for
+        if
+        imaginary
+        max
+        prep
+        print
+
+ function: i calls:
+
+ function: if calls:
+
+ function: imaginary calls:
+
+ function: init calls:
+        error
+        for
+        if
+        one
+
+ function: integral calls:
+
+ function: jef calls:
+
+ function: log calls:
+
+ function: loggam calls:
+        ABS
+        for
+        if
+        log
+        loggam
+        return
+        sin
+        tmp
+
+ function: m calls:
+
+ function: m2 calls:
+
+ function: main calls:
+        A
+        B
+        D
+        E
+        ElExp
+        ElLog
+        F
+        Gmeijer
+        InvWeier
+        K
+        Lerch
+        Weierstrass
+        Z
+        abs
+        af
+        b
+        c
+        cexp
+        cgamma
+        clog
+        complex
+        element
+        fockc
+        fockfg
+        fockpq
+        fockscat
+        for
+        heuman
+        hurwitz
+        if
+        m
+        n
+        neville
+        o
+        print
+        printf
+        scanf
+        scdn
+        setelement
+        sizeof
+        theta
+
+ function: max calls:
+
+ function: mult calls:
+
+ function: n calls:
+
+ function: neville calls:
+        K
+        complex
+        if
+        real
+        theta
+
+ function: numer calls:
+
+ function: o calls:
+
+ function: one calls:
+
+ function: operator calls:
+        error
+        for
+        if
+        prod
+        sum
+
+ function: phi calls:
+
+ function: pi calls:
+
+ function: pow calls:
+
+ function: power calls:
+
+ function: prep calls:
+        if
+        real
+
+ function: print calls:
+        if
+        printf
+
+ function: printf calls:
+
+ function: prod calls:
+
+ function: qroots calls:
+        complex
+        imaginary
+        real
+        solvq
+
+ function: rabs calls:
+
+ function: real calls:
+
+ function: return calls:
+
+ function: scanf calls:
+
+ function: scdn calls:
+        complex
+        dnom
+        i
+        if
+        imaginary
+        rabs
+        real
+        scdns
+
+ function: scdns calls:
+        K
+        abs
+        argm
+        asin
+        ccos
+        cexp
+        clog
+        complex
+        csin
+        for
+        fprintf
+        if
+        imaginary
+        jef
+        pow
+        print
+        printf
+        real
+        sinh
+        sqrt
+        tanh
+        tek
+        term
+
+ function: setelement calls:
+        check
+        for
+        if
+        init
+
+ function: sin calls:
+
+ function: sinh calls:
+        csin
+        i
+
+ function: sizeof calls:
+
+ function: sn calls:
+
+ function: solvq calls:
+
+ function: sq calls:
+
+ function: sqrt calls:
+
+ function: sum calls:
+
+ function: tangent calls:
+        ccos
+        csin
+
+ function: tanh calls:
+        i
+        tangent
+
+ function: tek calls:
+
+ function: term calls:
+
+ function: theta calls:
+        K
+        complex
+        if
+        real
+        scdns
+
+ function: tmp calls:
+
+ function: x calls:
+
+ function: xi calls:
+        Riemann_zeta
+        a
+        cgamma
+        complex
+
+ function: y calls:
+
+ function: zero calls:
+

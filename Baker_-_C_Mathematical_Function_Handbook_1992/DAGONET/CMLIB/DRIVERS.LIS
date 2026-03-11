@@ -1,0 +1,23 @@
+LIST OF TEST DRIVERS and related chapters
+
+CHAPTER(S)          TESTDRIVER
+
+3,4                 td34.c
+5,6                 td56.c
+7                   td7.c
+8                   td8.c
+9,10,11,12          tdb.c         
+9                   tdzb.c
+13                  chf.c, tdu.c
+14                  tdcwf.c
+15                  f21d.c
+16,17,18            tdje.c
+19                  tdpcf.c
+20                  tdmath.c
+21                  tdsph.c
+22                  tdorth.c
+23                  tdzeta.c
+24                  tdsfb.c
+26                  tdrand.c
+27                  tdmisc.c, tdrich.c, tdw.c
+1,2,25,28,29 have no associated C functions

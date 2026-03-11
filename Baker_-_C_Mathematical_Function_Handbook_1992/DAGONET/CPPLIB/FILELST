@@ -1,0 +1,206 @@
+
+
+ file:LERCH.CPP contains:
+    ABS
+    Lerch
+    main
+
+
+ file:CMPLX.CPP contains:
+    max
+    for
+    rabs
+    ABS
+    rabs
+    print
+    abs
+    cexp
+    clog
+    csin
+    ccos
+    tangent
+    tanh
+    sinh
+    asin
+    acos
+    arctan
+    cgamma
+    loggam
+    gamma
+    bernoulli
+
+
+ file:HURWITZ.CPP contains:
+    max
+    ABS
+    prep
+    hurwitz
+    Riemann_zeta
+    cgamma
+    xi
+    main
+
+
+ file:AGM.CPP contains:
+    max
+    for
+    rabs
+    tangent
+    tanh
+    sinh
+    asin
+    acos
+    arctan
+    agm
+    K
+    E
+    F
+    Z
+    E
+    argm
+    scdns
+    scdn
+    heuman
+    theta
+    neville
+
+
+ file:CMATRIX.CPP contains:
+    error
+    check
+    check
+    init
+    Cmatrix
+    Cmatrix
+    element
+    setelement
+    element
+    setelement
+    Cvector
+    operator
+    operator
+    operator
+    main
+
+
+ file:FOCK.CPP contains:
+    ABS
+    integral
+    fockc
+    main
+
+
+ file:E.CPP contains:
+    max
+    Gmeijer
+    Emacrobert
+
+
+ file:MEIJER2.CPP contains:
+    max
+    cgamma
+    factor
+    ghgF
+    Gmeijer
+    main
+    error
+    check
+    check
+    init
+    Cmatrix
+    Cmatrix
+    element
+    setelement
+    element
+    setelement
+    Cvector
+    operator
+    operator
+    operator
+
+
+ file:HPADE5.CPP contains:
+    ABS
+    max
+    Rzeta2
+    prep
+    hurwitz
+    main
+
+
+ file:AGMD.CPP contains:
+    max
+    for
+    agm
+    F
+    K
+    E
+    Z
+    E
+    scdn
+    heuman
+    theta
+    neville
+    Weierstrass
+    InvWeier
+    ElLog
+    ElExp
+    main
+
+
+ file:MEIJER3.CPP contains:
+    max
+    cgamma
+    factor
+    ghgF
+    Gmeijer
+    main
+    error
+    check
+    check
+    init
+    Cmatrix
+    Cmatrix
+    element
+    setelement
+    element
+    setelement
+    Cvector
+    operator
+    operator
+    operator
+
+
+ file:AGMS.CPP contains:
+    max
+    for
+    rabs
+    tangent
+    tanh
+    sinh
+    asin
+    acos
+    arctan
+    F
+    scdn
+    ccubic
+    solvq
+    croots
+    qroots
+    Weierstrass
+    ElLog
+    InvWeier
+    ElExp
+
+
+ file:F123.CPP contains:
+    ABS
+    af2s
+    af3s
+    af1s
+    afa
+    af1
+    af2
+    af3
+    af
+    main
