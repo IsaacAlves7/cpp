@@ -1,0 +1,20 @@
+;IIRMAINR.ASM-REAL-TIME MAIN PROGRAM. CALLS IIR FILTER SUBROUTINE 
+         .TITLE  "IIRMAINR"      ;CALLS HYPERSIGNAL SUB   
+         .GLOBAL RESET,BEGIN,FILT,AICSET,AICSEC,AICIO_P
+         .SECT   "VECTORS"       ;ASSEMBLE INTO VECTOR SECTION
+RESET    .WORD   BEGIN           ;RESET VECTOR
+         .DATA                   ;ASSEMBLE INTO DATA SECTION
+STACKS   .WORD   809F00h         ;INIT STACK POINTER DATA
+AICSEC   .WORD   1428h,1h,4A96h,67h ;AIC CONFIG DATA
+         .TEXT                   ;ASSEMBLE INTO TEXT SECTION
+BEGIN    LDP     STACKS          ;INIT DATA PAGE
+         LDI     @STACKS,SP      ;SP => 809F00h
+         CALL    AICSET          ;INIT AIC
+LOOP     CALL    AICIO_P         ;AIC I/O INPUT=>R6,OUT=>R7
+         FLOAT   R6,R3           ;INPUT NEW SAMPLE ->R3
+         CALL    FILT            ;GO TO SUBROUTINE FILT   
+         FIX     R3,R7           ;R7=INTEGER(R3)
+         BR      LOOP            ;BRANCH UNTIL R4 < 0
+         .END
+       
+

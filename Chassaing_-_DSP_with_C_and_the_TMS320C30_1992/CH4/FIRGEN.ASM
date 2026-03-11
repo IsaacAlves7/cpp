@@ -1,0 +1,38 @@
+;FIRGEN.ASM-GENERIC FIR FILTER USING TMS320C30 CODE
+        .TITLE  "FIRGEN.ASM"     ;BP FIR,Fc=1 kHz,Fs=10 kHz
+        .GLOBAL FILT,MAIN,BEGIN,AICSET,AICSEC,SPSET,AICIO_P               
+        .GLOBAL COEFF,LENGTH     ;REF/DEF
+        .DATA                    ;ASSEMBLE INTO DATA SECTION
+LENGTH  .SET    45               ;SET FILTER'S LENGTH
+XN_ADDR .WORD   XN+LENGTH-1      ;(LAST) SAMPLE ADDRESS
+HN_ADDR .WORD   COEFF            ;ADDR OF COEFF H(N-1)  
+AICSEC  .WORD   1428h,1h,4A96h,67h   ;AIC CONFIG DATA 
+XN      .USECT  "XN_BUFF",LENGTH ;BUFFER SIZE OF SAMPLES  
+        .SECT   "VECTORS"        ;VECTOR SECTION
+MAIN    .WORD   BEGIN            ;BEGIN @ RESET (0H)
+        .TEXT                    ;ASSEMBLE INTO TEXT
+BEGIN   LDP     SPSET            ;INIT DATA PAGE
+        CALL    AICSET           ;INIT AIC
+        LDI     LENGTH,BK        ;SIZE OF CIRCULAR BUFFER
+        LDI     @XN_ADDR,AR1     ;LAST SAMPLE ADDR ->AR1
+FILT    LDI     LENGTH,AR4       ;LENGTH IN AR4
+        SUBI    1,AR4            ;AR4 = LENGTH - 1
+LOOP    CALL    AICIO_P          ;AICIO ROUTINE,IN->R6 OUT->R7
+        FLOAT   R6,R3            ;INPUT NEW SAMPLE
+        STF     R3,*AR1++        ;STORE NEWEST SAMPLE
+        LDI     @HN_ADDR,AR0     ;AR0 POINTS TO COEFF H(N-1)
+        LDF     0,R0             ;INITIALIZE R0
+        LDF     0,R2             ;INITIALIZE R2
+        RPTS    LENGTH-1         ;REPEAT LENGTH-1 TIMES
+        MPYF    *AR0++,*AR1++%,R0  ;R0 = HN*XN 
+||      ADDF    R0,R2            ;R2 IS THE ACCUMULATOR
+        DBNZD   AR4,LOOP         ;DELAYED BRANCH UNTIL AR4<0
+        ADDF    R0,R2            ;LAST VALUE ACCUMULATED
+        FIX     R2,R7            ;FLOAT(R2) TO INTEGER(R7)
+        NOP                      ;ADDED DUE TO DELAY BRANCH
+        BR      FILT             ;BRANCH BACK TO FILTER ROUTINE
+        .END                     ;END
+
+
+
+

@@ -1,0 +1,1453 @@
+DISK CONTENT EXTRACTION LOG
+Performed by Applesauce v1.74a2
+www.applesaucefdc.com
+
+Timestamp: Oct 1, 2022, 08:54
+
+    Media: 3.5" Floppy Disk
+   Format: FAT12
+
+== STATUS ======================================================================
+
+188 files were detected on the disk.
+No issues were encountered with the extraction process.
+
+== CATALOG =====================================================================
+
+
+
+README   TXT         3,712   7-15-1992   2:19p README.TXT
+CH1            <DIR>         5-20-1992   7:52p CH1
+CH2            <DIR>         5-20-1992   7:52p CH2
+CH3            <DIR>         5-20-1992   7:53p CH3
+CH4            <DIR>         5-20-1992   7:54p CH4
+CH5            <DIR>         5-20-1992   7:55p CH5
+CH6            <DIR>         5-20-1992   7:56p CH6
+CH7            <DIR>         5-20-1992   7:56p CH7
+CH8            <DIR>         5-20-1992   7:57p CH8
+APPA           <DIR>         5-20-1992   8:00p APPA
+APPC           <DIR>         5-20-1992   8:01p APPC
+APPD           <DIR>         5-20-1992   8:02p APPD
+APPE           <DIR>         5-20-1992   8:02p APPE
+GENERAL        <DIR>         5-20-1992   8:03p GENERAL
+
+
+\\CH1
+
+MATRIXC  C             470   5-30-1991   5:12p MATRIXC.C
+MATRIXC  CMD           232   3-07-1992   3:28p MATRIXC.CMD
+MATRIX   ASM         1,271   5-30-1991  10:41a MATRIX.ASM
+MATRIX   CMD           218   5-30-1991  10:49a MATRIX.CMD
+LOOPALL  OUT         2,814   3-07-1992   5:03p LOOPALL.OUT
+LOOPALL  C           2,488   6-11-1991  11:05a LOOPALL.C
+LOOPALL  CMD           805   3-07-1992   3:39p LOOPALL.CMD
+LOOPCTRL BAT            34   9-25-1991  10:21p LOOPCTRL.BAT
+LOOPCTRL C             776   9-27-1991   2:09p LOOPCTRL.C
+LOOPCTRL OUT         2,434   9-27-1991   2:25p LOOPCTRL.OUT
+LOOPCMD  H             462   9-27-1991   2:32p LOOPCMD.H
+PCCTRL   C           1,492   9-27-1991   2:09p PCCTRL.C
+TEXT     C           2,422   9-27-1991   2:14p TEXT.C
+VECSIR   ASM           192   6-11-1991  10:20a VECSIR.ASM
+
+
+\\CH2
+
+ADDF     ASM           705   5-26-1991   6:26p ADDF.ASM
+MULT     ASM           795   5-27-1991  12:52a MULT.ASM
+MULTSUB  ASM           620   5-26-1991  11:53p MULTSUB.ASM
+CIRC     ASM         2,716   3-21-1992  11:50p CIRC.ASM
+PREFIR   ASM         3,204   5-27-1991   9:04p PREFIR.ASM
+PREFIR   CMD         1,058  11-11-1991   3:40p PREFIR.CMD
+INOUTC   C             356   5-30-1991  12:19p INOUTC.C
+ADDM     C             381   5-30-1991   3:56p ADDM.C
+ADDMFUNC ASM           553   3-07-1992   5:56p ADDMFUNC.ASM
+MATRIXM  C             346   5-30-1991   5:44p MATRIXM.C
+MATRIXMF ASM         1,349   5-30-1991   5:57p MATRIXMF.ASM
+ADDF     CMD           712  11-11-1991   3:37p ADDF.CMD
+
+
+\\CH3
+
+INTERINC ASM         2,019  12-01-1991   3:41p INTERINC.ASM
+NOISEINT ASM         3,034  12-01-1991   3:46p NOISEINT.ASM
+NOISEINT DAT           208  12-12-1991  10:18p NOISEINT.DAT
+NOISEALT ASM         1,743  12-12-1991  10:21p NOISEALT.ASM
+SINE4    ASM         2,839  12-01-1991   3:50p SINE4.ASM
+SINE4C   C           1,467  12-01-1991   3:58p SINE4C.C
+SINE4AIC C           1,183   6-11-1991   1:58p SINE4AIC.C
+AICCOM   C           2,246   9-21-1991   2:45p AICCOM.C
+LOOPC    C             578   9-02-1991  12:01a LOOPC.C
+LOOPCI   C             999   9-02-1991  12:02a LOOPCI.C
+AICCOM01 C           3,476   9-02-1991  12:08a AICCOM01.C
+LOOPC1   C             674   9-02-1991  12:10a LOOPC1.C
+LOOPS    ASM           945   3-07-1992   6:24p LOOPS.ASM
+AICCOMA  ASM         6,721   9-22-1991   8:35p AICCOMA.ASM
+LOOPSI   ASM         1,198   9-02-1991  12:20a LOOPSI.ASM
+LOOPSW1  ASM         1,129   9-24-1991   8:41p LOOPSW1.ASM
+PCLOOP   C             984   7-16-1991  10:30p PCLOOP.C
+HOSTLOOP C             901   7-16-1991  11:51p HOSTLOOP.C
+EVMCTRL  C             558   3-12-1992   7:12a EVMCTRL.C
+DMAHOST  C             950   3-22-1992  11:33a DMAHOST.C
+DMAEVM   C           1,620   3-31-1992   1:08a DMAEVM.C
+
+
+\\CH4
+
+LP11     ASM         2,641   7-13-1991   1:16p LP11.ASM
+LP11     CMD           809   7-13-1991   1:17p LP11.CMD
+LP11BF2  ASM         3,113  11-16-1991  12:21a LP11BF2.ASM
+BP45A    ASM         3,429   9-01-1991   7:57p BP45A.ASM
+BP45MC   C           1,159   3-07-1992   6:46p BP45MC.C
+BP45MCF  ASM         1,979   6-13-1991  10:13p BP45MCF.ASM
+BP45HPT                918   3-07-1992   7:39p BP45HPT
+BP45NM   C             947   3-07-1992   7:49p BP45NM.C
+BP45COEF H             721   6-14-1991   9:16a BP45COEF.H
+BP45ERIC C           1,417   3-07-1992   8:02p BP45ERIC.C
+BP45NMR  C           1,473   3-07-1992   8:07p BP45NMR.C
+BP45MCR  C             848   3-07-1992   8:13p BP45MCR.C
+BP45AR   ASM         2,536   3-11-1992  10:22p BP45AR.ASM
+BP45ARM  ASM         1,718   9-01-1991   8:32p BP45ARM.ASM
+MFILT    ASM         1,046  12-13-1991   9:05a MFILT.ASM
+BP45ARPN ASM         3,865   3-22-1992   9:24p BP45ARPN.ASM
+BP45H    C           3,333   6-14-1991  12:26a BP45H.C
+FIRGEN   ASM         1,898   9-02-1991   2:13a FIRGEN.ASM
+COEFGEN  ASM         2,247   9-02-1991   2:17a COEFGEN.ASM
+FIRPROGA BAS        20,250  10-28-1991   8:30p FIRPROGA.BAS
+FIRPROG  BAS        17,821  10-28-1991   8:37p FIRPROG.BAS
+IMPULSE  DAT         4,487   5-19-1992  10:44p IMPULSE.DAT
+BP45ARI  ASM         2,805  10-31-1991  10:58p BP45ARI.ASM
+BP45K    COF         2,058  10-28-1991   8:43p BP45K.COF
+BS95     COF         3,005  12-01-1991   4:52p BS95.COF
+BS95     ASM         5,609   3-24-1991   1:32p BS95.ASM
+BP45NMD  C             818   2-02-1992   6:56p BP45NMD.C
+BP45MCFR ASM         2,043   6-20-1991   5:53p BP45MCFR.ASM
+FIRGEN   CMD           780   9-02-1991   2:19a FIRGEN.CMD
+
+
+\\CH5
+
+SINEC    C           1,699  12-13-1991   6:32p SINEC.C
+SINECR   C           1,944  12-13-1991   6:34p SINECR.C
+SINEASM  ASM         2,110   8-15-1991   8:29p SINEASM.ASM
+IIR6BPC  C           1,096   6-20-1991   8:18p IIR6BPC.C
+IIR6BPCR C           1,210   9-08-1991   9:21p IIR6BPCR.C
+IIR6COEF H             457  12-13-1991   7:04p IIR6COEF.H
+IIR6BPA  ASM         2,622   8-16-1991  11:32p IIR6BPA.ASM
+IIR6BPAR ASM         2,646   8-26-1991   8:21p IIR6BPAR.ASM
+COSINE   ASM         2,469   7-13-1990  10:14p COSINE.ASM
+BLT      BAS         7,490   7-26-1988  12:00a BLT.BAS
+MAGPHSE  BAS        11,883  10-28-1984  12:06a MAGPHSE.BAS
+ALARMR   ASM         6,045   1-22-1992  12:05a ALARMR.ASM
+AMPLIT   CPP        17,993   3-29-1992   6:39p AMPLIT.CPP
+
+
+\\CH6
+
+FFT8     C             606  12-13-1991   7:46p FFT8.C
+FFT      C           2,537   9-06-1991   8:22p FFT.C
+FFT8     CMD           923   3-26-1992   6:22p FFT8.CMD
+FFTGEN   C             729  12-13-1991   7:49p FFTGEN.C
+FFT8MC   C             867  12-13-1991   8:02p FFT8MC.C
+TWID8    ASM           220   9-08-1991   9:43p TWID8.ASM
+FFT8MC   DAT           168   9-07-1991   4:15p FFT8MC.DAT
+FFT512R  C           2,570   9-08-1991   6:23p FFT512R.C
+SINEGEN  C             553   3-26-1992   7:09p SINEGEN.C
+FFT_RL   ASM         6,357   9-07-1991   9:50p FFT_RL.ASM
+TWID512  ASM         8,040   8-14-1991   9:42p TWID512.ASM
+TWIDDLE  H           8,555   9-06-1991   8:50p TWIDDLE.H
+FFT512R  OUT         7,215   9-08-1991   6:30p FFT512R.OUT
+
+
+\\CH7
+
+ADAPTC   C           1,946  10-22-1991  10:34p ADAPTC.C
+NOTCH2W  ASM         3,937   3-26-1992  10:46p NOTCH2W.ASM
+ADAPTP   ASM         3,742   9-18-1991   7:37p ADAPTP.ASM
+ADAPTER  ASM         3,732   9-24-1991   7:22p ADAPTER.ASM
+ADAPTIVE C           7,797   1-14-1991   7:30a ADAPTIVE.C
+SIN312               4,117   8-02-1989  11:13a SIN312
+COS312               4,129   8-02-1989  11:17a COS312
+DPLUSN               1,682   8-03-1989  10:57a DPLUSN
+HCOS312              2,077   6-19-1989   1:43p HCOS312
+SIN1000                743   1-15-1992   3:28p SIN1000
+ADAPTDNA ASM         3,658   3-27-1992   5:39a ADAPTDNA.ASM
+ADAPTDNC C           1,220   1-26-1992   7:06p ADAPTDNC.C
+
+
+\\CH8
+
+PARAMET        <DIR>         5-20-1992   7:57p PARAMET
+NOTCH          <DIR>         5-20-1992   7:57p NOTCH
+ADAPTC         <DIR>         5-20-1992   7:58p ADAPTC
+SWEEP          <DIR>         5-20-1992   7:58p SWEEP
+MULTRATE       <DIR>         5-20-1992   7:58p MULTRATE
+VIDEO          <DIR>         5-20-1992   7:59p VIDEO
+CONTROL        <DIR>         5-20-1992   7:59p CONTROL
+SUB            <DIR>         5-20-1992   8:00p SUB
+MODULATE       <DIR>         5-20-1992   8:00p MODULATE
+MUX4           <DIR>         5-20-1992   8:00p MUX4
+
+
+\\APPA
+
+ARITHM   C             569   9-09-1991   6:58a ARITHM.C
+MAT      C             430   9-09-1991   6:59a MAT.C
+VOLATILE C             795   9-09-1991   7:04a VOLATILE.C
+IIRA     C           1,673   9-09-1991   7:06a IIRA.C
+
+
+\\APPC
+
+EDGEIN   DAT           900   2-03-1991   7:46p EDGEIN.DAT
+BP45SC   C           3,585   6-09-1991   1:58p BP45SC.C
+BP45S    ASM         3,866   6-09-1991   1:23p BP45S.ASM
+EDGE     C             340   8-11-1991   5:34a EDGE.C
+BP45M    ASM         1,950   6-09-1991   6:07p BP45M.ASM
+BP45MS   CMD         1,032   6-09-1991   8:49p BP45MS.CMD
+IIR6BP   C           3,236  12-14-1991   9:16a IIR6BP.C
+IIR6BP   ASM         3,461   8-17-1991   4:48p IIR6BP.ASM
+IIRMAIN  ASM         1,220   3-07-1992   9:17p IIRMAIN.ASM
+IIRMAINR ASM           986   3-07-1992   9:20p IIRMAINR.ASM
+BP45SPT                440   3-27-1992  11:34a BP45SPT
+
+
+\\APPD
+
+BBLOOP   ASM           888   6-22-1991  10:24a BBLOOP.ASM
+BBLOOPI  ASM         1,425   6-22-1991  10:26a BBLOOPI.ASM
+BBCOM    ASM         5,929   6-21-1991   7:36p BBCOM.ASM
+BBLOOP2  ASM         1,034   6-22-1991  10:24a BBLOOP2.ASM
+BBLOOPI2 ASM         1,561   6-22-1991  10:25a BBLOOPI2.ASM
+
+
+\\APPE
+
+SRAMTEST ASM         3,138  10-06-1990  12:30a SRAMTEST.ASM
+AICBCOM  ASM         3,131   1-25-1991  11:19p AICBCOM.ASM
+AIBFFT   ASM         2,869   8-26-1990   8:31p AIBFFT.ASM
+SIN256   DAT         5,152   6-24-1988   3:05p SIN256.DAT
+FFT_256  ASM        10,317   8-27-1990  12:13p FFT_256.ASM
+FFT_MM   ASM         4,526   7-11-1990   9:20p FFT_MM.ASM
+SQUARE   ASM         2,250   9-22-1990   8:29p SQUARE.ASM
+LOOPAICB ASM           980   8-18-1991  10:43p LOOPAICB.ASM
+FFT_256  CMD         1,015   8-26-1990   8:00p FFT_256.CMD
+
+
+\\GENERAL
+
+EGAVGA   BGI         5,554   5-04-1990   1:00a EGAVGA.BGI
+VECS     ASM           635   3-28-1992   8:57p VECS.ASM
+READ     ME            154   3-31-1992   7:14p READ.ME
+
+
+\\CH8\PARAMET
+
+PEQPT               25,906   5-20-1992   7:32p PEQPT
+PEQ      CMD           828  12-14-1991   9:13p PEQ.CMD
+PEQ      OUT         4,808  12-14-1991  11:27p PEQ.OUT
+PCPEQ    C             337  12-14-1991  11:52p PCPEQ.C
+
+
+\\CH8\NOTCH
+
+RSLOPE   ASM         1,233   5-07-1991   7:31p RSLOPE.ASM
+
+
+\\CH8\ADAPTC
+
+SHIFT    C             781  10-22-1991  11:46p SHIFT.C
+SHIFTTB  C             831  10-22-1991  11:56p SHIFTTB.C
+ADAPTSH  C           1,198  10-23-1991  12:47a ADAPTSH.C
+ADAPTTB  C           1,646  12-15-1991   1:48a ADAPTTB.C
+SCDAT                3,983   4-25-1991   3:23p SCDAT
+ADAPTEVM C           2,406   3-28-1992   1:28p ADAPTEVM.C
+CAICCOM  C             944   5-05-1991   6:28p CAICCOM.C
+
+
+\\CH8\SWEEP
+
+EVMSWEEP C           3,110  12-15-1991   2:26a EVMSWEEP.C
+EVMSWEEP CMD           939  10-07-1991  11:25p EVMSWEEP.CMD
+EVMSWEEP OUT         4,518  10-07-1991  11:26p EVMSWEEP.OUT
+HSTSWEEP C           4,278  10-03-1991   8:33p HSTSWEEP.C
+INTROUTS C             437   4-21-1991   4:12p INTROUTS.C
+PCSWEEP  BAT            42   5-05-1991   2:20p PCSWEEP.BAT
+
+
+\\CH8\MULTRATE
+
+MR10     ASM        47,011  10-23-1990   6:48p MR10.ASM
+MR10AIC  CMD         1,083  11-06-1990   8:51p MR10AIC.CMD
+MR10AIC  ASM        46,643  12-19-1991  10:03p MR10AIC.ASM
+MR10MCR  ASM        20,110   3-22-1992   9:07p MR10MCR.ASM
+MR10MCR  OUT         7,744   3-29-1992   8:54p MR10MCR.OUT
+MR10MCR  CMD         1,083   3-22-1992   8:54p MR10MCR.CMD
+AICCOMI  ASM         3,494   3-29-1992   9:01p AICCOMI.ASM
+
+
+\\CH8\VIDEO
+
+VIDEO    C          11,380  12-21-1991   7:39p VIDEO.C
+VIDEOPC  C           5,546  12-21-1991   7:43p VIDEOPC.C
+PROJCMD  H           1,219  12-21-1991   9:10p PROJCMD.H
+SERIAL1  C             420  12-07-1991  12:45a SERIAL1.C
+
+
+\\CH8\CONTROL
+
+CONTPCD  C           2,929   3-22-1992   9:55p CONTPCD.C
+CONTPID  BAT            28   2-01-1992   4:22p CONTPID.BAT
+CONTPID  C           2,653   3-28-1992   7:32p CONTPID.C
+CONTPID  CMD           641   2-01-1992   4:34p CONTPID.CMD
+
+
+\\CH8\SUB
+
+SUBHOST  C           5,856   5-15-1992  10:38p SUBHOST.C
+SUBEVM   C           3,824   5-15-1992  10:56p SUBEVM.C
+
+
+\\CH8\MODULATE
+
+MOD      C           3,190   5-17-1992   9:09p MOD.C
+MODHOST  C           1,293   5-17-1992   9:10p MODHOST.C
+MODCOEF  H           2,756   5-17-1992   5:12p MODCOEF.H
+
+
+\\CH8\MUX4
+
+MAINPC   C           1,865   5-19-1992   9:44p MAINPC.C
+MAINEVM  C           3,958   5-19-1992   9:51p MAINEVM.C
+INCFILE  H             220   5-19-1992  10:00p INCFILE.H
+
+
+== FILE DETAILS ================================================================
+
+README.TXT
+Short Name: 'README  '   Type: 'TXT'       MD5: fc3949865e90ad271716b0942876c253
+1st Clust: $0002      Sectors: 8        File Size: 3712          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIXC.C
+Short Name: 'MATRIXC '   Type: 'C  '       MD5: 1db7ce27a1cb54f01897569cf8134ae9
+1st Clust: $0004      Sectors: 2        File Size: 470           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIXC.CMD
+Short Name: 'MATRIXC '   Type: 'CMD'       MD5: 99a895de46f0d47fe3d1de60d81e78c1
+1st Clust: $0005      Sectors: 2        File Size: 232           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIX.ASM
+Short Name: 'MATRIX  '   Type: 'ASM'       MD5: 776196c08cd3ca3c15659fb0050819dd
+1st Clust: $0006      Sectors: 4        File Size: 1271          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIX.CMD
+Short Name: 'MATRIX  '   Type: 'CMD'       MD5: 4088ffd650dfa8a3f7f73e8705b772d6
+1st Clust: $0008      Sectors: 2        File Size: 218           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPALL.OUT
+Short Name: 'LOOPALL '   Type: 'OUT'       MD5: c64e4722b2384e4e6c3dc44dc47a8032
+1st Clust: $0009      Sectors: 6        File Size: 2814          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPALL.C
+Short Name: 'LOOPALL '   Type: 'C  '       MD5: d28499a6bc79f6d9d4214fcc4552a037
+1st Clust: $000C      Sectors: 6        File Size: 2488          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPALL.CMD
+Short Name: 'LOOPALL '   Type: 'CMD'       MD5: 2cf7cb21215feb27059a3ef96fd1056e
+1st Clust: $000F      Sectors: 2        File Size: 805           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPCTRL.BAT
+Short Name: 'LOOPCTRL'   Type: 'BAT'       MD5: b07b26fa9745a478a225369f9512dbb1
+1st Clust: $0010      Sectors: 2        File Size: 34            Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPCTRL.C
+Short Name: 'LOOPCTRL'   Type: 'C  '       MD5: 3d7d5cbc9178412c2710369ba97fd24b
+1st Clust: $0011      Sectors: 2        File Size: 776           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPCTRL.OUT
+Short Name: 'LOOPCTRL'   Type: 'OUT'       MD5: 3c5b49036338f8fa46b6ee372d77f413
+1st Clust: $0012      Sectors: 6        File Size: 2434          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPCMD.H
+Short Name: 'LOOPCMD '   Type: 'H  '       MD5: 910d1d064417d250b9ac0eb1e0899d5b
+1st Clust: $0015      Sectors: 2        File Size: 462           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PCCTRL.C
+Short Name: 'PCCTRL  '   Type: 'C  '       MD5: 9c2defe5b2966ee3f78995877346a146
+1st Clust: $0016      Sectors: 4        File Size: 1492          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEXT.C
+Short Name: 'TEXT    '   Type: 'C  '       MD5: ca887b654327425286b53b9ef41a9bfc
+1st Clust: $0018      Sectors: 6        File Size: 2422          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VECSIR.ASM
+Short Name: 'VECSIR  '   Type: 'ASM'       MD5: 077be354c9bffaba576a46adcd990c20
+1st Clust: $001B      Sectors: 2        File Size: 192           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADDF.ASM
+Short Name: 'ADDF    '   Type: 'ASM'       MD5: 3c195c858b50016f1b84b51de6c04cb4
+1st Clust: $001D      Sectors: 2        File Size: 705           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MULT.ASM
+Short Name: 'MULT    '   Type: 'ASM'       MD5: 859693196006e8608ac484f7670e32eb
+1st Clust: $001E      Sectors: 2        File Size: 795           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MULTSUB.ASM
+Short Name: 'MULTSUB '   Type: 'ASM'       MD5: cc030a0a99f012dd5c27b4b5f0ac5f2c
+1st Clust: $001F      Sectors: 2        File Size: 620           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CIRC.ASM
+Short Name: 'CIRC    '   Type: 'ASM'       MD5: 7ef2effcee72fc5c443d4700eaecf24e
+1st Clust: $0020      Sectors: 6        File Size: 2716          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PREFIR.ASM
+Short Name: 'PREFIR  '   Type: 'ASM'       MD5: f6bd87a6e133743bc406c92e4057c4e1
+1st Clust: $0023      Sectors: 8        File Size: 3204          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PREFIR.CMD
+Short Name: 'PREFIR  '   Type: 'CMD'       MD5: 2a9d4246625eb245b5b8ddf41872752b
+1st Clust: $0027      Sectors: 4        File Size: 1058          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+INOUTC.C
+Short Name: 'INOUTC  '   Type: 'C  '       MD5: 7d80c2082f3defb79cd1bed06422bdfb
+1st Clust: $0029      Sectors: 2        File Size: 356           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADDM.C
+Short Name: 'ADDM    '   Type: 'C  '       MD5: decde8d30d50f6f1dc3ea137c89e98ce
+1st Clust: $002A      Sectors: 2        File Size: 381           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADDMFUNC.ASM
+Short Name: 'ADDMFUNC'   Type: 'ASM'       MD5: 82ddaa70c585b84ce11c986e4489dfc9
+1st Clust: $002B      Sectors: 2        File Size: 553           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIXM.C
+Short Name: 'MATRIXM '   Type: 'C  '       MD5: 103f1d8efc5b600bc98590a6b8ca9ceb
+1st Clust: $002C      Sectors: 2        File Size: 346           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MATRIXMF.ASM
+Short Name: 'MATRIXMF'   Type: 'ASM'       MD5: f4d4b8a1b0c4ba179506d6749a8dfc63
+1st Clust: $002D      Sectors: 4        File Size: 1349          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADDF.CMD
+Short Name: 'ADDF    '   Type: 'CMD'       MD5: 4771f57567d09bda92408e835a82469c
+1st Clust: $002F      Sectors: 2        File Size: 712           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+INTERINC.ASM
+Short Name: 'INTERINC'   Type: 'ASM'       MD5: 777126b82e34a63ab80b0d7ba9494259
+1st Clust: $0031      Sectors: 4        File Size: 2019          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOISEINT.ASM
+Short Name: 'NOISEINT'   Type: 'ASM'       MD5: 90f93729c5eed18375c4545c139e98cc
+1st Clust: $0033      Sectors: 6        File Size: 3034          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOISEINT.DAT
+Short Name: 'NOISEINT'   Type: 'DAT'       MD5: 9de8ff0d0391c702f2f2688618c83e2f
+1st Clust: $0036      Sectors: 2        File Size: 208           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOISEALT.ASM
+Short Name: 'NOISEALT'   Type: 'ASM'       MD5: eca0fedf44083871d276de8d7f5cf373
+1st Clust: $0037      Sectors: 4        File Size: 1743          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINE4.ASM
+Short Name: 'SINE4   '   Type: 'ASM'       MD5: 8c0b1af50a1f2ac31df2b0a23ba7692f
+1st Clust: $0039      Sectors: 6        File Size: 2839          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINE4C.C
+Short Name: 'SINE4C  '   Type: 'C  '       MD5: 834922785a709723957bdd52a71140d6
+1st Clust: $003C      Sectors: 4        File Size: 1467          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINE4AIC.C
+Short Name: 'SINE4AIC'   Type: 'C  '       MD5: 5f4481bf56857a62d1cf90da738ac422
+1st Clust: $003E      Sectors: 4        File Size: 1183          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AICCOM.C
+Short Name: 'AICCOM  '   Type: 'C  '       MD5: 96e9b04c122be36d800883c55a4e5820
+1st Clust: $0040      Sectors: 6        File Size: 2246          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPC.C
+Short Name: 'LOOPC   '   Type: 'C  '       MD5: 4db24b336073b17a037b4ee56bb623be
+1st Clust: $0043      Sectors: 2        File Size: 578           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPCI.C
+Short Name: 'LOOPCI  '   Type: 'C  '       MD5: 19a3c54a20454779fb6ca56085c52778
+1st Clust: $0044      Sectors: 2        File Size: 999           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AICCOM01.C
+Short Name: 'AICCOM01'   Type: 'C  '       MD5: f4a29bb276630987747c88ae9653a4bd
+1st Clust: $0045      Sectors: 8        File Size: 3476          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPC1.C
+Short Name: 'LOOPC1  '   Type: 'C  '       MD5: 499ea7b6d6b329ae781d37f9bd0d72e0
+1st Clust: $0049      Sectors: 2        File Size: 674           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPS.ASM
+Short Name: 'LOOPS   '   Type: 'ASM'       MD5: 1f66592693cda5e4f5c1205e8ec30c5e
+1st Clust: $004A      Sectors: 2        File Size: 945           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AICCOMA.ASM
+Short Name: 'AICCOMA '   Type: 'ASM'       MD5: 7ab515d420052c87a6e653b201cc9d11
+1st Clust: $004B      Sectors: 14       File Size: 6721          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPSI.ASM
+Short Name: 'LOOPSI  '   Type: 'ASM'       MD5: ba06ee9bb8fd24851fe42712d10a4230
+1st Clust: $0052      Sectors: 4        File Size: 1198          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPSW1.ASM
+Short Name: 'LOOPSW1 '   Type: 'ASM'       MD5: 279b0eedb19c756cea45b0b95955a1e1
+1st Clust: $0054      Sectors: 4        File Size: 1129          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PCLOOP.C
+Short Name: 'PCLOOP  '   Type: 'C  '       MD5: 5d1f7f966b70d7c4e489fb43e1a0e253
+1st Clust: $0056      Sectors: 2        File Size: 984           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HOSTLOOP.C
+Short Name: 'HOSTLOOP'   Type: 'C  '       MD5: 0765b18da9f2aebd1ec6ae19566210a7
+1st Clust: $0057      Sectors: 2        File Size: 901           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EVMCTRL.C
+Short Name: 'EVMCTRL '   Type: 'C  '       MD5: 1acd5e760f519d26c005ffdd3007f6bd
+1st Clust: $0058      Sectors: 2        File Size: 558           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DMAHOST.C
+Short Name: 'DMAHOST '   Type: 'C  '       MD5: 941b9285c7043690d49041ca4defb452
+1st Clust: $0059      Sectors: 2        File Size: 950           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DMAEVM.C
+Short Name: 'DMAEVM  '   Type: 'C  '       MD5: 9e3143031600acb8a42b1d3605ca860d
+1st Clust: $005A      Sectors: 4        File Size: 1620          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LP11.ASM
+Short Name: 'LP11    '   Type: 'ASM'       MD5: 035cdfd238b8b07e01df0d0a9d9ff137
+1st Clust: $005D      Sectors: 6        File Size: 2641          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LP11.CMD
+Short Name: 'LP11    '   Type: 'CMD'       MD5: 403f445dedb77c8da79107e16922178f
+1st Clust: $0060      Sectors: 2        File Size: 809           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LP11BF2.ASM
+Short Name: 'LP11BF2 '   Type: 'ASM'       MD5: b9608c7166ca0f2a1430ae40fa42b126
+1st Clust: $0061      Sectors: 8        File Size: 3113          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45A.ASM
+Short Name: 'BP45A   '   Type: 'ASM'       MD5: 689006129a2c17d0d4f56125755b6ddb
+1st Clust: $0065      Sectors: 8        File Size: 3429          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45MC.C
+Short Name: 'BP45MC  '   Type: 'C  '       MD5: a33499366589b6f14c28d8441498eef4
+1st Clust: $0069      Sectors: 4        File Size: 1159          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45MCF.ASM
+Short Name: 'BP45MCF '   Type: 'ASM'       MD5: 1b90ed0c01fea664babf622f14e78a26
+1st Clust: $006B      Sectors: 4        File Size: 1979          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45HPT
+Short Name: 'BP45HPT '   Type: '   '       MD5: ea8795b2538cbcff31a4d318cf893ec8
+1st Clust: $006D      Sectors: 2        File Size: 918           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45NM.C
+Short Name: 'BP45NM  '   Type: 'C  '       MD5: 36587941c07d03aea0c69f8b84ab3049
+1st Clust: $006E      Sectors: 2        File Size: 947           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45COEF.H
+Short Name: 'BP45COEF'   Type: 'H  '       MD5: 6f0716f177330e1360e5bd6bd63219df
+1st Clust: $006F      Sectors: 2        File Size: 721           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45ERIC.C
+Short Name: 'BP45ERIC'   Type: 'C  '       MD5: 2f441333362a30076b47ea7e0729d717
+1st Clust: $0070      Sectors: 4        File Size: 1417          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45NMR.C
+Short Name: 'BP45NMR '   Type: 'C  '       MD5: 22e9c756c0ca0195f1d011385d620f9f
+1st Clust: $0072      Sectors: 4        File Size: 1473          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45MCR.C
+Short Name: 'BP45MCR '   Type: 'C  '       MD5: 15f29442a831949662de74cee21da6ca
+1st Clust: $0074      Sectors: 2        File Size: 848           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45AR.ASM
+Short Name: 'BP45AR  '   Type: 'ASM'       MD5: 06b7016d3c9f76c9249eb7015276bcb3
+1st Clust: $0075      Sectors: 6        File Size: 2536          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45ARM.ASM
+Short Name: 'BP45ARM '   Type: 'ASM'       MD5: 786428419910260be51e38b9b75f980d
+1st Clust: $0078      Sectors: 4        File Size: 1718          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MFILT.ASM
+Short Name: 'MFILT   '   Type: 'ASM'       MD5: 897a184c39f9d52c827c07d0f96e0aef
+1st Clust: $007A      Sectors: 4        File Size: 1046          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45ARPN.ASM
+Short Name: 'BP45ARPN'   Type: 'ASM'       MD5: 28b172543d0d8149bd1384d90b42cafe
+1st Clust: $007C      Sectors: 8        File Size: 3865          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45H.C
+Short Name: 'BP45H   '   Type: 'C  '       MD5: a600edf204a6d8efb274cf325d471618
+1st Clust: $0080      Sectors: 8        File Size: 3333          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FIRGEN.ASM
+Short Name: 'FIRGEN  '   Type: 'ASM'       MD5: b46e6e72a333353402240b049d0f87f3
+1st Clust: $0084      Sectors: 4        File Size: 1898          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COEFGEN.ASM
+Short Name: 'COEFGEN '   Type: 'ASM'       MD5: 2c518086bc167f753f41cad4507fd8de
+1st Clust: $0086      Sectors: 6        File Size: 2247          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FIRPROGA.BAS
+Short Name: 'FIRPROGA'   Type: 'BAS'       MD5: a73ce8848fdd0922e54c10ede0a03d32
+1st Clust: $0089      Sectors: 40       File Size: 20250         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FIRPROG.BAS
+Short Name: 'FIRPROG '   Type: 'BAS'       MD5: 7d0ba01367c509cdea786cddc3d4881e
+1st Clust: $009D      Sectors: 36       File Size: 17821         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IMPULSE.DAT
+Short Name: 'IMPULSE '   Type: 'DAT'       MD5: e6797e8899b8c1a0f6f5ab2813570d07
+1st Clust: $00AF      Sectors: 10       File Size: 4487          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45ARI.ASM
+Short Name: 'BP45ARI '   Type: 'ASM'       MD5: 6fc91ea1c373dfb87072b4b5c870d425
+1st Clust: $00B4      Sectors: 6        File Size: 2805          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45K.COF
+Short Name: 'BP45K   '   Type: 'COF'       MD5: d694d7d9b31cb13a94ee7b90b0468997
+1st Clust: $00B7      Sectors: 6        File Size: 2058          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BS95.COF
+Short Name: 'BS95    '   Type: 'COF'       MD5: 5250b36e9359f253f86161d9f198b566
+1st Clust: $00BA      Sectors: 6        File Size: 3005          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BS95.ASM
+Short Name: 'BS95    '   Type: 'ASM'       MD5: 7b5f67f3d141254a02f59eddbe2e954f
+1st Clust: $00BD      Sectors: 12       File Size: 5609          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45NMD.C
+Short Name: 'BP45NMD '   Type: 'C  '       MD5: 408e614d6f96629c24d7b60ab3e4c290
+1st Clust: $00C3      Sectors: 2        File Size: 818           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45MCFR.ASM
+Short Name: 'BP45MCFR'   Type: 'ASM'       MD5: 8d1ba3822eb9029c98e26bd2f7ab0eea
+1st Clust: $00C4      Sectors: 4        File Size: 2043          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FIRGEN.CMD
+Short Name: 'FIRGEN  '   Type: 'CMD'       MD5: 8813eacbc1e3cac7422daabb6a177c6c
+1st Clust: $00C6      Sectors: 2        File Size: 780           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINEC.C
+Short Name: 'SINEC   '   Type: 'C  '       MD5: 4c69016bb543a5547fa9007b29447942
+1st Clust: $00C8      Sectors: 4        File Size: 1699          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINECR.C
+Short Name: 'SINECR  '   Type: 'C  '       MD5: 3d2c6af6cac4b2b995ec73d8cb601003
+1st Clust: $00CA      Sectors: 4        File Size: 1944          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINEASM.ASM
+Short Name: 'SINEASM '   Type: 'ASM'       MD5: 37e2008c0c5e04d70e23ddb69ca9025c
+1st Clust: $00CC      Sectors: 6        File Size: 2110          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BPC.C
+Short Name: 'IIR6BPC '   Type: 'C  '       MD5: 16d312f32ca27b35e68024c4f78e89e2
+1st Clust: $00CF      Sectors: 4        File Size: 1096          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BPCR.C
+Short Name: 'IIR6BPCR'   Type: 'C  '       MD5: 2d1abf2c5e79ad373e73aaddb60ae458
+1st Clust: $00D1      Sectors: 4        File Size: 1210          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6COEF.H
+Short Name: 'IIR6COEF'   Type: 'H  '       MD5: 85d475716591a9770f9a1d08176143a0
+1st Clust: $00D3      Sectors: 2        File Size: 457           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BPA.ASM
+Short Name: 'IIR6BPA '   Type: 'ASM'       MD5: 84b4ccb9173bc04cf9baecc2a5f756eb
+1st Clust: $00D4      Sectors: 6        File Size: 2622          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BPAR.ASM
+Short Name: 'IIR6BPAR'   Type: 'ASM'       MD5: 34877f18d5410d17eda9a7f4479331b2
+1st Clust: $00D7      Sectors: 6        File Size: 2646          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COSINE.ASM
+Short Name: 'COSINE  '   Type: 'ASM'       MD5: 26e945b08b671a207b86e74977454a3e
+1st Clust: $00DA      Sectors: 6        File Size: 2469          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BLT.BAS
+Short Name: 'BLT     '   Type: 'BAS'       MD5: 9631397617ca5cf0cdee782e34696f89
+1st Clust: $00DD      Sectors: 16       File Size: 7490          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAGPHSE.BAS
+Short Name: 'MAGPHSE '   Type: 'BAS'       MD5: 276500b1f08882b733cfb06b276d4888
+1st Clust: $00E5      Sectors: 24       File Size: 11883         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ALARMR.ASM
+Short Name: 'ALARMR  '   Type: 'ASM'       MD5: 28458b7b426a9825446628cedb839b2e
+1st Clust: $00F1      Sectors: 12       File Size: 6045          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AMPLIT.CPP
+Short Name: 'AMPLIT  '   Type: 'CPP'       MD5: 5616fc0b29d9f1287556744ab6f61147
+1st Clust: $00F7      Sectors: 36       File Size: 17993         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT8.C
+Short Name: 'FFT8    '   Type: 'C  '       MD5: 32e823a4ff7fab1def6daec4b3ff3d07
+1st Clust: $010A      Sectors: 2        File Size: 606           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT.C
+Short Name: 'FFT     '   Type: 'C  '       MD5: f05ab0d80eb39eed6b24f034f3ceb503
+1st Clust: $010B      Sectors: 6        File Size: 2537          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT8.CMD
+Short Name: 'FFT8    '   Type: 'CMD'       MD5: ea750025e25fe6ac9d5c32f6e489b4d2
+1st Clust: $010E      Sectors: 2        File Size: 923           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFTGEN.C
+Short Name: 'FFTGEN  '   Type: 'C  '       MD5: f658501d115573ebb248e835f9c8d0c7
+1st Clust: $010F      Sectors: 2        File Size: 729           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT8MC.C
+Short Name: 'FFT8MC  '   Type: 'C  '       MD5: 6bbcff0bafcf15a995dd0004c893dcf8
+1st Clust: $0110      Sectors: 2        File Size: 867           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TWID8.ASM
+Short Name: 'TWID8   '   Type: 'ASM'       MD5: 97e07efbd7f22db242e31d22c4c1291b
+1st Clust: $0111      Sectors: 2        File Size: 220           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT8MC.DAT
+Short Name: 'FFT8MC  '   Type: 'DAT'       MD5: 9b8974d3dd66ee474380c70db27d898e
+1st Clust: $0112      Sectors: 2        File Size: 168           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT512R.C
+Short Name: 'FFT512R '   Type: 'C  '       MD5: 6a137b24ea27d5cd1de690148b67602f
+1st Clust: $0113      Sectors: 6        File Size: 2570          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SINEGEN.C
+Short Name: 'SINEGEN '   Type: 'C  '       MD5: 7883231bd2d4b2ee0b6ebb7f6874ccc5
+1st Clust: $0116      Sectors: 2        File Size: 553           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT_RL.ASM
+Short Name: 'FFT_RL  '   Type: 'ASM'       MD5: 839b1aff550b970aefccb18dd0242901
+1st Clust: $0117      Sectors: 14       File Size: 6357          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TWID512.ASM
+Short Name: 'TWID512 '   Type: 'ASM'       MD5: bdbab8c97caf8efdfbdf9c228c51373c
+1st Clust: $011E      Sectors: 16       File Size: 8040          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TWIDDLE.H
+Short Name: 'TWIDDLE '   Type: 'H  '       MD5: 6c5c2d6fa025ae5f920a6ada12ff9fd6
+1st Clust: $0126      Sectors: 18       File Size: 8555          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT512R.OUT
+Short Name: 'FFT512R '   Type: 'OUT'       MD5: be766bb6a5e6ce17d65ffa6e2830388c
+1st Clust: $012F      Sectors: 16       File Size: 7215          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTC.C
+Short Name: 'ADAPTC  '   Type: 'C  '       MD5: ae68bb2a5f795d56888373719d7eff1f
+1st Clust: $0138      Sectors: 4        File Size: 1946          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOTCH2W.ASM
+Short Name: 'NOTCH2W '   Type: 'ASM'       MD5: 5b8b930a6ff7b274ac22cefe00932234
+1st Clust: $013A      Sectors: 8        File Size: 3937          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTP.ASM
+Short Name: 'ADAPTP  '   Type: 'ASM'       MD5: dc4fa100270cfe342d959736ebdf7c36
+1st Clust: $013E      Sectors: 8        File Size: 3742          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTER.ASM
+Short Name: 'ADAPTER '   Type: 'ASM'       MD5: 89da262233e03618d46fbbd59c663abc
+1st Clust: $0142      Sectors: 8        File Size: 3732          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTIVE.C
+Short Name: 'ADAPTIVE'   Type: 'C  '       MD5: 0bf4e6b293e66874f50cd21af0dad682
+1st Clust: $0146      Sectors: 16       File Size: 7797          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SIN312
+Short Name: 'SIN312  '   Type: '   '       MD5: fbb1029af5cf97de7acc7f272ce68390
+1st Clust: $014E      Sectors: 10       File Size: 4117          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COS312
+Short Name: 'COS312  '   Type: '   '       MD5: 85264e55896af09dbb8d44abd550ba82
+1st Clust: $0153      Sectors: 10       File Size: 4129          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DPLUSN
+Short Name: 'DPLUSN  '   Type: '   '       MD5: 6916efe7036b11a5ef07687c0ac2c16b
+1st Clust: $0158      Sectors: 4        File Size: 1682          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HCOS312
+Short Name: 'HCOS312 '   Type: '   '       MD5: 28e96a0c16948fa223627980275f6cde
+1st Clust: $015A      Sectors: 6        File Size: 2077          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SIN1000
+Short Name: 'SIN1000 '   Type: '   '       MD5: b2d63b2e773d83756432be6db7ac7376
+1st Clust: $015D      Sectors: 2        File Size: 743           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTDNA.ASM
+Short Name: 'ADAPTDNA'   Type: 'ASM'       MD5: b2957ae7dd86e1c940ad1dd975d09be1
+1st Clust: $015E      Sectors: 8        File Size: 3658          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTDNC.C
+Short Name: 'ADAPTDNC'   Type: 'C  '       MD5: d74e83bfcc225771d7909d3663fe04f2
+1st Clust: $0162      Sectors: 4        File Size: 1220          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ARITHM.C
+Short Name: 'ARITHM  '   Type: 'C  '       MD5: 56747638c8ade855e5ab1725a899ca92
+1st Clust: $0269      Sectors: 2        File Size: 569           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAT.C
+Short Name: 'MAT     '   Type: 'C  '       MD5: 13f554e3d132661e1e40f86f4c919ee8
+1st Clust: $026A      Sectors: 2        File Size: 430           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VOLATILE.C
+Short Name: 'VOLATILE'   Type: 'C  '       MD5: e3b8f5111bab50a0f3dc4542792c17a7
+1st Clust: $026B      Sectors: 2        File Size: 795           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIRA.C
+Short Name: 'IIRA    '   Type: 'C  '       MD5: 2e826e503a9899016ea59c799d49cc14
+1st Clust: $026C      Sectors: 4        File Size: 1673          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDGEIN.DAT
+Short Name: 'EDGEIN  '   Type: 'DAT'       MD5: a3bcaacb256b12e2ec5a62e76a1c25e9
+1st Clust: $026F      Sectors: 2        File Size: 900           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45SC.C
+Short Name: 'BP45SC  '   Type: 'C  '       MD5: 5e5f1e26081640e058ca1581b631b20f
+1st Clust: $0270      Sectors: 8        File Size: 3585          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45S.ASM
+Short Name: 'BP45S   '   Type: 'ASM'       MD5: d9fdf5616ed44a981a30f5b6d35d9175
+1st Clust: $0274      Sectors: 8        File Size: 3866          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDGE.C
+Short Name: 'EDGE    '   Type: 'C  '       MD5: cf4cdd7e76bff9509c8354c8f2c03cf2
+1st Clust: $0278      Sectors: 2        File Size: 340           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45M.ASM
+Short Name: 'BP45M   '   Type: 'ASM'       MD5: 92d9b52a98cb74526b7776d031c2cbc8
+1st Clust: $0279      Sectors: 4        File Size: 1950          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45MS.CMD
+Short Name: 'BP45MS  '   Type: 'CMD'       MD5: 2817d5de76cd855c4fdf23e1c2516fcb
+1st Clust: $027B      Sectors: 4        File Size: 1032          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BP.C
+Short Name: 'IIR6BP  '   Type: 'C  '       MD5: 48a20a914e68b1eb038a97d0c6b38c8f
+1st Clust: $027D      Sectors: 8        File Size: 3236          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIR6BP.ASM
+Short Name: 'IIR6BP  '   Type: 'ASM'       MD5: 6f566297686dc419562fce0aa6ea5e7e
+1st Clust: $0281      Sectors: 8        File Size: 3461          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIRMAIN.ASM
+Short Name: 'IIRMAIN '   Type: 'ASM'       MD5: 93fadd14a1ca65f7236272f92fef618f
+1st Clust: $0285      Sectors: 4        File Size: 1220          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+IIRMAINR.ASM
+Short Name: 'IIRMAINR'   Type: 'ASM'       MD5: 7fd9a796c8579d8af70431b12f4b69db
+1st Clust: $0287      Sectors: 2        File Size: 986           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BP45SPT
+Short Name: 'BP45SPT '   Type: '   '       MD5: b5e93aec3abb1fdf089fb1025e0aa4d4
+1st Clust: $0288      Sectors: 2        File Size: 440           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BBLOOP.ASM
+Short Name: 'BBLOOP  '   Type: 'ASM'       MD5: 4346fe47129ef9d7abd69e622e95b4f9
+1st Clust: $028A      Sectors: 2        File Size: 888           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BBLOOPI.ASM
+Short Name: 'BBLOOPI '   Type: 'ASM'       MD5: f8510d55feeb437173143ebf9351a8a2
+1st Clust: $028B      Sectors: 4        File Size: 1425          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BBCOM.ASM
+Short Name: 'BBCOM   '   Type: 'ASM'       MD5: dbd87d1e686b0226a6a4718a864afd7c
+1st Clust: $028D      Sectors: 12       File Size: 5929          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BBLOOP2.ASM
+Short Name: 'BBLOOP2 '   Type: 'ASM'       MD5: 1c75425fb916d2a0ddd49380bf3005f4
+1st Clust: $0293      Sectors: 4        File Size: 1034          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BBLOOPI2.ASM
+Short Name: 'BBLOOPI2'   Type: 'ASM'       MD5: d2bddd3a73d43642d448ed36c13131d6
+1st Clust: $0295      Sectors: 4        File Size: 1561          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SRAMTEST.ASM
+Short Name: 'SRAMTEST'   Type: 'ASM'       MD5: 67c319bbd17cfc33cd0059e1e4b2780d
+1st Clust: $0298      Sectors: 8        File Size: 3138          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AICBCOM.ASM
+Short Name: 'AICBCOM '   Type: 'ASM'       MD5: 4e6c8cae0978012bd1e76573509b614c
+1st Clust: $029C      Sectors: 8        File Size: 3131          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AIBFFT.ASM
+Short Name: 'AIBFFT  '   Type: 'ASM'       MD5: 468e208bc976b0773a19dee5b95e7f39
+1st Clust: $02A0      Sectors: 6        File Size: 2869          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SIN256.DAT
+Short Name: 'SIN256  '   Type: 'DAT'       MD5: 4f7781579365ff82be491fe93fc70864
+1st Clust: $02A3      Sectors: 12       File Size: 5152          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT_256.ASM
+Short Name: 'FFT_256 '   Type: 'ASM'       MD5: d89b76a0b70cf01b8f160425eddc4d5d
+1st Clust: $02A9      Sectors: 22       File Size: 10317         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT_MM.ASM
+Short Name: 'FFT_MM  '   Type: 'ASM'       MD5: 0c62dd83da754802a89c1e15533d18cc
+1st Clust: $02B4      Sectors: 10       File Size: 4526          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SQUARE.ASM
+Short Name: 'SQUARE  '   Type: 'ASM'       MD5: 44c67af386571fa10766bc17ffd18ba5
+1st Clust: $02B9      Sectors: 6        File Size: 2250          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOOPAICB.ASM
+Short Name: 'LOOPAICB'   Type: 'ASM'       MD5: 1de5a5b2a689d40440b7ab236973a352
+1st Clust: $02BC      Sectors: 2        File Size: 980           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FFT_256.CMD
+Short Name: 'FFT_256 '   Type: 'CMD'       MD5: e52f16ab410e4113312b2fd5080970cb
+1st Clust: $02BD      Sectors: 2        File Size: 1015          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EGAVGA.BGI
+Short Name: 'EGAVGA  '   Type: 'BGI'       MD5: 225154e1af01ecefcfe83c66cc206cd1
+1st Clust: $02BF      Sectors: 12       File Size: 5554          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VECS.ASM
+Short Name: 'VECS    '   Type: 'ASM'       MD5: 84876a7a1a457cf03715fc831fcf054a
+1st Clust: $02C5      Sectors: 2        File Size: 635           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+READ.ME
+Short Name: 'READ    '   Type: 'ME '       MD5: 79b3b85b123c94d63a3282ae5e12abc2
+1st Clust: $02C6      Sectors: 2        File Size: 154           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PEQPT
+Short Name: 'PEQPT   '   Type: '   '       MD5: db4e79eb1e264589aa0fa5445344c831
+1st Clust: $0166      Sectors: 52       File Size: 25906         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PEQ.CMD
+Short Name: 'PEQ     '   Type: 'CMD'       MD5: b79cdd25efa446fe69b854d843c43d9e
+1st Clust: $0180      Sectors: 2        File Size: 828           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PEQ.OUT
+Short Name: 'PEQ     '   Type: 'OUT'       MD5: 5150f1d3a8b170f688f06096ef4543d8
+1st Clust: $0181      Sectors: 10       File Size: 4808          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PCPEQ.C
+Short Name: 'PCPEQ   '   Type: 'C  '       MD5: 37192c63baeb110e550ca73febac6e45
+1st Clust: $0186      Sectors: 2        File Size: 337           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RSLOPE.ASM
+Short Name: 'RSLOPE  '   Type: 'ASM'       MD5: ef2e8bf84fd082affa4c774fcb0f0987
+1st Clust: $0188      Sectors: 4        File Size: 1233          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SHIFT.C
+Short Name: 'SHIFT   '   Type: 'C  '       MD5: b7d76236fabaa8b2889db294629eb0ad
+1st Clust: $018B      Sectors: 2        File Size: 781           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SHIFTTB.C
+Short Name: 'SHIFTTB '   Type: 'C  '       MD5: b91b8b1a21b9e3f452401fc337dadc1b
+1st Clust: $018C      Sectors: 2        File Size: 831           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTSH.C
+Short Name: 'ADAPTSH '   Type: 'C  '       MD5: ae1138f7d588c60e0521f2f60436e710
+1st Clust: $018D      Sectors: 4        File Size: 1198          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTTB.C
+Short Name: 'ADAPTTB '   Type: 'C  '       MD5: 844be57cfa8a3ba6a8c6106031de373c
+1st Clust: $018F      Sectors: 4        File Size: 1646          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SCDAT
+Short Name: 'SCDAT   '   Type: '   '       MD5: e5a46726c9f50dff4b1291b9a8a9b266
+1st Clust: $0191      Sectors: 8        File Size: 3983          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+ADAPTEVM.C
+Short Name: 'ADAPTEVM'   Type: 'C  '       MD5: f3a0bbcd9ebe48a36392687a5a9d8a63
+1st Clust: $0195      Sectors: 6        File Size: 2406          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CAICCOM.C
+Short Name: 'CAICCOM '   Type: 'C  '       MD5: cbf3cdd670e153e6a51c341cb44448f1
+1st Clust: $0198      Sectors: 2        File Size: 944           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EVMSWEEP.C
+Short Name: 'EVMSWEEP'   Type: 'C  '       MD5: 2ec8018b365662504c51a32b584ce260
+1st Clust: $019A      Sectors: 8        File Size: 3110          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EVMSWEEP.CMD
+Short Name: 'EVMSWEEP'   Type: 'CMD'       MD5: cff9b789badf13870cd066bbed180c85
+1st Clust: $019E      Sectors: 2        File Size: 939           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EVMSWEEP.OUT
+Short Name: 'EVMSWEEP'   Type: 'OUT'       MD5: 98d96a5bf21d9951dd7b0b8970aef11a
+1st Clust: $019F      Sectors: 10       File Size: 4518          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HSTSWEEP.C
+Short Name: 'HSTSWEEP'   Type: 'C  '       MD5: b3d3475199d3f6df09c5014d471fabce
+1st Clust: $01A4      Sectors: 10       File Size: 4278          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+INTROUTS.C
+Short Name: 'INTROUTS'   Type: 'C  '       MD5: ec04f33b736feab2298fa6bbc655d6d6
+1st Clust: $01A9      Sectors: 2        File Size: 437           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PCSWEEP.BAT
+Short Name: 'PCSWEEP '   Type: 'BAT'       MD5: ad0f3def09be1c68f82e9fa0dd121586
+1st Clust: $01AA      Sectors: 2        File Size: 42            Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10.ASM
+Short Name: 'MR10    '   Type: 'ASM'       MD5: 821be185515d9d928aa3ea68bfad549e
+1st Clust: $01AC      Sectors: 92       File Size: 47011         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10AIC.CMD
+Short Name: 'MR10AIC '   Type: 'CMD'       MD5: 5d2d6592f4a1710036b07386b84c70fa
+1st Clust: $01DA      Sectors: 4        File Size: 1083          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10AIC.ASM
+Short Name: 'MR10AIC '   Type: 'ASM'       MD5: 66cfd71d79715e7aa977d6fdeb555b0c
+1st Clust: $01DC      Sectors: 92       File Size: 46643         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10MCR.ASM
+Short Name: 'MR10MCR '   Type: 'ASM'       MD5: 176f04aa36baf19731b6005acd8f2a35
+1st Clust: $020A      Sectors: 40       File Size: 20110         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10MCR.OUT
+Short Name: 'MR10MCR '   Type: 'OUT'       MD5: 766735664db099d865334ea7383c9dd3
+1st Clust: $021E      Sectors: 16       File Size: 7744          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MR10MCR.CMD
+Short Name: 'MR10MCR '   Type: 'CMD'       MD5: 288914feababb8fa88fae19425443ada
+1st Clust: $0226      Sectors: 4        File Size: 1083          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+AICCOMI.ASM
+Short Name: 'AICCOMI '   Type: 'ASM'       MD5: 5852292461ca09ffcbf89c810fd8de2c
+1st Clust: $0228      Sectors: 8        File Size: 3494          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VIDEO.C
+Short Name: 'VIDEO   '   Type: 'C  '       MD5: 68571323cf12210296745ec18b051d03
+1st Clust: $022D      Sectors: 24       File Size: 11380         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VIDEOPC.C
+Short Name: 'VIDEOPC '   Type: 'C  '       MD5: cd162253d1fd8d2c42c1d76c9d5c5e4d
+1st Clust: $0239      Sectors: 12       File Size: 5546          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PROJCMD.H
+Short Name: 'PROJCMD '   Type: 'H  '       MD5: 0c9544aa33c82f0752610c9774378eb2
+1st Clust: $023F      Sectors: 4        File Size: 1219          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SERIAL1.C
+Short Name: 'SERIAL1 '   Type: 'C  '       MD5: 6fad6243a572cc1482b2c9427f648eee
+1st Clust: $0241      Sectors: 2        File Size: 420           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTPCD.C
+Short Name: 'CONTPCD '   Type: 'C  '       MD5: d0fa155addbe16b4c567956aec534da1
+1st Clust: $0243      Sectors: 6        File Size: 2929          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTPID.BAT
+Short Name: 'CONTPID '   Type: 'BAT'       MD5: ecac561ba4abcbb62f8f94967482e614
+1st Clust: $0246      Sectors: 2        File Size: 28            Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTPID.C
+Short Name: 'CONTPID '   Type: 'C  '       MD5: bf375ed388eb0fedfa24b0c513d51eec
+1st Clust: $0247      Sectors: 6        File Size: 2653          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTPID.CMD
+Short Name: 'CONTPID '   Type: 'CMD'       MD5: f3149b55e560c2f94f1c4b074179f77b
+1st Clust: $024A      Sectors: 2        File Size: 641           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SUBHOST.C
+Short Name: 'SUBHOST '   Type: 'C  '       MD5: c5f8ec7b0d7dd47db45db40cf7b31f02
+1st Clust: $024C      Sectors: 12       File Size: 5856          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SUBEVM.C
+Short Name: 'SUBEVM  '   Type: 'C  '       MD5: 1eea8f052833e6b0c4d2ea6b896ea983
+1st Clust: $0252      Sectors: 8        File Size: 3824          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MOD.C
+Short Name: 'MOD     '   Type: 'C  '       MD5: 3d21b8ed2c6f857871aac91fe952f2dd
+1st Clust: $0257      Sectors: 8        File Size: 3190          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MODHOST.C
+Short Name: 'MODHOST '   Type: 'C  '       MD5: cfc99fbfb601831e36033b5ea9b693ba
+1st Clust: $025B      Sectors: 4        File Size: 1293          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MODCOEF.H
+Short Name: 'MODCOEF '   Type: 'H  '       MD5: 8c0e3b20f445cde39538a1f15dfe9a0f
+1st Clust: $025D      Sectors: 6        File Size: 2756          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAINPC.C
+Short Name: 'MAINPC  '   Type: 'C  '       MD5: 793b592b0c9871d545bb26d03e4db2cf
+1st Clust: $0261      Sectors: 4        File Size: 1865          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAINEVM.C
+Short Name: 'MAINEVM '   Type: 'C  '       MD5: aa803adeef64ec98c16a03e052f4733f
+1st Clust: $0263      Sectors: 8        File Size: 3958          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+INCFILE.H
+Short Name: 'INCFILE '   Type: 'H  '       MD5: b744a60fa18ab006facaa3da7eb19beb
+1st Clust: $0267      Sectors: 2        File Size: 220           Attr: $20      
+
+--------------------------------------------------------------------------------
+

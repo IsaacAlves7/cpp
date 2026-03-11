@@ -1,0 +1,19 @@
+;BP45SPT-PARTIAL PROGRAM WITH FILTER SUBROUTINE
+        .DEF    FILT, OUTDATA, IMPULSE, COEFF
+ORDER:  .SET    45
+FILT:   STF     R3, *AR1++%
+        LDF     0, R0
+        LDF     0, R2
+        RPTS    ORDER-1
+        MPYF    *AR0++, *AR1++%, R0
+||      ADDF    R0, R2
+        ADDF    R0, R2
+        LDF     R2, R3
+        RETS
+.DATA
+IMPULSE .FLOAT 10000.0
+OUTDATA .FLOAT 0.0
+DELAY_ADR .WORD DELAY
+COEFF_ADR .WORD COEFF
+
+

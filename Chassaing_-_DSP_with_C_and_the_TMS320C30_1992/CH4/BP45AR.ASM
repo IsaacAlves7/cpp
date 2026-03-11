@@ -1,0 +1,48 @@
+;BP45AR.ASM-FIR BANDPASS FILTER WITH 45 COEFF,USING TMS320C30 CODE
+        .TITLE  "BP45AR.ASM"     ;BP FIR,Fc=1 kHz,Fs=10 kHz
+        .GLOBAL FILT,MAIN,BEGIN,AICSET,AICSEC,SPSET,AICIO_P               
+        .DATA                    ;ASSEMBLE INTO DATA SECTION
+XN_ADDR .WORD   XN+LENGTH-1      ;(LAST) SAMPLE ADDRESS
+HN_ADDR .WORD   COEFF            ;ADDR OF COEFF H(N-1)  
+AICSEC  .WORD   1428h,1h,4A96h,67h   ;AIC CONFIG DATA 
+XN      .USECT  "XN_BUFF",LENGTH ;BUFFER SIZE OF SAMPLES  
+        .SECT   "VECTORS"        ;VECTOR SECTION
+MAIN    .WORD   BEGIN            ;BEGIN @ RESET (0H)
+        .TEXT                    ;ASSEMBLE INTO TEXT
+BEGIN   LDP     SPSET            ;INIT DATA PAGE
+        CALL    AICSET           ;INIT AIC
+        LDI     LENGTH,BK        ;SIZE OF CIRCULAR BUFFER
+        LDI     @XN_ADDR,AR1     ;LAST SAMPLE ADDR ->AR1
+FILT    LDI     LENGTH,AR4       ;LENGTH IN AR4
+        SUBI    1,AR4            ;AR4 = LENGTH - 1
+LOOP    CALL    AICIO_P          ;AICIO ROUTINE,IN->R6 OUT->R7
+        FLOAT   R6,R3            ;INPUT NEW SAMPLE
+        STF     R3,*AR1++%       ;STORE NEWEST SAMPLE
+        LDI     @HN_ADDR,AR0     ;AR0 POINTS TO COEFF H(N-1)
+        LDF     0,R0             ;INITIALIZE R0
+        LDF     0,R2             ;INITIALIZE R2
+        RPTS    LENGTH-1         ;REPEAT LENGTH-1 TIMES
+        MPYF    *AR0++,*AR1++%,R0  ;R0 = HN*XN 
+||      ADDF    R0,R2            ;R2 IS THE ACCUMULATOR
+        DBNZD   AR4,LOOP         ;DELAYED BRANCH UNTIL AR4<0
+        ADDF    R0,R2            ;LAST VALUE ACCUMULATED
+        FIX     R2,R7            ;FLOAT(R2) TO INTEGER(R7)
+        NOP                      ;ADDED DUE TO DELAY BRANCH
+        BR      FILT             ;BRANCH BACK TO FILTER ROUTINE
+        .DATA                    ;ASSEMBLE INTO DATA SECTION
+COEFF   .FLOAT  -1.839E-3        ;H44
+  .FLOAT  -2.657E-3,-1.437E-7, 3.154E-3, 2.595E-3,-4.159E-3,-1.540E-2
+  .FLOAT  -2.507E-2,-2.547E-2,-1.179E-2, 1.392E-2, 4.206E-2, 5.888E-2
+  .FLOAT   5.307E-2, 2.225E-2,-2.410E-2,-6.754E-2,-8.831E-2,-7.475E-2
+  .FLOAT  -2.956E-2, 3.030E-2, 8.050E-2, 1.000E-1, 8.050E-2, 3.030E-2
+  .FLOAT  -2.956E-2,-7.475E-2,-8.831E-2,-6.754E-2,-2.410E-2, 2.225E-2
+  .FLOAT   5.307E-2, 5.888E-2, 4.206E-2, 1.392E-2,-1.179E-2,-2.547E-2
+  .FLOAT  -2.507E-2,-1.540E-2,-4.159E-3, 2.595E-3, 3.154E-3,-1.437E-7
+        .FLOAT  -2.657E-3        ;H1
+H0      .FLOAT  -1.839E-3        ;H0
+LENGTH  .SET    H0-COEFF+1       ;LENGTH = 45
+        .END                     ;END
+
+
+
+

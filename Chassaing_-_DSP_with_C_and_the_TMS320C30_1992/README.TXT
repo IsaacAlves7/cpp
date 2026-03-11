@@ -1,0 +1,243 @@
+This disk contains the source code files to accompany the book
+"DIGITAL SIGNAL PROCESSING WITH C AND THE TMS32 0C30".  Procedures
+for compiling, assembling, linking, and running these programs are
+described in Chapter 1.  The programs for the projects discussed
+in Chapter 8 are included in the subdirectories of CH8.
+
+Directory of diskette:
+
+README.TXT
+
+CH1          <DIR>
+	MATRIXC  C
+	MATRIXC  CMD
+	MATRIX   ASM
+	MATRIX   CMD
+	LOOPALL  OUT
+	LOOPALL  C  
+	LOOPALL  CMD
+	LOOPCTRL BAT
+	LOOPCTRL C  
+	LOOPCTRL OUT
+	LOOPCMD  H
+	PCCTRL   C
+	TEXT     C
+	VECSIR   ASM
+
+CH2          <DIR>  
+	ADDF     ASM
+	MULT     ASM
+	MULTSUB  ASM
+	CIRC     ASM
+	PREFIR   ASM
+	PREFIR   CMD
+	INOUTC   C
+	ADDM     C
+	ADDMFUNC ASM
+	MATRIXM  C  
+	MATRIXMF ASM	
+	ADDF     CMD
+
+CH3          <DIR>  
+	INTERINC ASM
+	NOISEINT ASM
+	NOISEINT DAT
+	NOISEALT ASM
+	SINE4    ASM
+	SINE4C   C  
+	SINE4AIC C  
+	AICCOM   C  
+	LOOPC    C  
+	LOOPCI   C  
+	AICCOM01 C  
+	LOOPC1   C
+	LOOPS    ASM
+	AICCOMA  ASM
+	LOOPSI   ASM
+	LOOPSW1  ASM
+	PCLOOP   C  
+	HOSTLOOP C  
+	EVMCTRL  C  
+	DMAHOST  C  
+	DMAEVM   C  
+
+CH4          <DIR>  
+	LP11     ASM
+	LP11     CMD
+	LP11BF2  ASM
+	BP45A    ASM
+	BP45MC   C  
+	BP45MCF  ASM
+	BP45HPT     
+	BP45NM   C
+	BP45COEF H
+	BP45ERIC C
+	BP45NMR  C
+	BP45MCR  C
+	BP45AR   ASM
+	BP45ARM  ASM
+	MFILT    ASM
+	BP45ARPN ASM
+	BP45H    C  
+	FIRGEN   ASM
+	COEFGEN  ASM
+	FIRPROGA BAS
+	FIRPROG  BAS
+	IMPULSE  DAT
+	BP45ARI  ASM
+	BP45K    COF
+	BS95     COF
+	BS95     ASM
+	BP45NMD  C  
+	BP45MCFR ASM
+	FIRGEN   CMD
+
+CH5          <DIR>  
+	SINEC    C  
+	SINECR   C
+	SINEASM  ASM
+	IIR6BPC  C  
+	IIR6BPCR C  
+	IIR6COEF H  
+	IIR6BPA  ASM
+	IIR6BPAR ASM
+	COSINE   ASM
+	BLT      BAS
+	MAGPHSE  BAS
+	ALARMR   ASM
+	AMPLIT   CPP
+
+CH6          <DIR>  
+	FFT8     C  
+	FFT      C  
+	FFT8     CMD
+	FFTGEN   C  
+	FFT8MC   C  
+	TWID8    ASM
+	FFT8MC   DAT
+	FFT512R  C  
+	SINEGEN  C  
+	FFT_RL   ASM
+	TWID512  ASM
+	TWIDDLE  H  
+	FFT512R  OUT
+
+CH7          <DIR>  
+	ADAPTC   C  
+	NOTCH2W  ASM
+	ADAPTP   ASM
+	ADAPTER  ASM
+	ADAPTIVE C  
+	SIN312      
+	COS312      
+	DPLUSN      
+	HCOS312     
+	SIN1000     
+	ADAPTDNA ASM
+	ADAPTDNC C  
+
+CH8          <DIR>  
+
+	PARAMET      <DIR>
+		PEQPT     
+		PEQ      CMD
+		PEQ      OUT
+		PCPEQ    C  
+
+	NOTCH        <DIR>  
+		RSLOPE   ASM
+
+	ADAPTC       <DIR>  
+		SHIFT    C  
+		SHIFTTB  C  
+		ADAPTSH  C  
+		ADAPTTB  C  
+		SCDAT       
+		ADAPTEVM C 
+		CAICCOM  C 
+
+	SWEEP        <DIR>
+		EVMSWEEP C
+		EVMSWEEP CMD
+		EVMSWEEP OUT
+		HSTSWEEP C  
+		INTROUTS C  
+		PCSWEEP  BAT
+
+	MULTRATE     <DIR>  
+		MR10     ASM
+		MR10AIC  CMD
+		MR10AIC  ASM
+		MR10MCR  ASM
+		MR10MCR  OUT
+		MR10MCR  CMD
+		AICCOMI  ASM
+
+	VIDEO        <DIR>  
+		VIDEO    C  
+		VIDEOPC  C  
+		PROJCMD  H  
+		SERIAL1  C  
+
+	CONTROL      <DIR>  
+		CONTPCD  C  
+		CONTPID  BAT
+		CONTPID  C  
+		CONTPID  CMD
+
+	SUB          <DIR>  
+		SUBHOST  C  
+		SUBEVM   C  
+
+	MODULATE     <DIR>  
+		MOD      C
+		MODHOST  C
+		MODCOEF  H
+
+	MUX4         <DIR>
+		MAINPC   C
+		MAINEVM  C
+		INCFILE  H
+
+APPA         <DIR>   
+	ARITHM   C
+	MAT      C
+	VOLATILE C
+	IIRA     C
+
+APPC         <DIR>
+	EDGEIN   DAT
+	BP45SC   C  
+	BP45S    ASM
+	EDGE     C
+	BP45M    ASM
+	BP45MS   CMD
+	IIR6BP   C  
+	IIR6BP   ASM
+	IIRMAIN  ASM
+	IIRMAINR ASM
+	BP45SPT     
+
+APPD         <DIR>  
+	BBLOOP   ASM
+	BBLOOPI  ASM
+	BBCOM    ASM
+	BBLOOP2  ASM
+	BBLOOPI2 ASM
+
+APPE         <DIR>  
+	SRAMTEST ASM
+	AICBCOM  ASM
+	AIBFFT   ASM
+	SIN256   DAT
+	FFT_256  ASM
+	FFT_MM   ASM
+	SQUARE   ASM
+	LOOPAICB ASM
+	FFT_256  CMD
+
+GENERAL      <DIR>  
+	EGAVGA   BGI
+	VECS     ASM
+	READ     ME 
+

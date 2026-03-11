@@ -1,0 +1,569 @@
+;PEQPT-PARTIAL PARAMETRIC EQUALIZER WITHOUT COEFFICIENTS FOR FILTERS
+;5 THROUGH 10.ASSEMBLE/RUN BUT DO NOT SELECT FILTERS 5-10 
+         .TITLE "PEQPT"         ;2-PASSBANDS,51 COEFFS 
+         .GLOBAL RESET,BEGIN,AICSET,AICSEC,AICIO_P,OFSET,SPSET 
+         .SECT  "VECTORS"       ;ASSEMBLE INTO VECTOR SECTION
+RESET    .WORD  BEGIN           ;RESET VECTOR
+         .DATA                  ;ASSEMBLE INTO DATA SECT
+OFSET    .WORD   804000H        ;OFFSET INPUT ADDRESS
+AICSEC   .WORD   0E1Ch,1h,4286h,63H   ;Fs=16234 Hz
+XN_ADDR  .WORD   XN+LENGTH-1    ;NEWEST (LAST) INPUT SAMPLE 
+HN_ADDR  .WORD   COEF1          ;COEFFICIENTS TABLE ADDR
+STORE    .WORD   COF           
+XN       .USECT  "XN_BUFF",LENGTH ;SAMPLES BUFFER SIZE
+COF      .USECT  "COF_TABLE",16  ;COEFCNT SET ADDRS TABLE
+         .TEXT                   ;ASSEMBLE INTO TEXT SECT
+BEGIN    LDP     SPSET           ;INIT DATA PAGE
+         CALL    AICSET          ;INIT AIC/TMS320C30
+         LDI     @XN_ADDR,AR1    ;LAST SAMPLE ADDR ->AR1
+         LDI     16,R5           ;SET TABLE LENGTH COUNTER ->R5
+         LDI     LENGTH,R4       ;SET COEFCNT ADDRS OFFSET ->R4
+         LDI     @HN_ADDR,AR3    ;FIRST COEFCNT ADDRS ->AR3
+         LDI     @STORE,AR2      ;FIRST ADDR OF COEF TABLE->AR2 
+         LDI     @OFSET,AR4      ;LOAD ADDRESS OF OFFSET
+LOOP1    STI     AR3,*AR2++(1)   ;STORE COEFCNT SET ADDRESSES
+         ADDI    R4,AR3          ;INCREMENT TO NEXT COEFCNT SET
+         SUBI    1,R5            ;DECREMENT TABLE LENGTH COUNTER
+         BNZ     LOOP1           ;LOAD TABLE UNTIL FULL
+         LDI     LENGTH,BK       ;BK = # COEFFS(FILTER LENGTH)
+         LDF     0.0,R0          ;INIT R0=0
+         RPTS    LENGTH-1        ;INIT ALL IN SAMPLES TO 0
+         STF     R0,*AR1--(1)%   ;START & END AT LAST SAMPLE
+         SUBI    16,AR2          ;RETURN TO FIRST COEFCNT SET
+         LDI     *AR4,R1         ;LOAD ADDRESS OF OFFSET
+         LDI     R1,IR0          ;SET THE OFFSET REGISTER
+         AND     255,IR0         ;MASK OUT UNNECESSARY BITS
+         SUBI    1,IR0           ;CORRECT OFFSET+1 TO OFFSET
+LOOP2    CALL    AICIO_P         ;AIC I/O ROUTINE,IN->R6,OUT->R7
+         FLOAT   R6,R3           ;INPUT NEW SAMPLE -> R3
+         LDI     *+AR2(IR0),AR0  ;SELECTED COEF SET H(N-1)->AR0
+         CALL    FILT            ;GO TO SUBROUTINE FILT
+         FIX     R2,R7           ;R7=INTEGER(R2)
+         BR      LOOP2           ;LOOP CONTINUOUSLY
+FILT     STF     R3,*AR1++%      ;NEWEST SAMPLE TO MODEL DELAY
+         LDF     0.0,R0          ;INIT R0=0
+         LDF     0.0,R2          ;INIT R2=0
+         RPTS    LENGTH-1        ;MULTIPLY LENGTH TIMES
+         MPYF    *AR0++,*AR1++%,R0 ;H(N-1-i)*X(n-(N-1-i)
+||       ADDF    R0,R2           ;// WITH ACC -> R2
+         ADDF    R0,R2           ;LAST ACC -> R2
+         RETS                    ;RETURN FROM SUBROUTINE
+         .DATA
+COEF1:   .FLOAT      -8.010325E-005   
+         .FLOAT      -2.127472E-005  
+                .FLOAT      -1.089766E-003
+                .FLOAT      -2.333344E-003
+                .FLOAT      -1.724644E-003
+                .FLOAT       5.146487E-005
+                .FLOAT      -5.136693E-004
+                .FLOAT      -3.845088E-003
+                .FLOAT      -4.678417E-003
+                .FLOAT       2.149239E-004
+                .FLOAT       4.802480E-003
+                .FLOAT       1.666621E-003
+                .FLOAT      -4.142867E-003
+                .FLOAT       2.802532E-004
+                .FLOAT       1.426545E-002
+                .FLOAT       1.959141E-002
+                .FLOAT       7.923815E-003
+                .FLOAT       6.233831E-005
+                .FLOAT       1.839144E-002
+                .FLOAT       4.566187E-002
+                .FLOAT       3.970147E-002
+                .FLOAT      -3.262459E-004
+                .FLOAT      -1.037470E-002
+                .FLOAT       6.541718E-002
+                .FLOAT       1.885097E-001
+                .FLOAT       7.494764E-001
+                .FLOAT       1.885097E-001
+                .FLOAT       6.541718E-002
+                .FLOAT      -1.037470E-002
+                .FLOAT      -3.262459E-004
+                .FLOAT       3.970147E-002
+                .FLOAT       4.566187E-002
+                .FLOAT       1.839144E-002
+                .FLOAT       6.233831E-005
+                .FLOAT       7.923815E-003
+                .FLOAT       1.959141E-002
+                .FLOAT       1.426545E-002
+                .FLOAT       2.802532E-004
+                .FLOAT      -4.142867E-003
+                .FLOAT       1.666621E-003
+                .FLOAT       4.802480E-003
+                .FLOAT       2.149239E-004
+                .FLOAT      -4.678417E-003
+                .FLOAT      -3.845088E-003
+                .FLOAT      -5.136693E-004
+                .FLOAT       5.146487E-005
+                .FLOAT      -1.724644E-003
+                .FLOAT      -2.333344E-003
+                .FLOAT      -1.089766E-003
+                .FLOAT      -2.127472E-005
+                .FLOAT      -8.010325E-005   ;H0(1)
+COEF2:          .FLOAT      -6.409169E-004   ;BASS/LO(+) - TREBLE/HI(+)
+                .FLOAT      -1.156157E-003
+                .FLOAT      -6.389165E-004
+                .FLOAT      -5.700768E-007
+                .FLOAT      -1.205157E-003
+                .FLOAT      -3.482178E-003
+                .FLOAT      -3.218456E-003
+                .FLOAT       1.299180E-004
+                .FLOAT       1.423850E-003
+                .FLOAT      -2.442268E-003
+                .FLOAT      -5.326305E-003
+                .FLOAT       2.756902E-004
+                .FLOAT       9.365845E-003
+                .FLOAT       9.047724E-003
+                .FLOAT      -4.799826E-005
+                .FLOAT       2.086091E-004
+                .FLOAT       1.800783E-002
+                .FLOAT       3.235950E-002
+                .FLOAT       2.064893E-002
+                .FLOAT      -1.313909E-004
+                .FLOAT       1.192013E-002
+                .FLOAT       5.737330E-002
+                .FLOAT       7.193393E-002
+                .FLOAT      -4.704008E-004
+                .FLOAT      -1.214625E-001
+                .FLOAT       1.3182830
+                .FLOAT      -1.214625E-001
+                .FLOAT      -4.704008E-004
+                .FLOAT       7.193393E-002
+                .FLOAT       5.737330E-002
+                .FLOAT       1.192013E-002
+                .FLOAT      -1.313909E-004
+                .FLOAT       2.064893E-002
+                .FLOAT       3.235950E-002
+                .FLOAT       1.800783E-002
+                .FLOAT       2.086091E-004
+                .FLOAT      -4.799826E-005
+                .FLOAT       9.047724E-003
+                .FLOAT       9.365845E-003
+                .FLOAT       2.756902E-004
+                .FLOAT      -5.326305E-003
+                .FLOAT      -2.442268E-003
+                .FLOAT       1.423850E-003
+                .FLOAT       1.299180E-004
+                .FLOAT      -3.218456E-003
+                .FLOAT      -3.482178E-003
+                .FLOAT      -1.205157E-003
+                .FLOAT      -5.700768E-007
+                .FLOAT      -6.389165E-004
+                .FLOAT      -1.156157E-003
+                .FLOAT      -6.409169E-004  ;H0(2)
+COEF3:          .FLOAT      -6.216483E-004  ;BASS/LO(+) - TREBLE/LO(-)
+                .FLOAT      -1.328467E-003
+                .FLOAT      -8.966073E-004
+                .FLOAT       9.504805E-004
+                .FLOAT       1.352264E-003
+                .FLOAT      -1.701055E-003
+                .FLOAT      -4.880907E-003
+                .FLOAT      -3.854974E-003
+                .FLOAT      -1.194631E-003
+                .FLOAT      -2.819643E-003
+                .FLOAT      -5.829725E-003
+                .FLOAT       1.472017E-004
+                .FLOAT       1.475488E-002
+                .FLOAT       2.164027E-002
+                .FLOAT       1.184816E-002
+                .FLOAT       1.366045E-003
+                .FLOAT       7.840905E-003
+                .FLOAT       1.818476E-002
+                .FLOAT       6.466509E-003
+                .FLOAT      -1.476169E-002
+                .FLOAT       3.523936E-003
+                .FLOAT       7.224863E-002
+                .FLOAT       1.223419E-001
+                .FLOAT       7.951237E-002
+                .FLOAT      -2.835717E-002
+                .FLOAT       9.137613E-001
+                .FLOAT      -2.835717E-002
+                .FLOAT       7.951237E-002
+                .FLOAT       1.223419E-001
+                .FLOAT       7.224863E-002
+                .FLOAT       3.523936E-003
+                .FLOAT      -1.476169E-002
+                .FLOAT       6.466509E-003
+                .FLOAT       1.818476E-002
+                .FLOAT       7.840905E-003
+                .FLOAT       1.366045E-003
+                .FLOAT       1.184816E-002
+                .FLOAT       2.164027E-002
+                .FLOAT       1.475488E-002
+                .FLOAT       1.472017E-004
+                .FLOAT      -5.829725E-003
+                .FLOAT      -2.819643E-003
+                .FLOAT      -1.194631E-003
+                .FLOAT      -3.854974E-003
+                .FLOAT      -4.880907E-003
+                .FLOAT      -1.701055E-003
+                .FLOAT       1.352264E-003
+                .FLOAT       9.504805E-004
+                .FLOAT      -8.966073E-004
+                .FLOAT      -1.328467E-003
+                .FLOAT      -6.216483E-004   ;H0(3)
+COEF4:          .FLOAT      -3.965445E-004   ;BASS/LO(+) - TREBLE/LO(+)
+                .FLOAT      -1.805182E-004
+                .FLOAT      -1.154464E-003
+                .FLOAT      -3.542301E-003
+                .FLOAT      -4.412871E-003
+                .FLOAT      -1.669446E-003
+                .FLOAT       1.458099E-003
+                .FLOAT       7.430824E-004
+                .FLOAT      -1.138078E-003
+                .FLOAT       1.831426E-003
+                .FLOAT       6.831347E-003
+                .FLOAT       3.545241E-003
+                .FLOAT      -7.647519E-003
+                .FLOAT      -1.040797E-002
+                .FLOAT       4.163064E-003
+                .FLOAT       1.998039E-002
+                .FLOAT       1.925788E-002
+                .FLOAT       1.490953E-002
+                .FLOAT       3.266352E-002
+                .FLOAT       5.974721E-002
+                .FLOAT       4.690875E-002
+                .FLOAT      -1.699847E-002
+                .FLOAT      -6.310744E-002
+                .FLOAT      -1.729893E-002
+                .FLOAT       9.241276E-002
+                .FLOAT       1.1509180
+                .FLOAT       9.241276E-002
+                .FLOAT      -1.729893E-002
+                .FLOAT      -6.310744E-002
+                .FLOAT      -1.699847E-002
+                .FLOAT       4.690875E-002
+                .FLOAT       5.974721E-002
+                .FLOAT       3.266352E-002
+                .FLOAT       1.490953E-002
+                .FLOAT       1.925788E-002
+                .FLOAT       1.998039E-002
+                .FLOAT       4.163064E-003
+                .FLOAT      -1.040797E-002
+                .FLOAT      -7.647519E-003
+                .FLOAT       3.545241E-003
+                .FLOAT       6.831347E-003
+                .FLOAT       1.831426E-003
+                .FLOAT      -1.138078E-003
+                .FLOAT       7.430824E-004
+                .FLOAT       1.458099E-003
+                .FLOAT      -1.669446E-003
+                .FLOAT      -4.412871E-003
+                .FLOAT      -3.542301E-003
+                .FLOAT      -1.154464E-003
+                .FLOAT      -1.805182E-004
+                .FLOAT      -3.965445E-004   ;H0(4)
+COEF5:          .FLOAT       6.409143E-004   ;BASS/LO(-) - TREBLE/HI(-)
+;SETS OF COEF5 -> COEF10 DELETED
+;               .
+;               .
+COEF11:         .FLOAT       2.276355E-004   ;BASS/HI(+) - TREBLE/HI(+)
+                .FLOAT       1.629118E-003
+                .FLOAT       1.923199E-003
+                .FLOAT       1.318018E-003
+                .FLOAT       2.526434E-003
+                .FLOAT       4.498288E-003
+                .FLOAT       2.095708E-003
+                .FLOAT      -3.725821E-003
+                .FLOAT      -4.533228E-003
+                .FLOAT       5.808391E-004
+                .FLOAT       1.162198E-003
+                .FLOAT      -4.467800E-003
+                .FLOAT      -2.506097E-003
+                .FLOAT       8.875073E-003
+                .FLOAT       7.559786E-003
+                .FLOAT      -1.516997E-002
+                .FLOAT      -3.155765E-002
+                .FLOAT      -2.348216E-002
+                .FLOAT      -2.106130E-002
+                .FLOAT      -4.741218E-002
+                .FLOAT      -5.645578E-002
+                .FLOAT       1.448481E-003
+                .FLOAT       6.939308E-002
+                .FLOAT       3.501467E-002
+                .FLOAT      -9.460673E-002
+                .FLOAT       1.3306020
+                .FLOAT      -9.460673E-002
+                .FLOAT       3.501467E-002
+                .FLOAT       6.939308E-002
+                .FLOAT       1.448481E-003
+                .FLOAT      -5.645578E-002
+                .FLOAT      -4.741218E-002
+                .FLOAT      -2.106130E-002
+                .FLOAT      -2.348216E-002
+                .FLOAT      -3.155765E-002
+                .FLOAT      -1.516997E-002
+                .FLOAT       7.559786E-003
+                .FLOAT       8.875073E-003
+                .FLOAT      -2.506097E-003
+                .FLOAT      -4.467800E-003
+                .FLOAT       1.162198E-003
+                .FLOAT       5.808391E-004
+                .FLOAT      -4.533228E-003
+                .FLOAT      -3.725821E-003
+                .FLOAT       2.095708E-003
+                .FLOAT       4.498288E-003
+                .FLOAT       2.526434E-003
+                .FLOAT       1.318018E-003
+                .FLOAT       1.923199E-003
+                .FLOAT       1.629118E-003
+                .FLOAT       2.276355E-004   ;H0(11)
+COEF12:         .FLOAT       2.681697E-004   ;BASS/HI(+) - TREBLE/HI(-)
+                .FLOAT       1.069480E-004
+                .FLOAT       1.596480E-003
+                .FLOAT       3.922661E-003
+                .FLOAT       3.471923E-003
+                .FLOAT       5.168688E-004
+                .FLOAT       4.724128E-005
+                .FLOAT       1.907791E-003
+                .FLOAT      -7.138047E-004
+                .FLOAT      -6.934950E-003
+                .FLOAT      -5.324289E-003
+                .FLOAT       5.088638E-003
+                .FLOAT       7.848092E-003
+                .FLOAT      -2.786897E-003
+                .FLOAT      -8.319599E-003
+                .FLOAT      -1.447511E-003
+                .FLOAT      -7.695645E-003
+                .FLOAT      -3.910292E-002
+                .FLOAT      -5.703422E-002
+                .FLOAT      -3.017062E-002
+                .FLOAT       1.080054E-004
+                .FLOAT      -1.703366E-002
+                .FLOAT      -3.232099E-002
+                .FLOAT       5.427587E-002
+                .FLOAT       2.222178E-001
+                .FLOAT       8.110755E-001
+                .FLOAT       2.222178E-001
+                .FLOAT       5.427587E-002
+                .FLOAT      -3.232099E-002
+                .FLOAT      -1.703366E-002
+                .FLOAT       1.080054E-004
+                .FLOAT      -3.017062E-002
+                .FLOAT      -5.703422E-002
+                .FLOAT      -3.910292E-002
+                .FLOAT      -7.695645E-003
+                .FLOAT      -1.447511E-003
+                .FLOAT      -8.319599E-003
+                .FLOAT      -2.786897E-003
+                .FLOAT       7.848092E-003
+                .FLOAT       5.088638E-003
+                .FLOAT      -5.324289E-003
+                .FLOAT      -6.934950E-003
+                .FLOAT      -7.138047E-004
+                .FLOAT       1.907791E-003
+                .FLOAT       4.724128E-005
+                .FLOAT       5.168688E-004
+                .FLOAT       3.471923E-003
+                .FLOAT       3.922661E-003
+                .FLOAT       1.596480E-003
+                .FLOAT       1.069480E-004
+                .FLOAT       2.681697E-004   ;H0(12)
+COEF13:         .FLOAT      -4.269583E-004   ;BASS/HI(-) - TREBLE/LO(+)
+                .FLOAT      -2.395857E-003
+                .FLOAT      -1.576061E-003
+                .FLOAT      -1.316699E-003
+                .FLOAT      -7.162939E-003
+                .FLOAT      -3.421689E-003
+                .FLOAT      -1.840972E-003
+                .FLOAT       5.426605E-005
+                .FLOAT       1.224326E-002
+                .FLOAT       3.343917E-003
+                .FLOAT      -3.057524E-003
+                .FLOAT      -2.708570E-003
+                .FLOAT      -1.750819E-002
+                .FLOAT       3.305600E-003
+                .FLOAT       1.712393E-002
+                .FLOAT       8.728364E-003
+                .FLOAT       3.316539E-002
+                .FLOAT       1.279549E-002
+                .FLOAT       1.305951E-002
+                .FLOAT       6.467406E-002
+                .FLOAT       2.867902E-002
+                .FLOAT       4.210421E-002
+                .FLOAT       9.831748E-003
+                .FLOAT      -1.925418E-001
+                .FLOAT      -8.112541E-002
+                .FLOAT       1.1385980
+                .FLOAT      -8.112541E-002
+                .FLOAT      -1.925418E-001
+                .FLOAT       9.831748E-003
+                .FLOAT       4.210421E-002
+                .FLOAT       2.867902E-002
+                .FLOAT       6.467406E-002
+                .FLOAT       1.305951E-002
+                .FLOAT       1.279549E-002
+                .FLOAT       3.316539E-002
+                .FLOAT       8.728364E-003
+                .FLOAT       1.712393E-002
+                .FLOAT       3.305600E-003
+                .FLOAT      -1.750819E-002
+                .FLOAT      -2.708570E-003
+                .FLOAT      -3.057524E-003
+                .FLOAT       3.343917E-003
+                .FLOAT       1.224326E-002
+                .FLOAT       5.426605E-005
+                .FLOAT      -1.840972E-003
+                .FLOAT      -3.421689E-003
+                .FLOAT      -7.162939E-003
+                .FLOAT      -1.316699E-003
+                .FLOAT      -1.576061E-003
+                .FLOAT      -2.395857E-003
+                .FLOAT      -4.269583E-004   ;H0(13)
+COEF14:         .FLOAT      -1.499935E-003   ;BASS/HI(-) - TREBLE/LO(-)
+                .FLOAT      -1.772899E-003
+                .FLOAT      -4.877069E-003
+                .FLOAT      -6.485500E-003
+                .FLOAT      -1.615227E-004
+                .FLOAT      -1.284742E-003
+                .FLOAT       1.288321E-003
+                .FLOAT       3.600191E-003
+                .FLOAT      -6.183245E-003
+                .FLOAT       1.941630E-003
+                .FLOAT       4.347914E-003
+                .FLOAT      -1.459327E-003
+                .FLOAT       9.703750E-003
+                .FLOAT      -9.174598E-003
+                .FLOAT      -1.284648E-002
+                .FLOAT       1.391693E-002
+                .FLOAT       1.264428E-002
+                .FLOAT       5.450797E-002
+                .FLOAT       6.621707E-002
+                .FLOAT       1.033144E-002
+                .FLOAT       2.275110E-002
+                .FLOAT      -3.131149E-002
+                .FLOAT      -4.915882E-002
+                .FLOAT       1.047923E-001
+                .FLOAT      -4.163124E-002
+                .FLOAT       7.258840E-001
+                .FLOAT      -4.163124E-002
+                .FLOAT       1.047923E-001
+                .FLOAT      -4.915882E-002
+                .FLOAT      -3.131149E-002
+                .FLOAT       2.275110E-002
+                .FLOAT       1.033144E-002
+                .FLOAT       6.621707E-002
+                .FLOAT       5.450797E-002
+                .FLOAT       1.264428E-002
+                .FLOAT       1.391693E-002
+                .FLOAT      -1.284648E-002
+                .FLOAT      -9.174598E-003
+                .FLOAT       9.703750E-003
+                .FLOAT      -1.459327E-003
+                .FLOAT       4.347914E-003
+                .FLOAT       1.941630E-003
+                .FLOAT      -6.183245E-003
+                .FLOAT       3.600191E-003
+                .FLOAT       1.288321E-003
+                .FLOAT      -1.284742E-003
+                .FLOAT      -1.615227E-004
+                .FLOAT      -6.485500E-003
+                .FLOAT      -4.877069E-003
+                .FLOAT      -1.772899E-003
+                .FLOAT      -1.499935E-003   ;H0(14)
+COEF15:         .FLOAT       1.499928E-003   ;BASS/HI(+) - TREBLE/LO(+)
+                .FLOAT       1.772900E-003
+                .FLOAT       4.877076E-003
+                .FLOAT       6.485543E-003
+                .FLOAT       1.614838E-004
+                .FLOAT       1.284773E-003
+                .FLOAT      -1.288340E-003
+                .FLOAT      -3.600188E-003
+                .FLOAT       6.183195E-003
+                .FLOAT      -1.941599E-003
+                .FLOAT      -4.347917E-003
+                .FLOAT       1.459404E-003
+                .FLOAT      -9.703795E-003
+                .FLOAT       9.174602E-003
+                .FLOAT       1.284636E-002
+                .FLOAT      -1.391687E-002
+                .FLOAT      -1.264428E-002
+                .FLOAT      -5.450792E-002
+                .FLOAT      -6.621718E-002
+                .FLOAT      -1.033143E-002
+                .FLOAT      -2.275118E-002
+                .FLOAT       3.131154E-002
+                .FLOAT       4.915881E-002
+                .FLOAT      -1.047922E-001
+                .FLOAT       4.163119E-002
+                .FLOAT       1.2741160
+                .FLOAT       4.163119E-002
+                .FLOAT      -1.047922E-001
+                .FLOAT       4.915881E-002
+                .FLOAT       3.131154E-002
+                .FLOAT      -2.275118E-002
+                .FLOAT      -1.033143E-002
+                .FLOAT      -6.621718E-002
+                .FLOAT      -5.450792E-002
+                .FLOAT      -1.264428E-002
+                .FLOAT      -1.391687E-002
+                .FLOAT       1.284636E-002
+                .FLOAT       9.174602E-003
+                .FLOAT      -9.703795E-003
+                .FLOAT       1.459404E-003
+                .FLOAT      -4.347917E-003
+                .FLOAT      -1.941599E-003
+                .FLOAT       6.183195E-003
+                .FLOAT      -3.600188E-003
+                .FLOAT      -1.288340E-003
+                .FLOAT       1.284773E-003
+                .FLOAT       1.614838E-004
+                .FLOAT       6.485543E-003
+                .FLOAT       4.877076E-003
+                .FLOAT       1.772900E-003
+                .FLOAT       1.499928E-003   ;H0(15)
+COEF16:         .FLOAT       4.269521E-004   ;BASS/HI(+) - TREBLE/LO(-)
+                .FLOAT       2.395858E-003
+                .FLOAT       1.576068E-003
+                .FLOAT       1.316741E-003
+                .FLOAT       7.162901E-003
+                .FLOAT       3.421720E-003
+                .FLOAT       1.840953E-003
+                .FLOAT      -5.426374E-005
+                .FLOAT      -1.224331E-002
+                .FLOAT      -3.343886E-003
+                .FLOAT       3.057522E-003
+                .FLOAT       2.708647E-003
+                .FLOAT       1.750814E-002
+                .FLOAT      -3.305597E-003
+                .FLOAT      -1.712405E-002
+                .FLOAT      -8.728296E-003
+                .FLOAT      -3.316539E-002
+                .FLOAT      -1.279544E-002
+                .FLOAT      -1.305962E-002
+                .FLOAT      -6.467406E-002
+                .FLOAT      -2.867910E-002
+                .FLOAT      -4.210415E-002
+                .FLOAT      -9.831753E-003
+                .FLOAT       1.925419E-001
+                .FLOAT       8.112535E-002
+                .FLOAT       8.614020E-001
+                .FLOAT       8.112535E-002
+                .FLOAT       1.925419E-001
+                .FLOAT      -9.831753E-003
+                .FLOAT      -4.210415E-002
+                .FLOAT      -2.867910E-002
+                .FLOAT      -6.467406E-002
+                .FLOAT      -1.305962E-002
+                .FLOAT      -1.279544E-002
+                .FLOAT      -3.316539E-002
+                .FLOAT      -8.728296E-003
+                .FLOAT      -1.712405E-002
+                .FLOAT      -3.305597E-003
+                .FLOAT       1.750814E-002
+                .FLOAT       2.708647E-003
+                .FLOAT       3.057522E-003
+                .FLOAT      -3.343886E-003
+                .FLOAT      -1.224331E-002
+                .FLOAT      -5.426374E-005
+                .FLOAT       1.840953E-003
+                .FLOAT       3.421720E-003
+                .FLOAT       7.162901E-003
+                .FLOAT       1.316741E-003
+                .FLOAT       1.576068E-003
+                .FLOAT       2.395858E-003
+                .FLOAT       4.269521E-004   ;H0(16)
+LENGTH          .SET         51              ;LENGTH=51
+                .END
+
+
