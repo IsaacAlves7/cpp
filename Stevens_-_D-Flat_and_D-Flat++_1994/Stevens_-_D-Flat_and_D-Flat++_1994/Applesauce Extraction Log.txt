@@ -1,0 +1,1117 @@
+DISK CONTENT EXTRACTION LOG
+Performed by Applesauce v1.88.1
+www.applesaucefdc.com
+
+Timestamp: Jan 10, 2024, 14:12
+
+    Media: 5.25" Floppy Disk
+   Format: FAT12
+
+== STATUS ======================================================================
+
+155 files were detected on the disk.
+No issues were encountered with the extraction process.
+
+== CATALOG =====================================================================
+
+
+
+DFPP           <DIR>         1-12-1994   9:25a DFPP
+DFLAT          <DIR>         1-12-1994   9:43a DFLAT
+README   ASC         1,280   1-12-1994   9:53a README.ASC
+
+
+\\DFPP
+
+DFLATPP  BLD           420   9-22-1993   6:42p DFLATPP.BLD
+CLOCK    H             191  11-21-1992  10:58p CLOCK.H
+MOUSE    H           2,094  11-22-1993  12:41p MOUSE.H
+CURSOR   H             965  11-22-1993  12:41p CURSOR.H
+TEDTOOLS H             293  10-04-1993   9:44a TEDTOOLS.H
+FAMILY   H           1,756   8-15-1993   2:58p FAMILY.H
+EDITBOX  H           2,391  11-21-1993  11:40a EDITBOX.H
+DFLATDEF H             743  11-24-1993   1:04a DFLATDEF.H
+KEYBOARD H           4,339  11-21-1992  10:58p KEYBOARD.H
+TEXTBOX  H           4,345  11-22-1993   1:12p TEXTBOX.H
+MENUBAR  H           1,398  11-20-1993   1:36p MENUBAR.H
+BUTTON   H             658  11-20-1993   1:15p BUTTON.H
+DFWINDOW H           9,934  12-04-1993   8:49a DFWINDOW.H
+PBUTTON  H           1,961  11-20-1993   1:25p PBUTTON.H
+CHECKBOX CPP           320  11-20-1993   1:24p CHECKBOX.CPP
+MENUBAR  CPP         6,299  11-22-1993  12:39p MENUBAR.CPP
+EDITOR   CPP        17,514  11-24-1993   1:29a EDITOR.CPP
+APPLICAT CPP         1,784  11-23-1993  10:37a APPLICAT.CPP
+CTLMENU  CPP         1,782  12-04-1993   8:52a CTLMENU.CPP
+COMMDLG  BLD            37   8-14-1993  10:51a COMMDLG.BLD
+MAKEFILE             1,221  11-24-1993   9:48a MAKEFILE
+POPDOWN  CPP        11,496  11-24-1993  12:54a POPDOWN.CPP
+STATBAR  CPP         1,618  11-24-1993   1:03a STATBAR.CPP
+CURSOR   CPP         2,052  11-22-1993  12:37p CURSOR.CPP
+MOUSE    CPP         5,503  11-22-1993  12:36p MOUSE.CPP
+TEDMENU  CPP         1,695  11-23-1993  12:43p TEDMENU.CPP
+SCROLBAR CPP         4,097  11-22-1993  12:37p SCROLBAR.CPP
+CLOCK    CPP           429   8-11-1993  12:42p CLOCK.CPP
+KEYBOARD CPP         2,391  11-16-1993   8:56a KEYBOARD.CPP
+NOTICE   CPP         2,537  11-24-1993   1:20a NOTICE.CPP
+RADIO    CPP         1,549  11-20-1993   1:17p RADIO.CPP
+LABEL    CPP           776  11-20-1993   2:13p LABEL.CPP
+RECTANGL CPP         1,298  11-22-1993  12:38p RECTANGL.CPP
+DESKTOP  CPP         3,218  11-23-1993   3:27p DESKTOP.CPP
+SOUND    CPP           603   5-30-1992   3:59p SOUND.CPP
+FOCUS    CPP         2,165  11-13-1993  10:54p FOCUS.CPP
+FILEOPEN CPP         5,243  11-22-1993  11:41a FILEOPEN.CPP
+CONTROL  H           1,283  11-20-1993   1:21p CONTROL.H
+LABEL    H             354  11-20-1993   1:24p LABEL.H
+FILEOPEN H           1,614  11-20-1993  12:39p FILEOPEN.H
+CLIPBORD H             279  11-16-1993  12:17p CLIPBORD.H
+LISTBOX  H           1,641  11-23-1993   9:42a LISTBOX.H
+SPEAKER  H             203  10-04-1993   9:37a SPEAKER.H
+STATBAR  H             335  11-23-1993  10:37a STATBAR.H
+POPDOWN  H           1,565  11-22-1993  12:54p POPDOWN.H
+NOTICE   H           1,938  11-23-1993   2:02p NOTICE.H
+STRINGS  H           2,297  12-01-1993   1:58p STRINGS.H
+DIRECTRY CPP         2,580  11-24-1993   1:17a DIRECTRY.CPP
+PAINT    CPP         1,438  11-24-1993  12:29a PAINT.CPP
+TS       CPP           117  11-24-1993   1:41a TS.CPP
+SPEAKER  CPP           536  10-04-1993   9:37a SPEAKER.CPP
+TED      CPP         6,905  11-23-1993   3:22p TED.CPP
+SCREEN   CPP         3,934  11-22-1993  12:37p SCREEN.CPP
+MENUSEL  CPP         2,214  11-24-1993  12:53a MENUSEL.CPP
+BORDER   CPP         2,686  11-20-1993   2:40p BORDER.CPP
+FRAME    CPP         2,842  11-20-1993   2:44p FRAME.CPP
+LISTBOX  CPP         4,309  11-23-1993   9:42a LISTBOX.CPP
+DFWINDOW CPP         6,877  11-20-1993   4:00p DFWINDOW.CPP
+TEDTOOLS CPP           556  10-04-1993   9:45a TEDTOOLS.CPP
+BUTTON   CPP         1,635  11-20-1993   2:54p BUTTON.CPP
+STRINGS  CPP         3,120  12-01-1993   2:04p STRINGS.CPP
+TIMER    CPP         1,045   8-15-1993   3:05p TIMER.CPP
+TOOLBUTT CPP         2,976  11-20-1993   2:56p TOOLBUTT.CPP
+DIALOG   CPP         2,383  11-20-1993   2:57p DIALOG.CPP
+TEXTBOX  CPP        17,791  11-23-1993   9:42a TEXTBOX.CPP
+TOOLBAR  CPP           598  11-20-1993   2:58p TOOLBAR.CPP
+EDITBOX  CPP         6,276  11-21-1993  12:24p EDITBOX.CPP
+CONTROL  CPP           999   9-27-1993  12:59p CONTROL.CPP
+PBUTTON  CPP         3,188  11-24-1993   1:10a PBUTTON.CPP
+FRAME    H             658   9-14-1993  10:03a FRAME.H
+RECTANGL H           1,076  11-24-1993  12:24a RECTANGL.H
+MENUSEL  H           2,477  11-24-1993  12:54a MENUSEL.H
+TIMER    H             697  10-04-1993   9:40a TIMER.H
+RADIO    H             314  11-20-1993   1:17p RADIO.H
+SOUND    H             160   5-30-1992   3:59p SOUND.H
+DIRECTRY H             830  11-21-1993   8:53p DIRECTRY.H
+SCROLBAR H           1,033   9-14-1993   8:37p SCROLBAR.H
+SCREEN   H           1,122  11-22-1993  12:41p SCREEN.H
+EDITOR   H           2,824  11-22-1993  12:42p EDITOR.H
+TED      H           1,239  11-23-1993  10:30a TED.H
+DIALOG   H           1,071  11-20-1993   1:18p DIALOG.H
+APPLICAT H           1,347  11-23-1993  10:37a APPLICAT.H
+CHECKBOX H             221  11-20-1993   1:24p CHECKBOX.H
+TOOLBAR  H           1,051  11-20-1993   1:24p TOOLBAR.H
+DESKTOP  H           2,859  11-23-1993   3:12p DESKTOP.H
+README   DOC         6,016   1-12-1994   9:22a README.DOC
+
+
+\\DFLAT
+
+MESSAGE  C          18,676   4-17-1993  10:27a MESSAGE.C
+LOG      C           1,912   9-02-1993   2:41p LOG.C
+DFLAT    DOC        51,145  10-22-1992   1:21p DFLAT.DOC
+CLASSES  H           2,858   2-11-1992   1:14p CLASSES.H
+KEYS     H           3,570   1-27-1992  10:34a KEYS.H
+CLASSDEF H             793  12-19-1991   9:55a CLASSDEF.H
+RECT     H             880   7-18-1991   8:24a RECT.H
+DFLAT    H          20,612   9-21-1993   4:44p DFLAT.H
+MENU     H           2,115   2-15-1992   3:36p MENU.H
+DIALBOX  H           1,530   6-26-1992   8:31p DIALBOX.H
+COMMANDS H           2,666   6-26-1992   8:30p COMMANDS.H
+DFLATMSG H           5,903   1-24-1992   3:58p DFLATMSG.H
+NORMAL   C          33,243   4-17-1993   4:13p NORMAL.C
+SYSTEM   H           4,905   6-29-1992   5:03p SYSTEM.H
+VIDEO    H             670   6-11-1992  12:08p VIDEO.H
+CONFIG   H           1,596   6-26-1992   8:17p CONFIG.H
+HTREE    H             862   3-25-1992   1:52p HTREE.H
+MENU     C           1,864   1-21-1992   3:21p MENU.C
+KEYS     C           1,732   1-27-1992  10:48a KEYS.C
+CALENDAR C           4,516  12-05-1991  11:45a CALENDAR.C
+TEXTBOX  C          27,368  10-07-1992  12:25p TEXTBOX.C
+BOX      C           1,126   6-30-1992  11:15a BOX.C
+RECT     C           2,612   9-06-1991   1:09p RECT.C
+RADIO    C           3,152   8-11-1992  11:27a RADIO.C
+TEXT     C           1,492  10-06-1992  10:09a TEXT.C
+STATBAR  C           1,298   3-26-1992  11:28a STATBAR.C
+CLIPBORD C           1,369   5-19-1992   5:20p CLIPBORD.C
+BARCHART C           2,080  11-07-1991   5:56p BARCHART.C
+DIALOGS  C           8,481   6-26-1992   9:34p DIALOGS.C
+SPINBUTT C           1,634   6-26-1992  11:34p SPINBUTT.C
+DIALBOX  C          22,399   4-17-1993   4:47p DIALBOX.C
+PICTBOX  C           8,295   6-16-1992   4:50p PICTBOX.C
+VIDEO    C           7,052   6-29-1992   5:03p VIDEO.C
+WINDOW   C          15,172   6-29-1992  12:16p WINDOW.C
+HTREE    C           2,041   6-16-1992  12:33p HTREE.C
+POPDOWN  C          11,888  10-06-1992  12:30p POPDOWN.C
+WATCH    C           1,630   8-11-1992  11:31a WATCH.C
+BUTTON   C           2,899   4-22-1992   9:25p BUTTON.C
+APPLICAT C          21,713  10-07-1992   7:12p APPLICAT.C
+SYSMENU  C           3,242   7-29-1992   8:29p SYSMENU.C
+COMBOBOX C           4,074  10-07-1992  12:10p COMBOBOX.C
+HELPBOX  C          23,669   4-17-1993   5:21p HELPBOX.C
+CHECKBOX C           1,385   4-22-1992   9:27p CHECKBOX.C
+CONSOLE  C           5,609   8-07-1992  11:59a CONSOLE.C
+MOUSE    C           2,244   6-10-1992   2:56p MOUSE.C
+DFALLOC  C           1,226   8-12-1992   4:42p DFALLOC.C
+DIRECT   C           5,451   4-22-1992   9:38p DIRECT.C
+SEARCH   C           5,362   8-02-1992   5:42p SEARCH.C
+MEMOPAD  C          18,882   8-11-1992  11:57p MEMOPAD.C
+DECOMP   C           3,648  11-27-1992   5:41p DECOMP.C
+LISTS    C           3,264   7-11-1992  12:48p LISTS.C
+SLIDEBOX C           3,513   4-22-1992   9:31p SLIDEBOX.C
+EDITBOX  C          34,591  10-07-1992   4:30p EDITBOX.C
+CONFIG   C          18,226  10-07-1992   4:34p CONFIG.C
+MENUBAR  C          12,508   4-17-1993   5:16p MENUBAR.C
+MSGBOX   C           6,049   6-27-1992   9:16p MSGBOX.C
+HUFFC    C           2,830   6-16-1992   2:00p HUFFC.C
+LISTBOX  C          13,673   6-21-1992   7:50p LISTBOX.C
+MAKEFILE WAT         2,173   6-17-1992   9:35a MAKEFILE.WAT
+MAKEFILE MSC         2,289   6-29-1992   6:29p MAKEFILE.MSC
+DFLAT    BLD           482   3-25-1992   5:10p DFLAT.BLD
+DFLAT    LBC           382   3-25-1992   5:10p DFLAT.LBC
+MEMOPAD  LNK           437   3-20-1992   3:40p MEMOPAD.LNK
+MEMOPAD  TXT        46,270   6-26-1992   9:07p MEMOPAD.TXT
+MENUS    C           5,175   4-17-1993   5:22p MENUS.C
+FILEOPEN C           7,588   4-17-1993   4:22p FILEOPEN.C
+MAKEFILE BCC         2,911   4-17-1993   4:03p MAKEFILE.BCC
+README   DOC         9,600   1-12-1994   9:43a README.DOC
+
+
+== FILE DETAILS ================================================================
+
+README.ASC
+Short Name: 'README  '   Type: 'ASC'       MD5: 6480c45a6b2426def98520bba77aa0e2
+1st Clust: $0818      Sectors: 3        File Size: 1280          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLATPP.BLD
+Short Name: 'DFLATPP '   Type: 'BLD'       MD5: 5e6819cdc1fbeae2d66b742e9e5419c9
+1st Clust: $00AA      Sectors: 1        File Size: 420           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLOCK.H
+Short Name: 'CLOCK   '   Type: 'H  '       MD5: 2bb86bdffd7a0b33451560d4151ae53d
+1st Clust: $00AB      Sectors: 1        File Size: 191           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MOUSE.H
+Short Name: 'MOUSE   '   Type: 'H  '       MD5: d2a2c7da9d749e51eac2b0610427410f
+1st Clust: $00AC      Sectors: 5        File Size: 2094          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CURSOR.H
+Short Name: 'CURSOR  '   Type: 'H  '       MD5: d0736872da40d1ff2ceed583de99ecf0
+1st Clust: $00B1      Sectors: 2        File Size: 965           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEDTOOLS.H
+Short Name: 'TEDTOOLS'   Type: 'H  '       MD5: e70b4cec8eeb818fa1309bbf20fb0c07
+1st Clust: $00B3      Sectors: 1        File Size: 293           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FAMILY.H
+Short Name: 'FAMILY  '   Type: 'H  '       MD5: 4ecf95dba9fb757e7efdd38029bd9e1a
+1st Clust: $00B4      Sectors: 4        File Size: 1756          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDITBOX.H
+Short Name: 'EDITBOX '   Type: 'H  '       MD5: a06702434e6cf54ac48bcbf68584074a
+1st Clust: $00B8      Sectors: 5        File Size: 2391          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLATDEF.H
+Short Name: 'DFLATDEF'   Type: 'H  '       MD5: a52a1e197b6b19d46890ef2e0a5c5623
+1st Clust: $00BD      Sectors: 2        File Size: 743           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+KEYBOARD.H
+Short Name: 'KEYBOARD'   Type: 'H  '       MD5: 3bec2cc487a57eb67cae78ade3ce2282
+1st Clust: $00BF      Sectors: 9        File Size: 4339          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEXTBOX.H
+Short Name: 'TEXTBOX '   Type: 'H  '       MD5: bcbf16ef4b4461e3f48d75209ed1f1f9
+1st Clust: $00C8      Sectors: 9        File Size: 4345          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUBAR.H
+Short Name: 'MENUBAR '   Type: 'H  '       MD5: 6fd13d3c2583c64aee4b1256364cea90
+1st Clust: $00D1      Sectors: 3        File Size: 1398          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BUTTON.H
+Short Name: 'BUTTON  '   Type: 'H  '       MD5: 689194a284c631d51e6e27de282909f1
+1st Clust: $00D4      Sectors: 2        File Size: 658           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFWINDOW.H
+Short Name: 'DFWINDOW'   Type: 'H  '       MD5: 224ff349064fdf718d4ef0e9dcec5c2f
+1st Clust: $00D6      Sectors: 20       File Size: 9934          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PBUTTON.H
+Short Name: 'PBUTTON '   Type: 'H  '       MD5: 0f3e9f4e18dcd7137107cb1c0359276c
+1st Clust: $00EB      Sectors: 4        File Size: 1961          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHECKBOX.CPP
+Short Name: 'CHECKBOX'   Type: 'CPP'       MD5: 0bae58dbcf1bdd0659e3a31bc717ab5f
+1st Clust: $00EF      Sectors: 1        File Size: 320           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUBAR.CPP
+Short Name: 'MENUBAR '   Type: 'CPP'       MD5: bb24ba7adcdc79ecc4e8822e9adc2a53
+1st Clust: $00F0      Sectors: 13       File Size: 6299          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDITOR.CPP
+Short Name: 'EDITOR  '   Type: 'CPP'       MD5: 2eab6b857de9110f2f70a1b3e7546e79
+1st Clust: $00FD      Sectors: 35       File Size: 17514         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+APPLICAT.CPP
+Short Name: 'APPLICAT'   Type: 'CPP'       MD5: 422488907f944de012e8b3efb0c1dddd
+1st Clust: $0120      Sectors: 4        File Size: 1784          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CTLMENU.CPP
+Short Name: 'CTLMENU '   Type: 'CPP'       MD5: eb4d4c4ea6bcfe502eac105aca8ce4a3
+1st Clust: $0124      Sectors: 4        File Size: 1782          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMMDLG.BLD
+Short Name: 'COMMDLG '   Type: 'BLD'       MD5: bdaaa27ec139c60f133c3388fc8afb76
+1st Clust: $0128      Sectors: 1        File Size: 37            Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAKEFILE
+Short Name: 'MAKEFILE'   Type: '   '       MD5: 00704bcc5d99e665be9675a7e0cee0bc
+1st Clust: $0129      Sectors: 3        File Size: 1221          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+POPDOWN.CPP
+Short Name: 'POPDOWN '   Type: 'CPP'       MD5: 63d5cd440b4875b10d3c1c128e973e7b
+1st Clust: $012C      Sectors: 23       File Size: 11496         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STATBAR.CPP
+Short Name: 'STATBAR '   Type: 'CPP'       MD5: 9aa3e7d7d500fbb21ec473bdef2efa94
+1st Clust: $0143      Sectors: 4        File Size: 1618          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CURSOR.CPP
+Short Name: 'CURSOR  '   Type: 'CPP'       MD5: b8397699eb2cf53107e7f52332809333
+1st Clust: $0147      Sectors: 5        File Size: 2052          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MOUSE.CPP
+Short Name: 'MOUSE   '   Type: 'CPP'       MD5: 1f8606400273670bcf53a840603c39f7
+1st Clust: $014C      Sectors: 11       File Size: 5503          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEDMENU.CPP
+Short Name: 'TEDMENU '   Type: 'CPP'       MD5: fcca6477b3813cc8e632383234cb5aff
+1st Clust: $0157      Sectors: 4        File Size: 1695          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SCROLBAR.CPP
+Short Name: 'SCROLBAR'   Type: 'CPP'       MD5: 014e7ad10cae1faf66680d2e76ca5fb9
+1st Clust: $015B      Sectors: 9        File Size: 4097          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLOCK.CPP
+Short Name: 'CLOCK   '   Type: 'CPP'       MD5: 1e81ee922c2468be9a396669bb4c0521
+1st Clust: $0164      Sectors: 1        File Size: 429           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+KEYBOARD.CPP
+Short Name: 'KEYBOARD'   Type: 'CPP'       MD5: f70872c43226619efeb69582ced8e732
+1st Clust: $0165      Sectors: 5        File Size: 2391          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOTICE.CPP
+Short Name: 'NOTICE  '   Type: 'CPP'       MD5: bc8dd3eecd3d86890bfdea9505b21084
+1st Clust: $016B      Sectors: 5        File Size: 2537          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RADIO.CPP
+Short Name: 'RADIO   '   Type: 'CPP'       MD5: 24bc165985aaed2e15f356cb0e74e698
+1st Clust: $0170      Sectors: 4        File Size: 1549          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LABEL.CPP
+Short Name: 'LABEL   '   Type: 'CPP'       MD5: b46eea135f26c04242479b71583ec653
+1st Clust: $0174      Sectors: 2        File Size: 776           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RECTANGL.CPP
+Short Name: 'RECTANGL'   Type: 'CPP'       MD5: afd8825ab07d049294ab92b535bf3a2e
+1st Clust: $0176      Sectors: 3        File Size: 1298          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DESKTOP.CPP
+Short Name: 'DESKTOP '   Type: 'CPP'       MD5: a88c4339aed081239db47ec9daf9fe23
+1st Clust: $0179      Sectors: 7        File Size: 3218          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SOUND.CPP
+Short Name: 'SOUND   '   Type: 'CPP'       MD5: ee6605f704a34ba9c17d4583405e14fa
+1st Clust: $0180      Sectors: 2        File Size: 603           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FOCUS.CPP
+Short Name: 'FOCUS   '   Type: 'CPP'       MD5: 8e5857ce1469ea8e8d2e2f20e7613b50
+1st Clust: $0182      Sectors: 5        File Size: 2165          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FILEOPEN.CPP
+Short Name: 'FILEOPEN'   Type: 'CPP'       MD5: 2e968eaf9b35a6e47ffcd1fd1a21cdc7
+1st Clust: $0187      Sectors: 11       File Size: 5243          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTROL.H
+Short Name: 'CONTROL '   Type: 'H  '       MD5: 437facf937e103df6cabffe6cea38519
+1st Clust: $0192      Sectors: 3        File Size: 1283          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LABEL.H
+Short Name: 'LABEL   '   Type: 'H  '       MD5: 869d845aa16c5a7021f57d88c1f95376
+1st Clust: $0195      Sectors: 1        File Size: 354           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FILEOPEN.H
+Short Name: 'FILEOPEN'   Type: 'H  '       MD5: ef96fe137e7fb21bee536dbeafd3c3dd
+1st Clust: $0196      Sectors: 4        File Size: 1614          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLIPBORD.H
+Short Name: 'CLIPBORD'   Type: 'H  '       MD5: b72aacb14094b290bac7cf02eb6c786d
+1st Clust: $019A      Sectors: 1        File Size: 279           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LISTBOX.H
+Short Name: 'LISTBOX '   Type: 'H  '       MD5: eaff8e696cddcc8c2802b29089069dac
+1st Clust: $019B      Sectors: 4        File Size: 1641          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SPEAKER.H
+Short Name: 'SPEAKER '   Type: 'H  '       MD5: 2cbdcec7ab11801385d183b7df979bf4
+1st Clust: $019F      Sectors: 1        File Size: 203           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STATBAR.H
+Short Name: 'STATBAR '   Type: 'H  '       MD5: 5b1c3739a30d8f7ff01a2af7ad7d8fc3
+1st Clust: $01A0      Sectors: 1        File Size: 335           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+POPDOWN.H
+Short Name: 'POPDOWN '   Type: 'H  '       MD5: 67869f9a74c5419517948bdf5af88039
+1st Clust: $01A1      Sectors: 4        File Size: 1565          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NOTICE.H
+Short Name: 'NOTICE  '   Type: 'H  '       MD5: 1b0af9a3485bec9b6725e2a2c8e2c85a
+1st Clust: $01A6      Sectors: 4        File Size: 1938          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STRINGS.H
+Short Name: 'STRINGS '   Type: 'H  '       MD5: d14c266e8e8fda331d177b3cd81a2ec2
+1st Clust: $01AA      Sectors: 5        File Size: 2297          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIRECTRY.CPP
+Short Name: 'DIRECTRY'   Type: 'CPP'       MD5: 26768b404385492718ea8a15bb253ee4
+1st Clust: $01AF      Sectors: 6        File Size: 2580          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PAINT.CPP
+Short Name: 'PAINT   '   Type: 'CPP'       MD5: e58241dad4d14706d4c3bd9dc304722a
+1st Clust: $01B5      Sectors: 3        File Size: 1438          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TS.CPP
+Short Name: 'TS      '   Type: 'CPP'       MD5: 026074df1f7f5d17ee02c6502931d511
+1st Clust: $01B8      Sectors: 1        File Size: 117           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SPEAKER.CPP
+Short Name: 'SPEAKER '   Type: 'CPP'       MD5: 5a27eabfa067162206475306eaf23628
+1st Clust: $01B9      Sectors: 2        File Size: 536           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TED.CPP
+Short Name: 'TED     '   Type: 'CPP'       MD5: 89d6164d7b7e834b85184649e779b09d
+1st Clust: $01BB      Sectors: 14       File Size: 6905          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SCREEN.CPP
+Short Name: 'SCREEN  '   Type: 'CPP'       MD5: 568e127c453b7d1fd79c789900283e48
+1st Clust: $01C9      Sectors: 8        File Size: 3934          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUSEL.CPP
+Short Name: 'MENUSEL '   Type: 'CPP'       MD5: eba37b4d3514f5b706956e45575e6a99
+1st Clust: $01D1      Sectors: 5        File Size: 2214          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BORDER.CPP
+Short Name: 'BORDER  '   Type: 'CPP'       MD5: d3c88aa6e81b22210e1855e888bf3ea6
+1st Clust: $01D6      Sectors: 6        File Size: 2686          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FRAME.CPP
+Short Name: 'FRAME   '   Type: 'CPP'       MD5: 448f99ea7a3c88aac5fe797083e67c63
+1st Clust: $01DC      Sectors: 6        File Size: 2842          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LISTBOX.CPP
+Short Name: 'LISTBOX '   Type: 'CPP'       MD5: 3e948962591ff2be99c1d2f368cb1c8b
+1st Clust: $01E2      Sectors: 9        File Size: 4309          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFWINDOW.CPP
+Short Name: 'DFWINDOW'   Type: 'CPP'       MD5: e9bd86c8725ed82f2ffac74dc29a889e
+1st Clust: $01EB      Sectors: 14       File Size: 6877          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEDTOOLS.CPP
+Short Name: 'TEDTOOLS'   Type: 'CPP'       MD5: f6cad3f159d860e42c335d4a816e929f
+1st Clust: $01F9      Sectors: 2        File Size: 556           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BUTTON.CPP
+Short Name: 'BUTTON  '   Type: 'CPP'       MD5: 9b80153c37ea1ba282cbb1d54fbda81c
+1st Clust: $01FB      Sectors: 4        File Size: 1635          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STRINGS.CPP
+Short Name: 'STRINGS '   Type: 'CPP'       MD5: 208c51b03918913432ce346695c38477
+1st Clust: $01FF      Sectors: 7        File Size: 3120          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TIMER.CPP
+Short Name: 'TIMER   '   Type: 'CPP'       MD5: 58a1214ea574aaa1ef540a9f57921daa
+1st Clust: $0207      Sectors: 3        File Size: 1045          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TOOLBUTT.CPP
+Short Name: 'TOOLBUTT'   Type: 'CPP'       MD5: 67c5eafaf4c716bc1ce40d758d030af4
+1st Clust: $020A      Sectors: 6        File Size: 2976          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIALOG.CPP
+Short Name: 'DIALOG  '   Type: 'CPP'       MD5: 9853ebf98c9c7ad32af7a34fdc26b15e
+1st Clust: $0210      Sectors: 5        File Size: 2383          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEXTBOX.CPP
+Short Name: 'TEXTBOX '   Type: 'CPP'       MD5: b6314ed932e181e8a7d91c29cbbbf7e6
+1st Clust: $0215      Sectors: 35       File Size: 17791         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TOOLBAR.CPP
+Short Name: 'TOOLBAR '   Type: 'CPP'       MD5: 091b99445d6ceedf76dd5a10b303c48b
+1st Clust: $0238      Sectors: 2        File Size: 598           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDITBOX.CPP
+Short Name: 'EDITBOX '   Type: 'CPP'       MD5: 0d9dcfc1703ccfac37e2140c7906efc5
+1st Clust: $023A      Sectors: 13       File Size: 6276          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONTROL.CPP
+Short Name: 'CONTROL '   Type: 'CPP'       MD5: e0f7e7a18c750afe40e36e69f20e8258
+1st Clust: $0247      Sectors: 2        File Size: 999           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PBUTTON.CPP
+Short Name: 'PBUTTON '   Type: 'CPP'       MD5: bca35e7e0006ebe49a428f623cf744cb
+1st Clust: $0249      Sectors: 7        File Size: 3188          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FRAME.H
+Short Name: 'FRAME   '   Type: 'H  '       MD5: e93c2612aab24d292fbf4b4cd04dbc72
+1st Clust: $0250      Sectors: 2        File Size: 658           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RECTANGL.H
+Short Name: 'RECTANGL'   Type: 'H  '       MD5: a9af04782b928681447f062a77ca327b
+1st Clust: $0252      Sectors: 3        File Size: 1076          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUSEL.H
+Short Name: 'MENUSEL '   Type: 'H  '       MD5: 7186d895a074edc0f5019994b2987396
+1st Clust: $0255      Sectors: 5        File Size: 2477          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TIMER.H
+Short Name: 'TIMER   '   Type: 'H  '       MD5: 69db7e2cd8bca1149792df547eaf6f32
+1st Clust: $025A      Sectors: 2        File Size: 697           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RADIO.H
+Short Name: 'RADIO   '   Type: 'H  '       MD5: 5959011ec88dda47258bcb88087a7d7b
+1st Clust: $025C      Sectors: 1        File Size: 314           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SOUND.H
+Short Name: 'SOUND   '   Type: 'H  '       MD5: 46a8cd55a2b7f53dff9474158e01da97
+1st Clust: $025D      Sectors: 1        File Size: 160           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIRECTRY.H
+Short Name: 'DIRECTRY'   Type: 'H  '       MD5: 990c61fe7bbfae59d29441d5dcfd3383
+1st Clust: $025E      Sectors: 2        File Size: 830           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SCROLBAR.H
+Short Name: 'SCROLBAR'   Type: 'H  '       MD5: 105f610a46b18ffc794222b1524b5952
+1st Clust: $0260      Sectors: 3        File Size: 1033          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SCREEN.H
+Short Name: 'SCREEN  '   Type: 'H  '       MD5: 64c3e00fb27b0b91d6cc9284d22466f8
+1st Clust: $0264      Sectors: 3        File Size: 1122          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDITOR.H
+Short Name: 'EDITOR  '   Type: 'H  '       MD5: 286664c55a5a8eac3e779d127a5cebba
+1st Clust: $0267      Sectors: 6        File Size: 2824          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TED.H
+Short Name: 'TED     '   Type: 'H  '       MD5: de99084e935ca1c798d4c56f1a440f09
+1st Clust: $026D      Sectors: 3        File Size: 1239          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIALOG.H
+Short Name: 'DIALOG  '   Type: 'H  '       MD5: 0cbdaacc993e566cd0b50e9d19f8961f
+1st Clust: $0270      Sectors: 3        File Size: 1071          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+APPLICAT.H
+Short Name: 'APPLICAT'   Type: 'H  '       MD5: 6fb75499a9d19dd4540542f80ecf2648
+1st Clust: $0273      Sectors: 3        File Size: 1347          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHECKBOX.H
+Short Name: 'CHECKBOX'   Type: 'H  '       MD5: 6823eba375e4dba3048ef8ed425a09b4
+1st Clust: $0276      Sectors: 1        File Size: 221           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TOOLBAR.H
+Short Name: 'TOOLBAR '   Type: 'H  '       MD5: 24e282ae718d6b1cdf2e3786c305e90f
+1st Clust: $0277      Sectors: 3        File Size: 1051          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DESKTOP.H
+Short Name: 'DESKTOP '   Type: 'H  '       MD5: 349ecbe1dd1c568a31db1126412f7354
+1st Clust: $027A      Sectors: 6        File Size: 2859          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+README.DOC
+Short Name: 'README  '   Type: 'DOC'       MD5: 7df79b19d6c94775817c4850c435780f
+1st Clust: $0280      Sectors: 12       File Size: 6016          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MESSAGE.C
+Short Name: 'MESSAGE '   Type: 'C  '       MD5: ad40c9039c76388fe479bfc461ae6b66
+1st Clust: $03BB      Sectors: 37       File Size: 18676         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LOG.C
+Short Name: 'LOG     '   Type: 'C  '       MD5: f9c4835228862ae56005a914dab49508
+1st Clust: $03E0      Sectors: 4        File Size: 1912          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLAT.DOC
+Short Name: 'DFLAT   '   Type: 'DOC'       MD5: 3052c818cead56d9d7713df29992375a
+1st Clust: $03E4      Sectors: 100      File Size: 51145         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLASSES.H
+Short Name: 'CLASSES '   Type: 'H  '       MD5: 597bf0a9420595c7570dd9464a226fc5
+1st Clust: $0448      Sectors: 6        File Size: 2858          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+KEYS.H
+Short Name: 'KEYS    '   Type: 'H  '       MD5: cf9bb077355c0389c5a8014bc2b60e2f
+1st Clust: $044E      Sectors: 7        File Size: 3570          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLASSDEF.H
+Short Name: 'CLASSDEF'   Type: 'H  '       MD5: 16510ef7d43ee74045856631ea0e0c29
+1st Clust: $0455      Sectors: 2        File Size: 793           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RECT.H
+Short Name: 'RECT    '   Type: 'H  '       MD5: f89b943281412e2fd63257ab7bcfcd55
+1st Clust: $0457      Sectors: 2        File Size: 880           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLAT.H
+Short Name: 'DFLAT   '   Type: 'H  '       MD5: 0c43024b5d6748dcda4101ecf6dea8b5
+1st Clust: $0459      Sectors: 41       File Size: 20612         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENU.H
+Short Name: 'MENU    '   Type: 'H  '       MD5: 90d1ceabc6ac1dd383be98620e1f3109
+1st Clust: $0482      Sectors: 5        File Size: 2115          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIALBOX.H
+Short Name: 'DIALBOX '   Type: 'H  '       MD5: 1b460d358856a32d701dcf47c1e6eb05
+1st Clust: $0487      Sectors: 3        File Size: 1530          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMMANDS.H
+Short Name: 'COMMANDS'   Type: 'H  '       MD5: d99a149b4d30972bcf7b93a0b13410c3
+1st Clust: $048A      Sectors: 6        File Size: 2666          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLATMSG.H
+Short Name: 'DFLATMSG'   Type: 'H  '       MD5: b1a6105c9a1a8110d2ec11cbaa10875b
+1st Clust: $0490      Sectors: 12       File Size: 5903          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+NORMAL.C
+Short Name: 'NORMAL  '   Type: 'C  '       MD5: 40ddff92b111a99a651e59fc86ca6779
+1st Clust: $049C      Sectors: 65       File Size: 33243         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SYSTEM.H
+Short Name: 'SYSTEM  '   Type: 'H  '       MD5: 71e8a9c8a835efbceb5cb20b7e3f1b70
+1st Clust: $04DE      Sectors: 10       File Size: 4905          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VIDEO.H
+Short Name: 'VIDEO   '   Type: 'H  '       MD5: 4fb3e8b158617e0eb371f41177a67df9
+1st Clust: $04E8      Sectors: 2        File Size: 670           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONFIG.H
+Short Name: 'CONFIG  '   Type: 'H  '       MD5: 508ebd846e6fbd81d6953d46c8e7a3a3
+1st Clust: $04EA      Sectors: 4        File Size: 1596          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HTREE.H
+Short Name: 'HTREE   '   Type: 'H  '       MD5: 6275fafacfe78631b4b9cf24a1a894d3
+1st Clust: $04EE      Sectors: 2        File Size: 862           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENU.C
+Short Name: 'MENU    '   Type: 'C  '       MD5: 1c2de6446a68866ce60ee2cad723de29
+1st Clust: $04F0      Sectors: 4        File Size: 1864          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+KEYS.C
+Short Name: 'KEYS    '   Type: 'C  '       MD5: 60a0aa0be21b5dae8e4ef568daab2718
+1st Clust: $04F4      Sectors: 4        File Size: 1732          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CALENDAR.C
+Short Name: 'CALENDAR'   Type: 'C  '       MD5: 2054af0f9258aade7cd07a37d821ebb0
+1st Clust: $04F8      Sectors: 9        File Size: 4516          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEXTBOX.C
+Short Name: 'TEXTBOX '   Type: 'C  '       MD5: fc5c25ce3142952c43eded3b2eb6c035
+1st Clust: $0501      Sectors: 54       File Size: 27368         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BOX.C
+Short Name: 'BOX     '   Type: 'C  '       MD5: 16734d1c02dac3558e71d3ba54fc2eda
+1st Clust: $0537      Sectors: 3        File Size: 1126          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RECT.C
+Short Name: 'RECT    '   Type: 'C  '       MD5: 8124a6a576df04dbb4da1025596a541d
+1st Clust: $053A      Sectors: 6        File Size: 2612          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+RADIO.C
+Short Name: 'RADIO   '   Type: 'C  '       MD5: 53870f20c4e6490998589f686c108702
+1st Clust: $0540      Sectors: 7        File Size: 3152          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+TEXT.C
+Short Name: 'TEXT    '   Type: 'C  '       MD5: 4b930a4b30a427d703f8c594ef6b19c4
+1st Clust: $0547      Sectors: 3        File Size: 1492          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+STATBAR.C
+Short Name: 'STATBAR '   Type: 'C  '       MD5: 7aa4290e8909196fde5c1e24b3e0554f
+1st Clust: $054A      Sectors: 3        File Size: 1298          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CLIPBORD.C
+Short Name: 'CLIPBORD'   Type: 'C  '       MD5: b9445702197e44b38bc680227b70dd97
+1st Clust: $054D      Sectors: 3        File Size: 1369          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BARCHART.C
+Short Name: 'BARCHART'   Type: 'C  '       MD5: 8319494163c3cc7424e8f6e41b515bf5
+1st Clust: $0550      Sectors: 5        File Size: 2080          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIALOGS.C
+Short Name: 'DIALOGS '   Type: 'C  '       MD5: a314fdceb7543b78fc7ba23c03f4ba30
+1st Clust: $0555      Sectors: 17       File Size: 8481          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SPINBUTT.C
+Short Name: 'SPINBUTT'   Type: 'C  '       MD5: c70e7c0c461d62b898e46a487ee3956f
+1st Clust: $0567      Sectors: 4        File Size: 1634          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIALBOX.C
+Short Name: 'DIALBOX '   Type: 'C  '       MD5: d696fbefcc798b8d7e754ca38e426a9a
+1st Clust: $056B      Sectors: 44       File Size: 22399         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+PICTBOX.C
+Short Name: 'PICTBOX '   Type: 'C  '       MD5: 9a4af7ca87f279a415066c25bc205897
+1st Clust: $0597      Sectors: 17       File Size: 8295          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+VIDEO.C
+Short Name: 'VIDEO   '   Type: 'C  '       MD5: 0ba7136d82eb5245cd57ad467a1b31a7
+1st Clust: $05A8      Sectors: 14       File Size: 7052          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+WINDOW.C
+Short Name: 'WINDOW  '   Type: 'C  '       MD5: 3583a1c9a655c6d75041f0ecb56d30dd
+1st Clust: $05B6      Sectors: 30       File Size: 15172         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HTREE.C
+Short Name: 'HTREE   '   Type: 'C  '       MD5: e84499d8a79c1dfefa9a02f8bfe2a476
+1st Clust: $05D4      Sectors: 4        File Size: 2041          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+POPDOWN.C
+Short Name: 'POPDOWN '   Type: 'C  '       MD5: 0fad3a6ec8566001feef8760ae6a3c2e
+1st Clust: $05D8      Sectors: 24       File Size: 11888         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+WATCH.C
+Short Name: 'WATCH   '   Type: 'C  '       MD5: 80131f5a5e95bc5a78834a633f7af9a4
+1st Clust: $05F0      Sectors: 4        File Size: 1630          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+BUTTON.C
+Short Name: 'BUTTON  '   Type: 'C  '       MD5: 0e004b805eabf0e1d6786a5f61e95cf6
+1st Clust: $05F4      Sectors: 6        File Size: 2899          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+APPLICAT.C
+Short Name: 'APPLICAT'   Type: 'C  '       MD5: 8e819211639549eee2a856dedda98822
+1st Clust: $05FA      Sectors: 43       File Size: 21713         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SYSMENU.C
+Short Name: 'SYSMENU '   Type: 'C  '       MD5: 81668ad815fa72a0be5a54350c3d19cf
+1st Clust: $0625      Sectors: 7        File Size: 3242          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+COMBOBOX.C
+Short Name: 'COMBOBOX'   Type: 'C  '       MD5: c1141711b41f0f19b3b026629b2d6fd5
+1st Clust: $062C      Sectors: 8        File Size: 4074          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HELPBOX.C
+Short Name: 'HELPBOX '   Type: 'C  '       MD5: c4dfb551c49b9aa8024cad54d9fbe46b
+1st Clust: $0634      Sectors: 47       File Size: 23669         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CHECKBOX.C
+Short Name: 'CHECKBOX'   Type: 'C  '       MD5: e5d9c0822a5e2c0fb9f49bad3d8b094c
+1st Clust: $0663      Sectors: 3        File Size: 1385          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONSOLE.C
+Short Name: 'CONSOLE '   Type: 'C  '       MD5: 15d78776169980b6d65abf6863083477
+1st Clust: $0666      Sectors: 11       File Size: 5609          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MOUSE.C
+Short Name: 'MOUSE   '   Type: 'C  '       MD5: 2dc117755312a4ce848258f037f4f55b
+1st Clust: $0671      Sectors: 5        File Size: 2244          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFALLOC.C
+Short Name: 'DFALLOC '   Type: 'C  '       MD5: 14ebd0f076b02da945ce987d7a249ecd
+1st Clust: $0677      Sectors: 3        File Size: 1226          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DIRECT.C
+Short Name: 'DIRECT  '   Type: 'C  '       MD5: b662a90a7cdbac3197e4f221964e341d
+1st Clust: $067A      Sectors: 11       File Size: 5451          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SEARCH.C
+Short Name: 'SEARCH  '   Type: 'C  '       MD5: c8e82a046edecb688a50d0eeb40e1da9
+1st Clust: $0685      Sectors: 11       File Size: 5362          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEMOPAD.C
+Short Name: 'MEMOPAD '   Type: 'C  '       MD5: 381f3f0b7d399a9668f3b75e4e398d0c
+1st Clust: $0690      Sectors: 37       File Size: 18882         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DECOMP.C
+Short Name: 'DECOMP  '   Type: 'C  '       MD5: 50d96dbf51071c57f1aa8b04fd736c6f
+1st Clust: $06B5      Sectors: 8        File Size: 3648          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LISTS.C
+Short Name: 'LISTS   '   Type: 'C  '       MD5: 61627a49a592c648bc17671c4a8dc426
+1st Clust: $06BD      Sectors: 7        File Size: 3264          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+SLIDEBOX.C
+Short Name: 'SLIDEBOX'   Type: 'C  '       MD5: 8fd72c9a1777bb816c32b909bfcc9781
+1st Clust: $06C4      Sectors: 7        File Size: 3513          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+EDITBOX.C
+Short Name: 'EDITBOX '   Type: 'C  '       MD5: 65e982197e6dcb79e51d02c3e4344a64
+1st Clust: $06CB      Sectors: 68       File Size: 34591         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+CONFIG.C
+Short Name: 'CONFIG  '   Type: 'C  '       MD5: 981f9545bc7de4bedb8caa5a7c0f6e5a
+1st Clust: $070F      Sectors: 36       File Size: 18226         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUBAR.C
+Short Name: 'MENUBAR '   Type: 'C  '       MD5: cd73a173282caee6da0a2c9313a27c49
+1st Clust: $0733      Sectors: 25       File Size: 12508         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MSGBOX.C
+Short Name: 'MSGBOX  '   Type: 'C  '       MD5: 8b3cf65ade761171440344a454a698b6
+1st Clust: $074C      Sectors: 12       File Size: 6049          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+HUFFC.C
+Short Name: 'HUFFC   '   Type: 'C  '       MD5: dd4404df04079fcb8f87868b907073bb
+1st Clust: $0758      Sectors: 6        File Size: 2830          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+LISTBOX.C
+Short Name: 'LISTBOX '   Type: 'C  '       MD5: b9da103896c3afa417e7e1fb655c0e0e
+1st Clust: $075E      Sectors: 27       File Size: 13673         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAKEFILE.WAT
+Short Name: 'MAKEFILE'   Type: 'WAT'       MD5: 18ca019d837aa5be55e7241378c6e2c0
+1st Clust: $0779      Sectors: 5        File Size: 2173          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAKEFILE.MSC
+Short Name: 'MAKEFILE'   Type: 'MSC'       MD5: 5519f28568d0cd34ff7410a08e1c1cd2
+1st Clust: $077E      Sectors: 5        File Size: 2289          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLAT.BLD
+Short Name: 'DFLAT   '   Type: 'BLD'       MD5: 8b531a46fb5d7ff6c3e9d2a0c6b6d5c1
+1st Clust: $0783      Sectors: 1        File Size: 482           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+DFLAT.LBC
+Short Name: 'DFLAT   '   Type: 'LBC'       MD5: d11ddb19bc32149c42904c7bdaf0c299
+1st Clust: $0785      Sectors: 1        File Size: 382           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEMOPAD.LNK
+Short Name: 'MEMOPAD '   Type: 'LNK'       MD5: 1d60aef201dbbac12e452c17e3433a26
+1st Clust: $0786      Sectors: 1        File Size: 437           Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MEMOPAD.TXT
+Short Name: 'MEMOPAD '   Type: 'TXT'       MD5: 71bd1f7cd66553600bb0527342172050
+1st Clust: $0787      Sectors: 91       File Size: 46270         Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MENUS.C
+Short Name: 'MENUS   '   Type: 'C  '       MD5: b1306c43a8bef5b8f4f113fc72f0386f
+1st Clust: $07E2      Sectors: 11       File Size: 5175          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+FILEOPEN.C
+Short Name: 'FILEOPEN'   Type: 'C  '       MD5: 1e6be76ef9ad7a6802aa4d5153d052df
+1st Clust: $07ED      Sectors: 15       File Size: 7588          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+MAKEFILE.BCC
+Short Name: 'MAKEFILE'   Type: 'BCC'       MD5: 3649d26bfa1f87fa8fa0965d60eb9579
+1st Clust: $07FC      Sectors: 6        File Size: 2911          Attr: $20      
+
+--------------------------------------------------------------------------------
+
+README.DOC
+Short Name: 'README  '   Type: 'DOC'       MD5: 7a975b3b4189f06976a6150120af8a98
+1st Clust: $0802      Sectors: 19       File Size: 9600          Attr: $20      
+
+--------------------------------------------------------------------------------
+

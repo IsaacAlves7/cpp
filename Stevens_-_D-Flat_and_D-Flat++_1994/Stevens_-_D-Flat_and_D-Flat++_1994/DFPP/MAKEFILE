@@ -1,0 +1,66 @@
+MODEL=l
+
+COMPILER=d:\bc4
+#COMPILER=c:\borlandc
+TEMP=c:\temp
+
+DEBUG = -v -vi
+LINKDEBUG = /m /v
+OPT = -Od
+#OPT = -O1
+
+all : ted.exe
+	echo done
+
+ted.exe : ted.obj tedmenu.obj tedtools.obj dflatpp.lib commdlg.lib
+	tlink $(LINKDEBUG) $(COMPILER)\lib\c0$(MODEL) ted tedmenu tedtools,ted,ted,dflatpp commdlg $(COMPILER)\lib\c$(MODEL)
+	
+.cpp.obj:
+    bcc $(OPT) -c -d $(DEBUG) -m$(MODEL) -H=$(TEMP)\tcdef.sym {$* }
+
+commdlg.lib	:	fileopen.obj	\
+			directry.obj	\
+			notice.obj
+	del commdlg.lib
+	tlib commdlg @commdlg.bld
+
+dflatpp.lib	:	desktop.obj	\
+			keyboard.obj	\
+			mouse.obj	\
+			cursor.obj	\
+			speaker.obj	\
+			screen.obj	\
+			clock.obj	\
+			timer.obj	\
+			dfwindow.obj	\
+			applicat.obj	\
+			control.obj	\
+			textbox.obj	\
+			rectangl.obj	\
+			listbox.obj	\
+			popdown.obj	\
+			menusel.obj	\
+			menubar.obj	\
+			frame.obj	\
+			scrolbar.obj	\
+			strings.obj	\
+			border.obj	\
+			focus.obj	\
+			paint.obj	\
+			statbar.obj	\
+			ctlmenu.obj	\
+			editbox.obj	\
+			editor.obj	\
+			button.obj	\
+			toolbar.obj	\
+			toolbutt.obj	\
+			pbutton.obj	\
+			checkbox.obj	\
+			radio.obj	\
+			dialog.obj	\
+			label.obj
+	del dflatpp.lib
+	tlib dflatpp @dflatpp.bld /P32
+
+
+
