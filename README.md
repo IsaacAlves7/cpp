@@ -258,6 +258,9 @@ make main.c
 Hello, World!
 ```
 
+## [C++] Pointers
+<img width="720" height="1345" alt="FB_IMG_1727351809178" src="https://github.com/user-attachments/assets/dbfbb263-ac9e-40ab-a71f-bf925073e798" />
+
 # 🔵 Linguagem C++
 <img src="https://cdn.worldvectorlogo.com/logos/c.svg" height="77" align="right">
 
